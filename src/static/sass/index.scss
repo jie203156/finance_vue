@@ -1,0 +1,175 @@
+@import './common.scss';
+.w {
+    width: 1400px;
+    margin:  0 auto;
+}
+//头部
+.header {
+    // 顶部
+    .topBar {
+        width: 100%;
+        height: 69px;
+        background-color: #101010;
+        div {
+            height: 69px;   
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            // 搜索部分
+            .search {
+                height: 19px;
+                width: 261px;
+                display: flex;
+                justify-content: space-between;
+                input {
+                    font-size: 14px;
+                    background-color: #101010;
+                    color: #999999;
+
+                }
+                .bigGlass {
+                    height: 19px;
+                    width: 19px;
+                    a{
+                        height: 100%;
+                        width: 100%;
+                        display: block;
+                        background: url('../images/spirit.png');
+                        background-position-x: -16px;
+                        background-position-y: -16px;
+                        
+                    }
+                }
+            }
+            // logo部分
+
+            .logo {
+                height: 45px;
+                width: 298px;
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            //登录和注册
+
+            .login {
+                color: white;
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+    // 底部
+    .bottomBar {
+        height: 60px;
+        width: 100%;
+        .content {
+            display: flex;
+            height: 100%;
+            position: relative;
+            .listB {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                ul {
+                    li {
+                        float: left;
+                        font-size: 14px;
+                        margin-left: 37px;
+                    }
+                }
+            }
+            .writeArticle {
+                width: 100px;
+                height: 38px;
+                background-color: #DB2D2E;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                border-radius: 5px;
+                a{
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    line-height: 38px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    // 大图制作
+    .bigPic {
+        width: 100%;
+        height: 442px;
+        background-color: #101010;
+    }
+    // 小图制作
+    .smallPics {
+        height: 163px;
+        ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li {
+                width: 340px;
+                height: 100px;
+                float: left;
+                background-color: blue;
+                border-radius: 5px;
+                overflow: hidden;
+                a {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+// 主体部分
+.body {
+    .leftSide {
+        float: left;
+        .swiper {
+            width: 998px;
+            height: 410px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow:  0px 1px 8px -1px #ccc;
+            margin-bottom: 27px;
+            .content  {
+                height: 320px;
+                background-color: red;
+            }
+            .bottom {
+                height: 90px;
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 90px;
+                margin-left: 34px;
+
+            }
+        }
+    }
+
+    .rightSide {
+        width: 360px;
+        height: 190px;
+        background-color: blue;
+        float: right;
+    }
+}
