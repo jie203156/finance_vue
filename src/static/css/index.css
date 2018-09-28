@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body,
 div,
 span,
@@ -168,7 +169,6 @@ i {
   width: 340px;
   height: 100px;
   float: left;
-  background-color: blue;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -177,9 +177,14 @@ i {
   height: 100%;
   display: block;
 }
+.header .smallPics ul li a img {
+  width: 100%;
+  height: 100%;
+}
 
-.body .leftSide {
-  float: left;
+.body {
+  display: flex;
+  justify-content: space-between;
 }
 .body .leftSide .swiper {
   width: 998px;
@@ -193,18 +198,479 @@ i {
   height: 320px;
   background-color: red;
 }
-.body .leftSide .swiper .bottom {
+.body .leftSide .swiper .bottomTxt {
   height: 90px;
   font-size: 24px;
   font-weight: bold;
   line-height: 90px;
   margin-left: 34px;
 }
+.body .leftSide .twoPic {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.body .leftSide .twoPic div {
+  width: 492px;
+  height: 150px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.body .leftSide .twoPic div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.body .leftSide .leftListinfo .leftListBar {
+  height: 35px;
+  width: 100%;
+}
+.body .leftSide .leftListinfo .leftListBar ul li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  height: 35px;
+}
+.body .leftSide .leftListinfo .leftListBar ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #999999;
+}
+.body .leftSide .leftListinfo .leftListBar ul li .active {
+  border-bottom: 2px solid #DB2D2E;
+  color: #333333;
+}
+.body .leftSide .leftListinfo .infoContent ul li {
+  height: 227px;
+  width: 100%;
+  border-top: 2px solid #F0F0F0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .leftSide .leftListinfo .infoContent ul li .listPic {
+  width: 290px;
+  height: 150px;
+  background-color: red;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.body .leftSide .leftListinfo .infoContent ul li .listPic a img {
+  width: 100%;
+  height: 100%;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo {
+  height: 150px;
+  width: 678px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo .title {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo .introduce {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .smallLogo a .iconPic {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #E6E6E6;
+  margin-right: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .smallLogo a .iconPic img {
+  width: 20px;
+  height: 20px;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .smallLogo a i {
+  font-size: 14px;
+  color: #333333;
+  line-height: 30px;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .icons .times {
+  margin-right: 25px;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .icons .times p {
+  width: 18px;
+  height: 18px;
+  background: url("../images/time.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .icons .times i {
+  font-size: 14px;
+  color: #999999;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .icons .eye {
+  margin-right: 25px;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .icons .eye p {
+  width: 24px;
+  height: 16px;
+  background: url("../images/eye.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .icons .eye i {
+  font-size: 14px;
+  color: #999999;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .icons .infoborder p {
+  width: 18px;
+  height: 17px;
+  background: url("../images/infoborder.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.body .leftSide .leftListinfo .infoContent ul li .rightInfo div .icons .infoborder i {
+  font-size: 14px;
+  color: #999999;
+}
+.body .leftSide .leftListinfo .moveBtn {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #DEDEDE;
+  border-radius: 5px;
+  margin-bottom: 87px;
+}
+.body .leftSide .leftListinfo .moveBtn a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #333333;
+}
 .body .rightSide {
   width: 360px;
+}
+.body .rightSide .notice {
   height: 190px;
-  background-color: blue;
-  float: right;
+  width: 100%;
+  padding: 24px 26px;
+  box-sizing: border-box;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.body .rightSide .notice .title {
+  height: 22px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .rightSide .notice .title p {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.body .rightSide .notice .title a {
+  width: 8px;
+  height: 13px;
+  display: block;
+  background: url("../images/jiantou.png");
+  background-size: cover;
+}
+.body .rightSide .notice .noticeList li {
+  height: 44px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DEDEDE;
+}
+.body .rightSide .notice .noticeList li .box {
+  width: 4px;
+  height: 4px;
+  background-color: #2cd76c;
+  border: 1px solid #888888;
+  margin-right: 11px;
+}
+.body .rightSide .notice .noticeList li a {
+  color: #333333;
+  font-size: 16px;
+}
+.body .rightSide .notice .noticeList li:last-child {
+  border-bottom: 0;
+}
+.body .rightSide .notice .noticeList li:last-child .box {
+  background-color: #db2d2e;
+}
+.body .rightSide .notice .noticeList li:last-child a {
+  color: #DB2D2E;
+}
+.body .rightSide .announcement {
+  width: 100%;
+  height: 725px;
+  box-sizing: border-box;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.body .rightSide .announcement .announcementTitle {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin-bottom: 1px;
+}
+.body .rightSide .announcement .announcementTitle div {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.body .rightSide .announcement .announcementTitle div a {
+  display: block;
+  height: 100%;
+  color: #999999;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.body .rightSide .announcement .announcementTitle div .actvie {
+  color: #3D3D3D;
+  border-bottom: 2px solid #DB2D2E;
+}
+.body .rightSide .announcement .announcementTime {
+  height: 63px;
+  width: 100%;
+  border-top: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  padding: 0 41px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .rightSide .announcement .announcementTime a {
+  width: 86px;
+  height: 32px;
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #dedede;
+  border-radius: 16px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #A8A8A8;
+}
+.body .rightSide .announcement .announcementTime .active {
+  color: #DB2D2E;
+  border: 1px solid #DB2D2E;
+}
+.body .rightSide .announcement .variety {
+  width: 100%;
+}
+.body .rightSide .announcement .variety .varietyTab {
+  width: 100%;
+}
+.body .rightSide .announcement .variety .varietyTab .headTab {
+  height: 40px;
+  background-color: #F9F9F9;
+}
+.body .rightSide .announcement .variety .varietyTab .headTab th {
+  padding-left: 17px;
+}
+.body .rightSide .announcement .variety .varietyTab .bodyTab {
+  height: 55px;
+}
+.body .rightSide .announcement .variety .varietyTab .bodyTab td {
+  padding-left: 17px;
+}
+.body .rightSide .announcement .variety .varietyTab .bodyTab td .varietyIndex {
+  width: 30px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #CCCCCC;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 20px;
+  text-align: center;
+}
+.body .rightSide .announcement .variety .varietyTab .bodyTab td .currency {
+  color: #333333;
+  font-size: 16px;
+}
+.body .rightSide .announcement .variety .varietyTab .bodyTab td .price {
+  color: #333333;
+  font-size: 14px;
+}
+.body .rightSide .announcement .variety .varietyTab .bodyTab td .riseNum {
+  color: #0EAE30;
+  font-size: 14px;
+}
+.body .rightSide .announcement .variety .varietyTab tr:nth-child(2) .varietyIndex {
+  background-color: #DB2D2E;
+}
+.body .rightSide .announcement .variety .varietyTab tr:nth-child(3) .varietyIndex {
+  background-color: #e85d5e;
+}
+.body .rightSide .announcement .variety .varietyTab tr:nth-child(4) .varietyIndex {
+  background-color: #ff9c9d;
+}
+.body .rightSide .rightSidePics {
+  height: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+.body .rightSide .rightSidePics a {
+  display: block;
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.body .rightSide .rightSidePics a img {
+  width: 100%;
+  height: 100%;
+}
+.body .rightSide .newsFlash {
+  width: 100%;
+  margin-bottom: 55px;
+}
+.body .rightSide .newsFlash .newsTitle {
+  width: 100%;
+  height: 26px;
+  color: #3D3D3D;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.body .rightSide .newsFlash .newsTitle p {
+  float: left;
+}
+.body .rightSide .newsFlash .newsTitle .newsIcon {
+  width: 28px;
+  height: 26px;
+  background: url("../images/smallLogo.png");
+  background-size: cover;
+  margin-right: 8px;
+}
+.body .rightSide .newsFlash .newsTitle a {
+  display: block;
+  width: 8px;
+  height: 13px;
+  background: url("../images/jiantou.png");
+  background-size: cover;
+}
+.body .rightSide .newsFlash .newsInfo {
+  width: 100%;
+  height: 565px;
+  overflow: hidden;
+}
+.body .rightSide .newsFlash .newsInfo ul {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px 0 0;
+  margin-left: 10px;
+  border-left: 1px solid #DEDEDE;
+}
+.body .rightSide .newsFlash .newsInfo ul li {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 0 0 25px;
+}
+.body .rightSide .newsFlash .newsInfo ul li .quan {
+  width: 10px;
+  height: 10px;
+  background-color: #DB2D2E;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: -5px;
+}
+.body .rightSide .newsFlash .newsInfo ul li p {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.body .rightSide .newsFlash .newsInfo ul li .newsContent a {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 26px;
+  display: block;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.body .rightSide .newsFlash .newsInfo ul li .newsContent p {
+  line-height: 26px;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: justify;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 5;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.body .rightSide .newsFlash .newsInfo ul li:nth-child(2n) .quan {
+  background-color: #0EAE30;
+}
+.body .rightSide .hotWriter {
+  width: 100%;
+  height: 380px;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+}
+
+.bottom {
+  width: 100%;
+  height: 280px;
+}
+.bottom .bottomInfo {
+  background-color: #F9F9F9;
+  width: 100%;
+  height: 232px;
+}
+.bottom .copyrights {
+  background-color: #101010;
+  height: 48px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */
