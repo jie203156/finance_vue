@@ -162,6 +162,43 @@
                 margin-bottom: 27px;
                 .content  {
                     height: 320px;
+
+                    // element 的样式
+                    .el-carousel {
+                        //左右箭头的样式
+                        .el-carousel__container {
+
+                            //左箭头
+                            button.el-carousel__arrow--left {
+                                left: 0;
+                            }
+
+                            //右箭头
+                            button.el-carousel__arrow--right {
+                                right: 0;
+                            }
+                            //左右箭头
+                            .el-carousel__arrow {
+                                width: 30px;
+                                height: 50px;
+                                border-radius: 0;
+                                background-color: rgba(0,0,0,.3);
+                            }
+
+                        }
+                        //小点点的样式
+                        .el-carousel__indicators {
+                            left: 60px;
+                            .el-carousel__indicator {
+                                .el-carousel__button {
+                                    width: 8px;
+                                    height: 8px;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+
                 }   
                 .bottomTxt {
                     height: 90px;

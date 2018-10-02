@@ -197,6 +197,26 @@ i {
 .index .body .leftSide .swipers .content {
   height: 320px;
 }
+.index .body .leftSide .swipers .content .el-carousel .el-carousel__container button.el-carousel__arrow--left {
+  left: 0;
+}
+.index .body .leftSide .swipers .content .el-carousel .el-carousel__container button.el-carousel__arrow--right {
+  right: 0;
+}
+.index .body .leftSide .swipers .content .el-carousel .el-carousel__container .el-carousel__arrow {
+  width: 30px;
+  height: 50px;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.index .body .leftSide .swipers .content .el-carousel .el-carousel__indicators {
+  left: 60px;
+}
+.index .body .leftSide .swipers .content .el-carousel .el-carousel__indicators .el-carousel__indicator .el-carousel__button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
 .index .body .leftSide .swipers .bottomTxt {
   height: 90px;
   font-size: 24px;

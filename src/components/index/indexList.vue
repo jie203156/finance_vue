@@ -760,12 +760,7 @@
     </div>
 </template>
 <style scoped>
-    .content button .el-carousel__arrow--left{
-        left: 0;
-        border-radius: 0;
-    }
-
-
+    
     .el-carousel__item img {
         width: 100%;
         height: 100%;

@@ -61,11 +61,12 @@
                     <div class="contact">
                         <div class="contactIcon">
                             <ul>
-                                <li class="active"><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
+                                <li :class="activeClass == 1 ? 'active':''"  @click="activeClass = 1"><a></a></li>
+                                <li :class="activeClass == 2 ? 'active':''"  @click="activeClass = 2"><a></a></li>
+                                <li :class="activeClass == 3 ? 'active':''"  @click="activeClass = 3"><a></a></li>
+                                <li :class="activeClass == 4 ? 'active':''"  @click="activeClass = 4"><a></a></li>
+                                <li :class="activeClass == 5 ? 'active':''"  @click="activeClass = 5"><a></a></li>
+                                <!-- <li :class="activeClass == index ? 'active':''" v-for="(itme,index) in tab" :key="index" @click="getItme(index)"><a></a></li> -->
                             </ul>
                         </div>
     
@@ -147,3 +148,23 @@
 <style>
 @import './static/css/style.css';
 </style>
+<script>
+    export default {
+        data (){
+            return{
+                activeClass: -1,
+                // tab:[1,2,3,4,5]
+
+            }
+        },
+        mounted() {
+            
+        },
+        methods:{
+            // getItme(index) {
+            //     this.activeClass = index;  
+            // },
+
+        }
+    }
+</script>
