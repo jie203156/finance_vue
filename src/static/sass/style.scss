@@ -1,0 +1,1248 @@
+@import './common.scss';
+.w {
+    width: 1400px;
+    margin:  0 auto;
+}
+//首页
+.index {
+    //头部
+    .header {
+        // 顶部
+        .topBar {
+            width: 100%;
+            height: 69px;
+            background-color: #101010;
+            div {
+                height: 69px;   
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                // 搜索部分
+                .search {
+                    height: 19px;
+                    width: 261px;
+                    display: flex;
+                    justify-content: space-between;
+                    input {
+                        font-size: 14px;
+                        background-color: #101010;
+                        color: #999999;
+
+                    }
+                    .bigGlass {
+                        height: 19px;
+                        width: 19px;
+                        a{
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                            background: url('../images/spirit.png');
+                            background-position-x: -16px;
+                            background-position-y: -16px;
+                            
+                        }
+                    }
+                }
+                // logo部分
+
+                .logo {
+                    height: 45px;
+                    width: 298px;
+                    position: absolute;
+                    top: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                //登录和注册
+
+                .login {
+                    color: white;
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+        // 底部
+        .bottomBar {
+            height: 60px;
+            width: 100%;
+            box-shadow: 0 6px 30px -10px #ccc;
+            .content {
+                display: flex;
+                height: 100%;
+                position: relative;
+                .listB {
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    ul {
+                        li {
+                            float: left;
+                            font-size: 14px;
+                            margin-left: 37px;
+                        }
+                    }
+                }
+                .writeArticle {
+                    width: 100px;
+                    height: 38px;
+                    background-color: #DB2D2E;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    border-radius: 5px;
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        line-height: 38px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        // 大图制作
+        .bigPic {
+            width: 100%;
+            height: 442px;
+            background-color: #101010;
+        }
+        // 小图制作
+        .smallPics {
+            height: 163px;
+            ul {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                li {
+                    width: 340px;
+                    height: 100px;
+                    float: left;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 主体部分
+    .body {
+        //左侧边栏
+        display: flex;
+        justify-content: space-between;
+        .leftSide {
+            //轮播图
+            .swipers {
+                width: 998px;
+                height: 410px;
+                border-radius: 5px;
+                overflow: hidden;
+                box-shadow:  0px 1px 8px -1px #ccc;
+                margin-bottom: 27px;
+                .content  {
+                    height: 320px;
+                }   
+                .bottomTxt {
+                    height: 90px;
+                    font-size: 24px;
+                    font-weight: bold;
+                    line-height: 90px;
+                    margin-left: 34px;
+
+                }
+            }
+
+            //两张广告图
+            .twoPic {
+                height: 150px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 35px;
+
+                div {
+                    width: 492px;
+                    height: 150px;
+                    border-radius: 5px;
+                    overflow: hidden;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            // 左侧列表信息
+            .leftListinfo {
+                .leftListBar {
+                    height: 35px;
+                    width: 100%;
+                    ul {
+                        
+                        li {
+                            float: left;
+                            margin:0 20px;
+                            font-size: 20px;
+                            height: 35px;
+                            a {
+                                width: 100%;
+                                height: 100%;
+                                display: block;
+                                color: #999999;
+
+                            }
+                            .active {
+                                border-bottom: 2px solid #DB2D2E;
+                                color: #333333;
+                            }
+                        }
+
+                    }
+                }
+                //左侧列表信息内容
+                .infoContent {
+                    ul {
+                        li {
+                            height: 227px;
+                            width: 100%;
+                            border-top: 2px solid #F0F0F0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+
+                            .listPic {
+                                width: 290px;
+                                height: 150px;
+                                background-color: red;
+                                border-radius: 5px;
+                                overflow: hidden;
+
+                                a {
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+
+                            .rightInfo {
+                                height: 150px;
+                                width: 678px;
+                                display: flex;
+                                flex-direction: column;
+                                // align-items: center;
+                                justify-content: space-between;
+
+                                .title {
+                                    font-size: 20px;
+                                    color: #333333;
+                                    font-weight: bold;
+                                }
+                                .introduce {
+                                    font-size: 14px;
+                                    color: #666666;
+                                    line-height: 24px;
+                                    width: 100%;
+                                    word-break: break-all;
+                                    text-overflow: ellipsis;
+                                    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+                                    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/   
+                                    -webkit-line-clamp: 2; /** 显示的行数 **/
+                                    overflow: hidden;  /** 隐藏超出的内容 **/
+                                }
+
+                                div {
+                                    height: 30px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    .smallLogo {
+                                        a {
+                                            .iconPic {
+                                                float: left;
+                                                width: 30px;
+                                                height: 30px;
+                                                border-radius: 50%;
+                                                background-color: #E6E6E6;
+                                                margin-right: 9px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+
+                                                img {
+                                                    width: 20px;
+                                                    height: 20px;
+
+                                                }
+                                            }
+                                            i {
+                                                font-size: 14px;
+                                                color: #333333;
+                                                line-height: 30px;
+                                            }
+                                        }
+                                    }
+
+                                    .icons{
+                                        .times {
+                                            margin-right: 25px;
+                                            p {
+                                                width: 18px;
+                                                height: 18px;
+                                                background: url('../images/time.png');
+                                                background-size: cover;
+                                                margin-right: 6px;
+                                            }
+                                            i {
+                                                font-size: 14px;
+                                                color: #999999;
+                                            }
+                                        }
+                                        .eye {
+                                            margin-right: 25px;
+                                            p {
+                                                width: 24px;
+                                                height: 16px;
+                                                background: url('../images/eye.png');
+                                                background-size: cover;
+                                                margin-right: 6px;
+                                            }
+                                            i {
+                                                font-size: 14px;
+                                                color: #999999;
+                                            }
+                                        }
+                                        .infoborder {
+                                            p {
+                                                width: 18px;
+                                                height: 17px;
+                                                background: url('../images/infoborder.png');
+                                                background-size: cover;
+                                                margin-right: 6px;
+                                            }
+                                            i {
+                                                font-size: 14px;
+                                                color: #999999;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                //左侧浏览更多
+                .moveBtn {
+                    width: 100%;
+                    height: 50px;
+                    box-sizing: border-box;
+                    border: 2px solid #DEDEDE;
+                    border-radius: 5px;
+                    margin-bottom: 87px;
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        font-size: 18px;
+                        line-height: 50px;
+                        text-align: center;
+                        color: #333333;
+                    }
+                }
+            }
+        }
+        //右侧边栏
+        .rightSide {
+            width: 360px;
+            //平台公告
+            .notice {
+                height: 190px;
+                width: 100%;
+                padding:24px 26px;
+                box-sizing: border-box;
+                border: 1px solid #DCDCDC;
+                border-radius: 5px;
+                margin-bottom: 30px;
+
+                .title {
+                    height: 22px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p {
+                        font-size: 20px;
+                        color: #3D3D3D;
+                        font-weight: bold;
+                    }
+                    a {
+                        width: 8px;
+                        height: 13px;
+                        display: block;
+                        background: url('../images/jiantou.png');
+                        background-size: cover;
+                        
+                    }
+
+                }
+                .noticeList {
+                    li {
+                        height: 44px;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        border-bottom: 1px solid #DEDEDE;
+                        .box {
+                            width: 4px;
+                            height: 4px;
+                            background-color: #2cd76c;
+                            border: 1px solid #888888;
+                            margin-right: 11px;
+                        }
+                        a {
+                            color: #333333;
+                            font-size: 16px;
+                        }
+                    }
+                    li:last-child {
+                        border-bottom: 0;
+                        .box {
+                            background-color: #db2d2e;
+                        }
+                        a{
+                            color: #DB2D2E;
+                        }
+                    }
+                    
+                }
+            }
+
+            //涨跌幅榜
+            .announcement {
+                width: 100%;
+                height: 725px;
+                box-sizing: border-box;
+                border: 1px solid #DCDCDC;
+                border-radius: 5px;
+                margin-bottom: 30px;    
+                
+                .announcementTitle {
+                    width: 100%;
+                    height: 60px;
+                    display: flex;
+                    margin-bottom: 1px;
+                    position: relative;
+                    .next {
+                        position: absolute;
+                        width: 8px;
+                        height: 13px;
+                        background: url('../images//jiantou.png');
+                        background-size: cover;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 24px;
+                    }
+                    div {
+                        height: 100%;
+                        flex: 1;
+                        display: flex;
+                        justify-content: center;
+                        a {
+                            display: block;
+                            height: 100%;
+                            color: #999999;
+                            line-height: 60px;
+                            font-size: 20px;
+                            font-weight: bold;
+                        }
+
+                        .actvie {
+                            color: #3D3D3D;
+                            border-bottom: 2px solid #DB2D2E;
+                        }
+                    }
+                }
+                .announcementTime {
+                    height: 63px;
+                    width: 100%;
+                    border-top: 1px solid #DEDEDE;
+                    box-sizing: border-box;
+                    padding: 0 41px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    a {
+                        width: 86px;
+                        height: 32px;
+                        display: block;
+                        box-sizing: border-box;
+                        border: 1px solid #dedede;
+                        border-radius: 16px;
+                        line-height: 32px;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #A8A8A8;
+                    }
+                    .active {
+                        color: #DB2D2E;
+                        border: 1px solid #DB2D2E;
+                    }
+                }
+                .variety {
+                    width: 100%;
+                    .varietyTab {
+                        width: 100%;
+                        .headTab {
+                            height: 40px;
+                            background-color: #F9F9F9;
+                            th {
+                                padding-left:17px;
+                            }
+                        }
+
+                        .bodyTab {
+                            height: 55px;
+                            td {
+                                padding-left:17px;
+
+                                .varietyIndex {
+                                    width: 30px;
+                                    height: 20px;
+                                    border-radius: 10px;
+                                    background-color: #CCCCCC;
+                                    font-size: 14px;
+                                    color: #FFFFFF;
+                                    line-height: 20px;
+                                    text-align: center;
+                                }
+                                .currency {
+                                    color: #333333;
+                                    font-size: 16px;
+                                }
+                                .price {
+                                    color: #333333;
+                                    font-size: 14px;
+                                }
+                                .riseNum {
+                                    color: #0EAE30;
+                                    font-size: 14px;
+                                }
+                            }
+
+                        }
+
+                        tr:nth-child(2) .varietyIndex {
+                            background-color: #DB2D2E;
+                        }
+                        tr:nth-child(3) .varietyIndex {
+                            background-color: #e85d5e;
+                        }
+                        tr:nth-child(4) .varietyIndex {
+                            background-color: #ff9c9d;
+                        }
+
+                    }
+                }
+            }
+
+            //右侧边栏图片
+            .rightSidePics {
+                height: 380px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 55px;
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 180px;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                } 
+            }
+
+            //右侧边栏链氪快讯
+            .newsFlash {
+                width: 100%;
+                margin-bottom: 55px;
+                .newsTitle {
+                    width: 100%;
+                    height: 26px;
+                    color: #3D3D3D;
+                    font-size: 20px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 28px;
+                    p {
+                        float: left;
+                    }
+                    .newsIcon {
+                        width: 28px;
+                        height: 26px;
+                        background: url('../images/smallLogo.png');
+                        background-size: cover;
+                        margin-right: 8px;
+                    }
+
+                    a {
+                        display: block;
+                        width: 8px;
+                        height: 13px;
+                        background: url('../images/jiantou.png');
+                        background-size: cover;
+                    }
+                }
+                //右侧边栏链氪快讯信息
+                .newsInfo {
+                    width: 100%;
+                    height: 565px;
+                    overflow: hidden;
+                    ul {
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 0 10px 0 0;
+                        margin-left: 10px;
+                        border-left: 1px solid #DEDEDE;
+                        li {
+                            position: relative;
+                            box-sizing: border-box;
+                            padding: 0 0 0 25px;
+                            .quan {
+                                width: 10px;
+                                height: 10px;
+                                background-color: #DB2D2E;
+                                border-radius: 50%;
+                                position: absolute;
+                                top: 5px;
+                                left: -5px;
+                            }
+                            p {
+                                font-size: 14px;
+                                color: #000000;
+                                margin-bottom: 16px;
+                            }
+                            .newsContent {
+                                a {
+                                    font-size: 16px;
+                                    color: #000000;
+                                    font-weight: bold;
+                                    line-height: 26px;
+                                    display: block;
+                                    margin-bottom: 5px;
+                                    letter-spacing:2px;
+                                }
+                                p {
+                                    line-height: 26px;
+                                    color: #000000;
+                                    font-size: 14px;
+                                    letter-spacing:1px;
+                                    text-align:justify;
+                                    width: 100%;
+                                    word-break: break-all;
+                                    text-overflow: ellipsis;
+                                    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+                                    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/   
+                                    -webkit-line-clamp: 5; /** 显示的行数 **/
+                                    overflow: hidden;  /** 隐藏超出的内容 **/
+
+                                }
+                            }
+                        }
+
+                        li:nth-child(2n) .quan {
+                            background-color: #0EAE30;
+                        }
+                    }
+                }
+
+
+            }
+
+            //右侧边栏热门作家
+            .hotWriter {
+                width: 100%;
+                height: 380px;
+                border: 1px solid #DCDCDC;
+                border-radius: 5px;
+                margin-bottom: 26px;
+                //标题
+                .hotWriterTitle {
+                    height: 60px;
+                    width: 100%;
+                    padding: 0 26px;
+                    box-sizing: border-box;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p {
+                        color: #3D3D3D;
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                    a {
+                        width: 8px;
+                        height: 13px;
+                        display: block;
+                        background: url('../images/jiantou.png');
+                        background-size: cover;
+                    }
+                }
+
+                //轮播图
+                .hotWriterswiper {
+                    height: 132px;
+                    width: 100%;
+                    position: relative;
+                    background-color: blue;
+                    margin-bottom: 20px;
+                }
+
+                //公众号信息
+                .official {
+                    width: 320px;
+                    height: 64px;
+                    background-color: #F5F5F5;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    color: #666666;
+                    padding: 14px 12px;
+                    box-sizing: border-box;
+                    margin: 20px;
+                }
+
+                //查看文章
+                .checkArticle {
+                    width: 100%;
+                    height: 80px;
+                    box-sizing: border-box;
+                    padding: 0 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .icon {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .checkArticleView {
+                        p {
+                            font-size: 16px;
+                            color: #171717;
+                            font-weight: bold;
+                        }
+
+                        .view{
+                            color: #7F7F7F;
+                            font-size: 14px;
+                            font-weight: normal;
+                        }
+                    }
+                    .article {
+                        height: 100%;
+                        display: block;
+                        color: #DB2D2E;
+                        font-size: 14px;
+                        line-height: 60px;
+                    }
+                }
+
+            }
+
+            //右侧栏精选活动 
+            .activity {
+                height: 426px;
+                width: 100%;
+                border: 1px solid #DCDCDC;
+                border-radius: 5px;
+                margin-bottom: 30px;
+                .activityTitle {
+                    height: 60px;
+                    width: 100%;
+                    border-bottom: 1px solid #DEDEDE;
+                    box-sizing: border-box;
+                    padding:  0 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p {
+                        color: #3D3D3D;
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                    a {
+                        width: 8px;
+                        height: 13px;
+                        display: block;
+                        background: url('../images/jiantou.png');
+                        background-size: cover;
+                    }
+                }
+                // 时间
+                .activityTime {
+                    height: 120px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding-top: 28px;
+                    
+                    ul {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        li {
+                            float: left;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            div {
+                                width: 45px;
+                                height: 45px;
+                                border-radius: 5px;
+                                background-color: #101010;
+                                color: #FFFFFF;
+                                font-size: 14px;
+                                display: flex;
+                                align-items:center;
+                                text-align: center;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                width: 14px;
+                                height: 14px;
+                                border-radius: 50%;
+                                background-color: #E6E6E6;
+                                position: relative;
+                                .line {
+                                    width: 74px;
+                                    height: 2px;
+                                    background-color: #E6E6E6;
+                                    position: absolute;
+                                    top: 50%;
+                                    left:50px;
+                                    transform: translate(-50%);
+                                }
+                            }
+
+
+                        }
+                        li:last-child .line{
+                            width: 0;
+                            height: 0;
+                        }
+                        .active,
+                        .active .line {
+                            background-color: #DC4E41;
+                        }
+                    }
+
+                }
+
+                // 轮播图
+                .activitySwiper {
+                    width: 338px;
+                    height: 220px;
+                    background-color: red;
+                    border-radius: 5px;
+                    margin-left: 10px;
+                }
+            }
+
+            // 右侧栏查看详情
+            .particulars {
+                width: 100%;
+                height: 420px;
+                border-radius: 5px;
+                overflow: hidden;
+                margin-bottom: 50px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    // 底部部分
+    .bottom {
+        width: 100%;
+        height: 280px;
+        .bottomInfo {
+            background-color: #F9F9F9;
+            width: 100%;
+            height: 232px;
+
+            .content {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                position: relative;
+                //logo
+                .bottomLogo {
+                    width: 257px;
+                    height: 69px;
+                    margin-right: 111px;
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        background: url('../images/bottomlogo.png');
+                        background-size: cover;
+                    }
+                }
+
+                //联系方式
+                .contact {
+                    .contactIcon {
+                        margin-bottom: 30px;
+                        height: 40px;
+                        li {
+                            float: left;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 5px;
+                            background-color: #3D3D3D;
+                            overflow: hidden;
+                            margin-right: 8px;
+                            a{
+                                width: 100%;
+                                height: 100%;
+                                display: block;
+                                background: url('../images/weixin.png') no-repeat;
+                                background-size: 60%;
+                                background-position: 50%;
+
+                            }
+                        }
+
+                        .active {
+                            background-color: #DB2D2E;
+                        }
+                        li:nth-child(2) a{
+                            background: url('../images/qq.png') no-repeat;
+                            background-size: 50%;
+                            background-position: 50%;
+                        }
+                        li:nth-child(3) a{
+                            background: url('../images/bird.png') no-repeat;
+                            background-size: 50%;
+                            background-position: 50%;
+                        }
+                        li:nth-child(4) a{
+                            background: url('../images/phone.png') no-repeat;
+                            background-size: 50%;
+                            background-position: 50%;
+                        }
+                        li:nth-child(5) a{
+                            background: url('../images/emi.png') no-repeat;
+                            background-size: 50%;
+                            background-position: 50%;
+                        }
+                    }
+
+                    .contactinfo {
+                        width: 230px;
+                        a {
+                            display: inline-block;
+                            margin-right: 44px;
+                        }
+
+                        a:nth-child(1),a:nth-child(2){
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                //友情链接
+                .interlinkage {
+                    width: 600px;
+                    position: absolute;
+                    right: 0;
+                    .linkTitle {
+                        color: #212121;
+                        font-size: 16px;
+                        margin-bottom: 12px;
+                    }
+                    .linkTxt {
+                        font-size: 14px;
+                        color: #666666;
+                        line-height: 24px;
+                        a {
+                            margin-right: 9px;
+                        }
+                    }
+                }
+
+            }
+        }
+        .copyrights {
+            background-color: #101010;
+            height: 48px;
+            width: 100%;
+
+            .content {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p {
+                    font-size: 14px;
+                    color: #999999;
+                }
+
+                .copyrightsLink {
+                    li {
+                        float: left;
+                        color: #999999;
+                        font-size: 14px;
+                        a{
+                            color: #999999;
+                        }
+                    }
+
+                    li:nth-child(2n){
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//活动列表主体部分
+.activityList {
+    width: 1200px;
+    margin-top: 36px;
+    
+    //区块链商会 
+    .chamber {
+        height: 425px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #E5E5E5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        // 图片
+        .pic {
+            width: 820px;
+            height: 350px;
+            border-radius: 5px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        // 列表
+        .list {
+            height: 350px;
+            width: 360px;
+            ul {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                li {
+                    width: 360px;
+                    height: 50px;
+                    border: 1px solid #dededf;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        color: #333333;
+                        font-size: 16px;
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            padding-left: 17px;
+                        }
+                        .active {
+                            border-left: 4px solid #dd4343;
+                            color: #dd4343;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    // 活动信息列表
+    .activitygoods {
+        width: 100%;
+
+        //搜索
+        .search {
+            width: 100%;
+            height: 98px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .searchTime {
+                a {
+                    display: inline-block;
+                    line-height: 38px;
+                    text-align: center;
+                    width: 80px;
+                    height: 38px;
+                    font-size: 14px;
+                    color: #24242A;
+                }
+                .active {
+                    border: 1px solid #dededf;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                }
+            }
+            // 搜索活动
+
+            .searchActivity {
+                display: flex;
+
+                .mold {
+                    margin-right: 18px;
+                    .couses,.site {
+                        display: inline-block;
+                    }
+                }
+                .searchBtn {
+                    width: 100px;
+                    height: 40px;
+                    border: 1px solid #dededf;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    color: #333333;
+                    font-size: 14px;
+                    line-height: 40px;
+                    text-align: center;
+
+                }
+            }
+        }
+
+        // 列表
+        .activitygoodsList {
+            width: 100%;
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li {
+                    width: 380px;
+                    height: 415px;
+                    border: 1px solid #dededf;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    overflow: hidden;
+                    margin-bottom:24px;
+
+                    img {
+                        width: 100%;
+                        height: 222px;
+                    }
+                    .activitygoodsListInfo {
+                        height: 193px;
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 10px 20px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        p {
+                            font-size: 18px;
+                            color: #333333;
+                            word-wrap:break-word ;
+                            line-height: 30px;
+                        }
+                        .txt {
+                            color: #24242A;
+                            font-weight: bold;
+                        }
+
+                        .activitygoodsListInfoBtn {
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            justify-content: space-between;
+
+                             p{
+                                 font-size: 16px;
+                                 color: #333333;
+                             }
+
+                             a {
+                                width: 110px;
+                                height: 40px;
+                                background-color: #DD4343;
+                                border-radius: 5px;
+                                line-height: 40px;
+                                text-align: center;
+                                font-size: 14px;
+                                color: #FFFFFF;
+                             }
+
+                             .activeY {
+                                background-color: #F29400;
+                             }
+                             .activeG {
+                                background-color: #999999;
+                             }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

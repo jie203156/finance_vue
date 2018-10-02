@@ -1,577 +1,149 @@
 <template>
-  <div>
-          <!-- 头部 -->
-    <div class="header">
-        <!-- 导航栏 -->
-        <!-- 顶部 -->
-        <div class="topBar">
-            <div class="w">
-                <!-- 搜索部分 -->
-                <div class="search">
-                    <input type="text" placeholder="输入搜索关键内容">
-                    <div class="bigGlass"><a href="#"></a></div>
-                </div>
-                <!-- logo部分 -->
-                <h1 class="logo"><img src="./images/logo.png" alt=""></h1>
-                <!-- 登录和注册 -->
-                <div class="login">
-                    <a href="#">登录</a>
-                    <i>&nbsp;&nbsp;/&nbsp;&nbsp; </i>
-                    <a href="#">注册</a>
-                </div>
-            </div>
-        </div>
-        <!-- 底部 -->
-        <div class="bottomBar">
-            <div class="content w">
-                <div class="listB">
-                    <ul>
-                        <li><a href="">首页</a></li>
-                        <li><a href="">快讯</a></li>
-                        <li><a href="">项目库</a></li>
-                        <li><a href="">行情</a></li>
-                        <li><a href="">动态</a></li>
-                        <li><a href="">圈子</a></li>
-                        <li><a href="">问答</a></li>
-                        <li><a href="">找伙伴</a></li>
-                        <li><a href="">链氪集结号</a></li>
-                    </ul>
-                </div>
-                <div class="writeArticle"><a href="#">写文章</a></div>
-            </div>
-        </div>
-        <!-- 大图制作 -->
-        <div class="bigPic">
-            
-        </div>
-        <!--小图制作 -->
-        <div class="smallPics w">
-            <ul>
-                <li><a href="#"><img src="./images/smallPics04.png" alt=""></a></li>
-                <li><a href="#"><img src="./images/smallPics03.png" alt=""></a></li>
-                <li><a href="#"><img src="./images/smallPics01.png" alt=""></a></li>
-                <li><a href="#"><img src="./images/smallPics02.png" alt=""></a></li>
-            </ul>
-        </div>
-    </div>
 
-    <!-- 主体部分 -->
-    <div class="body w">
-        <!-- 左侧边栏 -->
-         <div class="leftSide">
-             <!-- 轮播图制作 -->
-            <div class="swiper">
-                <div class="content"></div>
-                <div class="bottomTxt">随着现金使用下降 挪威央行或将推出数字货币</div>
-            </div>
-
-            <!-- 两张广告图 -->
-            <div class="twoPic">
-                <div class="leftPic"><a href="#"><img src="" alt=""></a></div>
-                <div class="rightPic"><a href="#"><img src="" alt=""></a></div>
-            </div>
-
-            <!-- 左侧列表信息 -->
-            <div class="leftListinfo">
-                <div class="leftListBar">
-                    <ul>
-                        <li><a href="#" class="active">头条</a></li>
-                        <li><a href="#">国际新闻</a></li>
-                        <li><a href="#">项目专访</a></li>
-                        <li><a href="#">项目报告</a></li>
-                        <li><a href="#">精英视点</a></li>
-                        <li><a href="#">热门视频</a></li>
-                        <li><a href="#">行业分析</a></li>
-                        <li><a href="#">早班车</a></li>
-                    </ul>
-                </div>
-                <!-- 左侧列表信息内容 -->
-                <div class="infoContent">
-                    <ul>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="listPic">
-                                <a href="#"><img src="./images/201809281051.png" alt=""></a>
-                            </div>
-                            <div class="rightInfo">
-                                <p class="title"><a href="#">斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</a></p>
-                                <p class="introduce">清华区块链公开课本期嘉宾是斯坦福大学物理系、电子工程系和应用物理系终身教授张首晟,清华区块链公开课本期嘉宾是清华区块链公开课本期嘉宾是斯坦福大学物理系...</p>
-                                <div>
-                                    <div class="smallLogo">
-                                        <a href="#">
-                                            <div class="iconPic"><img src="./images/smallLogo.png" alt=""></div>
-                                            <i>链氪区块律动团</i>
-                                        </a>
-                                    </div>
-                                    <div class="icons">
-                                        <div class="times">
-                                            <p></p>
-                                            <i>30分钟前</i>
-                                        </div>
-                                        <div class="eye">
-                                            <p></p>
-                                            <i>4.5万</i>
-                                        </div>
-                                        <div class="infoborder">
-                                            <p></p>
-                                            <i>10</i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- 左侧浏览更多 -->
-                <div class="moveBtn">
-                    <a href="#">浏览更多</a>
-                </div>
-            </div>
-         </div>
-         <!-- 右侧边栏 -->
-         <div class="rightSide">
-             <!-- 平台公告 -->
-            <div class="notice">
-                <div class="title">
-                    <p>平台公告</p>
-                    <a href="#"></a>
-                </div>
-                <div class="noticeList">
-                    <ul>
-                        <li><p class="box"></p> <a href="#">Preventive dentistry</a></li>
-                        <li><p class="box"></p> <a href="#">Dental surgery</a></li>
-                        <li><p class="box"></p> <a href="#">Prosthetics</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- 涨跌幅榜 -->
-            <div class="announcement">
-                <div class="announcementTitle">
-                    <div><a href="#" class="rise actvie">涨幅榜</a></div>
-                    <div><a href="#" class="fall">跌幅榜</a></div>
-                </div>
-                <div class="announcementTime">
-                    <a href="#" class="active">一小时</a>
-                    <a href="#">24小时</a>
-                    <a href="#">一周</a>
-                </div>
-                <div class="variety">
-                        <table class="varietyTab" border="0" cellspacing="0" cellpadding="0">
-                            <tr class="headTab">
-                                <th align="left">#</th>
-                                <th align="left">币种</th>
-                                <th align="left">￥最新价格</th>
-                                <th align="left">涨幅</th>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">1</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">2</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">3</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">4</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">5</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">6</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">7</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">8</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">9</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                            <tr class="bodyTab">
-                                <td align="left"><div class="varietyIndex">10</div></td>
-                                <td align="left"><div class="currency">BNB/币安币</div></td>
-                                <td align="left"><div class="price">1,890.79</div></td>
-                                <td align="left" style="padding-left:0px;"><div class="riseNum">+2.43%</div></td>
-                            </tr>
-                        </table>
-                </div>
-            </div>
-
-            <!-- 右侧边栏图片 -->
-            <div class="rightSidePics">
-                <a href="#"><img src="./images/rightSidePics01.png" alt=""></a>
-                <a href="#"><img src="./images/rightSidePics02.png" alt=""></a>
-            </div>
-
-            <!-- 右侧边栏链氪快讯 -->
-            <div class="newsFlash">
-                <div class="newsTitle">
-                    <div>
-                        <p class="newsIcon"></p>
-                        <p>链氪快讯</p>
+    <div class="index">
+        <!-- 头部 -->
+        <div class="header">
+            <!-- 导航栏 -->
+            <!-- 顶部 -->
+            <div class="topBar">
+                <div class="w">
+                    <!-- 搜索部分 -->
+                    <div class="search">
+                        <input type="text" placeholder="输入搜索关键内容">
+                        <div class="bigGlass"><a href="#"></a></div>
                     </div>
-                    <a href="#"></a>
-                </div>
-
-                <!-- 右侧边栏链氪快讯信息 -->
-                <div class="newsInfo">
-                    <ul>
-                        <li>
-                            <i class="quan"></i>
-                            <p>1小时前</p>
-                            <div class="newsContent">
-                                <a href="#">诺奖得主Scholes：区块链技术能极大减少交易结算成本</a>
-                                <p>5月24日，诺贝尔经济学奖获得者Myron Samuel Scholes在上海交通大学上海高级金融学院主办的SAIF-CAFR名家讲堂上表示，区块链技术能极大减少交易结算成本，但是比特币没有持有的价值，更不要...</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="quan"></i>
-                            <p>1小时前</p>
-                            <div class="newsContent">
-                                <a href="#">诺奖得主Scholes：区块链技术能极大减少交易结算成本</a>
-                                <p>5月24日，诺贝尔经济学奖获得者Myron Samuel Scholes在上海交通大学上海高级金融学院主办的SAIF-CAFR名家讲堂上表示，区块链技术能极大减少交易结算成本，但是比特币没有持有的价值，更不要...</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="quan"></i>
-                            <p>1小时前</p>
-                            <div class="newsContent">
-                                <a href="#">诺奖得主Scholes：区块链技术能极大减少交易结算成本</a>
-                                <p>5月24日，诺贝尔经济学奖获得者Myron Samuel Scholes在上海交通大学上海高级金融学院主办的SAIF-CAFR名家讲堂上表示，区块链技术能极大减少交易结算成本，但是比特币没有持有的价值，更不要...</p>
-                            </div>
-                        </li>
-                    </ul>
+                    <!-- logo部分 -->
+                    <h1 class="logo"><img src="../public/logo.png" alt=""></h1>
+                    <!-- 登录和注册 -->
+                    <div class="login">
+                        <a href="#">登录</a>
+                        <i>&nbsp;&nbsp;/&nbsp;&nbsp; </i>
+                        <a href="#">注册</a>
+                    </div>
                 </div>
             </div>
-
-            <!-- 右侧边栏热门作家 -->
-            <div class="hotWriter">
-                
+            <!-- 底部 -->
+            <div class="bottomBar">
+                <div class="content w">
+                    <div class="listB">
+                        <ul>
+                            <li><router-link to="/indexList">首页</router-link></li>
+                            <li><a href="">快讯</a></li>
+                            <li><a href="">项目库</a></li>
+                            <li><a href="">行情</a></li>
+                            <li><a href="">动态</a></li>
+                            <li><a href="">圈子</a></li>
+                            <li><a href="">问答</a></li>
+                            <li><a href="">找伙伴</a></li>
+                            <li><a href="">链氪集结号</a></li>
+                        </ul>
+                    </div>
+                    <div class="writeArticle"><a href="#">写文章</a></div>
+                </div>
             </div>
-         </div>
-    </div>
-
-    <!-- 底部部分 -->
-    <div class="bottom">
-        <div class="bottomInfo">
-
         </div>
-        <div class="copyrights"></div>
+    
+        <!-- 中间部分 -->
+        <router-view></router-view>
+
+    
+        <!-- 底部部分 -->
+        <div class="bottom">
+            <div class="bottomInfo">
+                <div class="content w">
+    
+                    <!-- logo -->
+                    <div class="bottomLogo">
+                        <a href="#"></a>
+                    </div>
+    
+                    <!-- 联系方式 -->
+                    <div class="contact">
+                        <div class="contactIcon">
+                            <ul>
+                                <li class="active"><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="contactinfo">
+                            <a href="#">关于我们</a>
+                            <a href="#">投稿须知</a>
+                            <a href="#">服务条款</a>
+                            <a href="#">意见反馈</a>
+                        </div>               
+                    </div>
+    
+                    <!-- 友情链接 -->
+                    <div class="interlinkage">
+                        <div class="linkTitle">友情链接</div>
+                        <div class="linkTxt">
+                            <a href="#">非小号</a>
+                            <a href="#">比特时代</a>
+                            <a href="#">比特大陆</a>
+                            <a href="#">viabtc</a>
+                            <a href="#">coinex</a>
+                            <a href="#">EXX</a>
+                            <a href="#">库神</a>
+                            <a href="#">金塔</a>
+                            <a href="#">比特币资讯网</a>
+                            <a href="#">比特币之家</a>
+                            <a href="#">比特头条</a>
+                            <a href="#">币源社区</a>
+                            <a href="#">块讯</a>
+                            <a href="#">比特币中文网</a>
+                            <a href="#">金牛财经</a>
+                            <a href="#">未来财经</a>
+                            <a href="#">巴比特</a>
+                            <a href="#">金色财经</a>
+                            <a href="#">比特币世界</a>
+                            <a href="#">铅笔</a>
+                            <a href="#">共享财经</a>
+                            <a href="#">炒客网</a>
+                            <a href="#">挖币网</a>
+                            <a href="#">挖币网</a>
+                            <a href="#">玩币族</a>
+                            <a href="#">Block123</a>
+                            <a href="#">九个亿财经</a>
+                            <a href="#">云财经</a>
+                            <a href="#">COINEGG</a>
+                            <a href="#">YYEX交易平台</a>
+                            <a href="#">火球财经</a>
+                            <a href="#">牛比特</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights">
+                <div class="content w">
+                    <p>Copyrights © 2018 All Rights Reserved by EngoCreative Inc</p>
+                    <div class="copyrightsLink">
+                        <ul>
+                            <li><a href="#">首页</a></li>
+                            <li>|</li>
+                            <li><a href="#">快讯</a></li>
+                            <li>|</li>
+                            <li><a href="#">项目库</a></li>
+                            <li>|</li>
+                            <li><a href="#">动态</a></li>
+                            <li>|</li>
+                            <li><a href="#">圈子</a></li>
+                            <li>|</li>
+                            <li><a href="#">找伙伴</a></li>
+                            <li>|</li>
+                            <li><a href="#">链氪集结号</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 
 </template>
 
 <style>
-@import './static/css/index.css';
+@import './static/css/style.css';
 </style>
