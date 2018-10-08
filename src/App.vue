@@ -16,9 +16,9 @@
                     <h1 class="logo"><img src="../public/logo.png" alt=""></h1>
                     <!-- 登录和注册 -->
                     <div class="login">
-                        <a href="#">登录</a>
+                        <router-link to="/login">登录</router-link>
                         <i>&nbsp;&nbsp;/&nbsp;&nbsp; </i>
-                        <a href="#">注册</a>
+                        <router-link to="/phoneRegister">注册</router-link>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                     <p>Copyrights © 2018 All Rights Reserved by EngoCreative Inc</p>
                     <div class="copyrightsLink">
                         <ul>
-                            <li><a href="#">首页</a></li>
+                            <li><router-link to="/indexList">首页</router-link></li>
                             <li>|</li>
                             <li><a href="#">快讯</a></li>
                             <li>|</li>

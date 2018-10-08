@@ -10,6 +10,12 @@ import indexList from '../components/index/indexList.vue'
 import activityList from '../components/activity/activityList.vue'
 // 活动内容
 import activityInfo from "../components/activity/activityInfo.vue"
+// 登录界面
+import login from '../components/login/login.vue'
+// 手机注册界面
+import phoneRegister from '../components/register/phoneRegister.vue'
+//邮箱注册界面
+import emailRegister from '../components/register/emailRegister.vue'
 
 const router = new VueRouter({
     routes:[
@@ -17,6 +23,9 @@ const router = new VueRouter({
         {path:'/indexList', component:indexList},
         {path:'/activityList', component:activityList},
         {path:'/activityInfo', component:activityInfo},
+        {path:'/login',component:login},
+        {path:'/phoneRegister',component:phoneRegister},
+        {path:'/emailRegister',component:emailRegister},
     ]
 })
 

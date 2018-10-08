@@ -893,6 +893,7 @@
                                 align-items:center;
                                 text-align: center;
                                 margin-bottom: 10px;
+                                cursor: pointer;
                             }
 
                             p {
@@ -902,7 +903,7 @@
                                 background-color: #E6E6E6;
                                 position: relative;
                                 .line {
-                                    width: 74px;
+                                    width: 72px;
                                     height: 2px;
                                     background-color: #E6E6E6;
                                     position: absolute;
@@ -1618,6 +1619,7 @@
                                 background-color: rgba(0,0,0,.0);
                                 color: #999999;
                                 font-size: 14px;
+                                outline: none;
                             } 
                             .reply {
                                 margin-right: 10px;
@@ -1675,4 +1677,358 @@
         }
     }
 
+}
+
+//登录界面
+.personLogin {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 112px;
+    background: url('../images/loginbg.png');
+    background-size: cover;
+    .loginInfo {
+        width: 700px;
+        height: 480px;
+        background-color: #ffffff;
+        margin-bottom: 36px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px -50px #333333;
+        box-sizing: border-box;
+        padding-top: 75px;
+        padding-left: 115px;
+        .loginTitle {
+            color: #2A2D2E;
+            font-size: 30px;
+            margin-bottom: 60px;
+            i {
+                color: #DB2D2E;
+            }
+        }
+
+        //账号和密码
+        .login_box {
+            // 账号和密码
+            .username_bigBox,.password_bigBox {
+                width: 470px;
+                margin-bottom: 42px;
+
+                .username_box,.password_box {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 17px;
+                    box-sizing: border-box;
+                    padding-right: 13px;
+                    .username,.password {
+                        color: #999999;
+                        font-size: 14px;
+                    }
+                    .usernameIcon {
+                        width: 16px;
+                        height: 16px;
+                        display: inline-block;
+                        background: url('../images/username.png');
+                        background-size: cover;
+                    }
+                    .passwordIcon {
+                        width: 13px;
+                        height: 16px;
+                        display: inline-block;
+                        background: url('../images/password.png');
+                        background-size: cover;
+                    }
+                }
+
+                .line {
+                    width: 100%;
+                    height: 1px;
+                    background-color: #999;
+                    display: block;
+                }
+            }
+
+            .password_bigBox {
+                margin-bottom: 34px;
+            }
+
+            //登录按钮
+            .loginBtn {
+                width: 470px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: #DB2D2E;
+                outline: none;
+                border: none;
+                color: #ffffff;
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+
+            //去注册 忘记密码
+            .register {
+                width: 470px;
+                display: flex;
+                justify-content: space-between;
+                i {
+                    font-size: 14px;
+                    color: #333333;
+                    a {
+                        color:#DB2D2E;
+                    }
+                }
+
+                .forget {
+                    color:#DB2D2E;
+                    font-size: 14px;
+                }
+
+
+            }
+        }
+    }
+
+    .ThirdTxt {
+        font-size: 16px;
+        color: #333333;
+        margin-bottom: 16px;
+    }
+
+    .ThirdIcon {
+        width: 130px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 78px;
+        .weixin,.qq,.xinlang {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+        }
+        .weixin {
+            background: url('../images/loginweixin.png') no-repeat;
+            background-color: #32BA4F;
+            background-size: 65%;
+            background-position-x: 6px;
+            background-position-y: 5px;
+        }
+        .qq {
+            background: url('../images/loginqq.png') no-repeat;
+            background-color: #4D8ADD;
+            background-size: 65%;
+            background-position-x: 5px;
+            background-position-y: 4px;
+        }
+        .xinlang {
+            background: url('../images/loginxinlang.png') no-repeat;
+            background-color: #DB2D2E;
+            background-size: 65%;
+            background-position: center;
+        }
+    }
+}
+
+//手机/邮箱注册界面
+.personPhoneRegister {   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 112px;
+    background: url('../images/loginbg.png');
+    background-size: cover;
+
+    .registerInfo {
+        width: 700px;
+        background-color: #ffffff;
+        margin-bottom: 36px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px -50px #333333;
+        box-sizing: border-box;
+        padding-top: 75px;
+        padding-left: 115px;
+        .loginTitle {
+            color: #2A2D2E;
+            font-size: 30px;
+            margin-bottom: 60px;
+            height: 45px;
+            display: flex;
+            justify-content: space-between;
+
+            .loginTitleBtn {
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                padding-right: 114px;
+
+                button {
+                    font-size: 14px;
+                    color: #333333;
+                    width: 125px;
+                    height: 44px;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                    border: 1px solid #F0F0F0;
+                    background-color: #ffffff;
+                    outline: none;
+                } 
+                .emailRegister {
+                    margin-right: 6px;
+                } 
+            }
+        }
+
+        //账号和密码
+        .login_box {
+            // 账号和密码
+            .username_bigBox,.password_bigBox,.picCode_bigBox,.phoneCode_bigBox,
+            .personname_bigBox,.passwordAgain_bigBox {
+                width: 470px;
+                margin-bottom: 42px;
+
+                .picCode_box {
+                    position: relative;
+                }
+                .username_box,.password_box,.picCode_box,.phoneCode_box,.personname_box,
+                .ppasswordAgain_box {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 17px;
+                    box-sizing: border-box;
+                    padding-right: 13px;
+                    .username,.password,.picCode,.phoneCode,.personname,.passwordAgain {
+                        color: #999999;
+                        font-size: 14px;
+                    }
+                    //图形验证码
+                    .picCodeNum {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        width: 100px;
+                        height: 40px;
+                        background-color: #ededed;
+                    }
+                    //账号
+                    .usernameIcon {
+                        width: 16px;
+                        height: 16px;
+                        display: inline-block;
+                        background: url('../images/username.png');
+                        background-size: cover;
+                    }
+                    //获取手机验证码
+
+                    .getPhoneCode {
+                        color: #DB2D2E;
+                        font-size: 14px;
+                    }
+                    //密码
+                    .passwordIcon {
+                        width: 13px;
+                        height: 16px;
+                        display: inline-block;
+                        background: url('../images/password.png');
+                        background-size: cover;
+                    }
+                }
+
+                .line {
+                    width: 100%;
+                    height: 1px;
+                    background-color: #999;
+                    display: block;
+                }
+                .picCodeLine {
+                    width: 345px;
+                }
+            }
+
+            .password_bigBox {
+                margin-bottom: 34px;
+            }
+            //阅读并接受
+            .accept {
+                width: 470px;
+                display: flex;
+                justify-content: center;
+                color: #333333;
+                font-size: 14px;
+                margin-bottom: 24px;
+                .ivu-radio-checked .ivu-radio-inner {
+                    border-color:#DB2D2E;
+                }
+                .ivu-radio-focus {
+                    box-shadow: 0 0 0 2px rgba(219,45,46,.2)
+                }
+                .ivu-radio-inner:after {
+                    background-color: #DB2D2E;
+                }
+                a {
+                    color: #DB2D2E;
+                }
+            }
+
+            //注册按钮
+            .registerBtn {
+                width: 470px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: #DB2D2E;
+                outline: none;
+                border: none;
+                color: #ffffff;
+                font-size: 16px;
+                margin-bottom: 56px;
+            }
+
+        }
+    }
+
+    .ThirdTxt {
+        font-size: 16px;
+        color: #333333;
+        margin-bottom: 16px;
+    }
+
+    .ThirdIcon {
+        width: 130px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 78px;
+        .weixin,.qq,.xinlang {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+        }
+        .weixin {
+            background: url('../images/loginweixin.png') no-repeat;
+            background-color: #32BA4F;
+            background-size: 65%;
+            background-position-x: 6px;
+            background-position-y: 5px;
+        }
+        .qq {
+            background: url('../images/loginqq.png') no-repeat;
+            background-color: #4D8ADD;
+            background-size: 65%;
+            background-position-x: 5px;
+            background-position-y: 4px;
+        }
+        .xinlang {
+            background: url('../images/loginxinlang.png') no-repeat;
+            background-color: #DB2D2E;
+            background-size: 65%;
+            background-position: center;
+        }
+    }
 }

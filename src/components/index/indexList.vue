@@ -713,32 +713,32 @@
                     <div class="activityTime">
                         <ul>
                             <li>
-                                <div class="active">06月18日</div>
-                                <p class="active">
+                                <div :class="activeClass == 1 ? 'active':''"  @click="activeClass = 1" >06月18日</div>
+                                <p :class="activeClass == 1 ? 'active':''" >
                                     <i class="line"></i>
                                 </p>
                             </li>
                             <li>
-                                <div>07月23日</div>
-                                <p>
+                                <div  :class="activeClass == 2 ? 'active':''"  @click="activeClass = 2" >07月23日</div>
+                                <p :class="activeClass == 2 ? 'active':''" >
                                     <i class="line"></i>
                                 </p>
                             </li>
                             <li>
-                                <div>08月10日</div>
-                                <p>
+                                <div :class="activeClass == 3 ? 'active':''"  @click="activeClass = 3">08月10日</div>
+                                <p :class="activeClass == 3 ? 'active':''">
                                     <i class="line"></i>
                                 </p>
                             </li>
                             <li>
-                                <div>09月01日</div>
-                                <p>
+                                <div :class="activeClass == 4 ? 'active':''"  @click="activeClass = 4">09月01日</div>
+                                <p :class="activeClass == 4 ? 'active':''"> 
                                     <i class="line"></i>
                                 </p>
                             </li>
                             <li>
-                                <div>10月01日</div>
-                                <p>
+                                <div :class="activeClass == 5 ? 'active':''"  @click="activeClass = 5">10月01日</div>
+                                <p :class="activeClass == 5 ? 'active':''">
                                     <i class="line"></i>
                                 </p>
                             </li>
@@ -779,7 +779,7 @@
     export default {
         data(){
             return{
-
+                activeClass:1
             }
         },
         mounted(){

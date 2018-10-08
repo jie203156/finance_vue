@@ -831,6 +831,7 @@ i {
   align-items: center;
   text-align: center;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .index .body .rightSide .activity .activityTime ul li p {
   width: 14px;
@@ -840,7 +841,7 @@ i {
   position: relative;
 }
 .index .body .rightSide .activity .activityTime ul li p .line {
-  width: 74px;
+  width: 72px;
   height: 2px;
   background-color: #E6E6E6;
   position: absolute;
@@ -1443,6 +1444,7 @@ i {
   background-color: rgba(0, 0, 0, 0);
   color: #999999;
   font-size: 14px;
+  outline: none;
 }
 .activityInfo .allComment .viewComment .allviewComments li .personInfo .right .reply {
   margin-right: 10px;
@@ -1484,6 +1486,442 @@ i {
 }
 .activityInfo .allComment .viewComment .allCommentPage .ivu-page .ivu-page-item-active a {
   color: #ffffff;
+}
+
+.personLogin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 112px;
+  background: url("../images/loginbg.png");
+  background-size: cover;
+}
+.personLogin .loginInfo {
+  width: 700px;
+  height: 480px;
+  background-color: #ffffff;
+  margin-bottom: 36px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px -50px #333333;
+  box-sizing: border-box;
+  padding-top: 75px;
+  padding-left: 115px;
+}
+.personLogin .loginInfo .loginTitle {
+  color: #2A2D2E;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+.personLogin .loginInfo .loginTitle i {
+  color: #DB2D2E;
+}
+.personLogin .loginInfo .login_box .username_bigBox, .personLogin .loginInfo .login_box .password_bigBox {
+  width: 470px;
+  margin-bottom: 42px;
+}
+.personLogin .loginInfo .login_box .username_bigBox .username_box, .personLogin .loginInfo .login_box .username_bigBox .password_box, .personLogin .loginInfo .login_box .password_bigBox .username_box, .personLogin .loginInfo .login_box .password_bigBox .password_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  padding-right: 13px;
+}
+.personLogin .loginInfo .login_box .username_bigBox .username_box .username, .personLogin .loginInfo .login_box .username_bigBox .username_box .password, .personLogin .loginInfo .login_box .username_bigBox .password_box .username, .personLogin .loginInfo .login_box .username_bigBox .password_box .password, .personLogin .loginInfo .login_box .password_bigBox .username_box .username, .personLogin .loginInfo .login_box .password_bigBox .username_box .password, .personLogin .loginInfo .login_box .password_bigBox .password_box .username, .personLogin .loginInfo .login_box .password_bigBox .password_box .password {
+  color: #999999;
+  font-size: 14px;
+}
+.personLogin .loginInfo .login_box .username_bigBox .username_box .usernameIcon, .personLogin .loginInfo .login_box .username_bigBox .password_box .usernameIcon, .personLogin .loginInfo .login_box .password_bigBox .username_box .usernameIcon, .personLogin .loginInfo .login_box .password_bigBox .password_box .usernameIcon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/username.png");
+  background-size: cover;
+}
+.personLogin .loginInfo .login_box .username_bigBox .username_box .passwordIcon, .personLogin .loginInfo .login_box .username_bigBox .password_box .passwordIcon, .personLogin .loginInfo .login_box .password_bigBox .username_box .passwordIcon, .personLogin .loginInfo .login_box .password_bigBox .password_box .passwordIcon {
+  width: 13px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/password.png");
+  background-size: cover;
+}
+.personLogin .loginInfo .login_box .username_bigBox .line, .personLogin .loginInfo .login_box .password_bigBox .line {
+  width: 100%;
+  height: 1px;
+  background-color: #999;
+  display: block;
+}
+.personLogin .loginInfo .login_box .password_bigBox {
+  margin-bottom: 34px;
+}
+.personLogin .loginInfo .login_box .loginBtn {
+  width: 470px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #DB2D2E;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.personLogin .loginInfo .login_box .register {
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+}
+.personLogin .loginInfo .login_box .register i {
+  font-size: 14px;
+  color: #333333;
+}
+.personLogin .loginInfo .login_box .register i a {
+  color: #DB2D2E;
+}
+.personLogin .loginInfo .login_box .register .forget {
+  color: #DB2D2E;
+  font-size: 14px;
+}
+.personLogin .ThirdTxt {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+.personLogin .ThirdIcon {
+  width: 130px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+}
+.personLogin .ThirdIcon .weixin, .personLogin .ThirdIcon .qq, .personLogin .ThirdIcon .xinlang {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.personLogin .ThirdIcon .weixin {
+  background: url("../images/loginweixin.png") no-repeat;
+  background-color: #32BA4F;
+  background-size: 65%;
+  background-position-x: 6px;
+  background-position-y: 5px;
+}
+.personLogin .ThirdIcon .qq {
+  background: url("../images/loginqq.png") no-repeat;
+  background-color: #4D8ADD;
+  background-size: 65%;
+  background-position-x: 5px;
+  background-position-y: 4px;
+}
+.personLogin .ThirdIcon .xinlang {
+  background: url("../images/loginxinlang.png") no-repeat;
+  background-color: #DB2D2E;
+  background-size: 65%;
+  background-position: center;
+}
+
+.personPhoneRegister {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 112px;
+  background: url("../images/loginbg.png");
+  background-size: cover;
+}
+.personPhoneRegister .registerInfo {
+  width: 700px;
+  background-color: #ffffff;
+  margin-bottom: 36px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px -50px #333333;
+  box-sizing: border-box;
+  padding-top: 75px;
+  padding-left: 115px;
+}
+.personPhoneRegister .registerInfo .loginTitle {
+  color: #2A2D2E;
+  font-size: 30px;
+  margin-bottom: 60px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.personPhoneRegister .registerInfo .loginTitle .loginTitleBtn {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 114px;
+}
+.personPhoneRegister .registerInfo .loginTitle .loginTitleBtn button {
+  font-size: 14px;
+  color: #333333;
+  width: 125px;
+  height: 44px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #F0F0F0;
+  background-color: #ffffff;
+  outline: none;
+}
+.personPhoneRegister .registerInfo .loginTitle .loginTitleBtn .emailRegister {
+  margin-right: 6px;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox, .personPhoneRegister .registerInfo .login_box .password_bigBox, .personPhoneRegister .registerInfo .login_box .picCode_bigBox, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox {
+  width: 470px;
+  margin-bottom: 42px;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box {
+  position: relative;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .username_box, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  padding-right: 13px;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .username, .personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .password, .personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .picCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .phoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .personname, .personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .username, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .password, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .picCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .phoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .personname, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .username, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .password, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .picCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .personname, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .username, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .password, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .picCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .personname, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .username, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .password, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .picCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .phoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .personname, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .username,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .password,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .picCode,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .personname,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .username, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .password, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .picCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .phoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .personname, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .username, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .password, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .picCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .phoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .personname, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .username, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .password, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .picCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .personname, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .username, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .password, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .picCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .personname, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .username, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .password, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .picCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .phoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .personname, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .username,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .password,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .picCode,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .personname,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .username, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .password, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .picCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .phoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .personname, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .username, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .password, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .picCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .phoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .personname, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .username, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .password, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .picCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .personname, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .username, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .password, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .picCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .personname, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .username, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .password, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .picCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .phoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .personname, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .username,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .password,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .picCode,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .personname,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .username, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .password, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .picCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .phoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .personname, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .username, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .password, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .picCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .phoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .personname, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .username, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .password, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .picCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .personname, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .username, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .password, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .picCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .personname, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .username, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .password, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .picCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .phoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .personname, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .username,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .password,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .picCode,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .personname,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .username,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .password,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .picCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .personname,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .username,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .password,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .picCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .personname,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .username,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .password,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .picCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .personname,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .username,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .password,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .picCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .personname,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .username,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .password,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .picCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .personname,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .username,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .password,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .picCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .personname,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .username, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .password, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .picCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .phoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .personname, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .username, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .password, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .picCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .phoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .personname, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .username, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .password, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .picCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .personname, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .username, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .password, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .picCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .phoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .personname, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .passwordAgain, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .username, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .password, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .picCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .phoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .personname, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .passwordAgain,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .username,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .password,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .picCode,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .phoneCode,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .personname,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .passwordAgain {
+  color: #999999;
+  font-size: 14px;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .picCodeNum, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .picCodeNum,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .picCodeNum {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 40px;
+  background-color: #ededed;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .usernameIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .usernameIcon,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .usernameIcon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/username.png");
+  background-size: cover;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .getPhoneCode, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .getPhoneCode,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .getPhoneCode {
+  color: #DB2D2E;
+  font-size: 14px;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .username_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .username_bigBox .password_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .username_bigBox .picCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .username_bigBox .phoneCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .username_bigBox .personname_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .username_bigBox .ppasswordAgain_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .username_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .password_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .phoneCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .password_bigBox .personname_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .password_bigBox .ppasswordAgain_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .username_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .password_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .phoneCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .personname_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .picCode_bigBox .ppasswordAgain_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .username_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .password_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .phoneCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .personname_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .ppasswordAgain_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .username_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .password_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCode_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .phoneCode_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .personname_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .ppasswordAgain_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .username_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .password_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .phoneCode_box .passwordIcon, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .personname_box .passwordIcon,
+.personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .ppasswordAgain_box .passwordIcon {
+  width: 13px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/password.png");
+  background-size: cover;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .line, .personPhoneRegister .registerInfo .login_box .password_bigBox .line, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .line, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .line,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .line, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .line {
+  width: 100%;
+  height: 1px;
+  background-color: #999;
+  display: block;
+}
+.personPhoneRegister .registerInfo .login_box .username_bigBox .picCodeLine, .personPhoneRegister .registerInfo .login_box .password_bigBox .picCodeLine, .personPhoneRegister .registerInfo .login_box .picCode_bigBox .picCodeLine, .personPhoneRegister .registerInfo .login_box .phoneCode_bigBox .picCodeLine,
+.personPhoneRegister .registerInfo .login_box .personname_bigBox .picCodeLine, .personPhoneRegister .registerInfo .login_box .passwordAgain_bigBox .picCodeLine {
+  width: 345px;
+}
+.personPhoneRegister .registerInfo .login_box .password_bigBox {
+  margin-bottom: 34px;
+}
+.personPhoneRegister .registerInfo .login_box .accept {
+  width: 470px;
+  display: flex;
+  justify-content: center;
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.personPhoneRegister .registerInfo .login_box .accept .ivu-radio-checked .ivu-radio-inner {
+  border-color: #DB2D2E;
+}
+.personPhoneRegister .registerInfo .login_box .accept .ivu-radio-focus {
+  box-shadow: 0 0 0 2px rgba(219, 45, 46, 0.2);
+}
+.personPhoneRegister .registerInfo .login_box .accept .ivu-radio-inner:after {
+  background-color: #DB2D2E;
+}
+.personPhoneRegister .registerInfo .login_box .accept a {
+  color: #DB2D2E;
+}
+.personPhoneRegister .registerInfo .login_box .registerBtn {
+  width: 470px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #DB2D2E;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 56px;
+}
+.personPhoneRegister .ThirdTxt {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+.personPhoneRegister .ThirdIcon {
+  width: 130px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+}
+.personPhoneRegister .ThirdIcon .weixin, .personPhoneRegister .ThirdIcon .qq, .personPhoneRegister .ThirdIcon .xinlang {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.personPhoneRegister .ThirdIcon .weixin {
+  background: url("../images/loginweixin.png") no-repeat;
+  background-color: #32BA4F;
+  background-size: 65%;
+  background-position-x: 6px;
+  background-position-y: 5px;
+}
+.personPhoneRegister .ThirdIcon .qq {
+  background: url("../images/loginqq.png") no-repeat;
+  background-color: #4D8ADD;
+  background-size: 65%;
+  background-position-x: 5px;
+  background-position-y: 4px;
+}
+.personPhoneRegister .ThirdIcon .xinlang {
+  background: url("../images/loginxinlang.png") no-repeat;
+  background-color: #DB2D2E;
+  background-size: 65%;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
