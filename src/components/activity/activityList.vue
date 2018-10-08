@@ -1,4 +1,4 @@
-<template>
+    <template>
     <div class="activityList w">
         <!-- 区块链商会 -->
         <div class="chamber">
@@ -72,7 +72,7 @@
                             <p class="txt">千万投资——复星“星未来InnoStar”大健康+区块链全球创新创业大赛</p>
                             <div class="activitygoodsListInfoBtn">
                                 <p>6月18日~6月20日</p>
-                                <a href="#" class="activeG">已结束</a>
+                                <router-link to="/activityInfo">报名中</router-link>
                             </div>
                         </div>
                     </li>
@@ -166,11 +166,18 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- 分页 -->
+            <div class="activitygoodsPage">
+                <Page :total="36" page-size="9" prev-text="上一页" next-text="下一页" />
+            </div>
         </div>
     </div>
 </template>
 <script>
+    import {Page} from 'iview'
     export default {
+        components:{Page},
         data(){
             return{
                 cousesList: [{
@@ -216,4 +223,5 @@
             }
         }
     }
-</script>       
+</script>
+       

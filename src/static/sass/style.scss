@@ -3,6 +3,8 @@
     width: 1400px;
     margin:  0 auto;
 }
+
+
 //首页
 .index {
     //头部
@@ -88,6 +90,9 @@
                             float: left;
                             font-size: 14px;
                             margin-left: 37px;
+                            a {
+                                color: #000000;
+                            }
                         }
                     }
                 }
@@ -300,8 +305,10 @@
 
                                 .title {
                                     font-size: 20px;
-                                    color: #333333;
                                     font-weight: bold;
+                                    a {
+                                        color: #333333;
+                                    }
                                 }
                                 .introduce {
                                     font-size: 14px;
@@ -725,6 +732,10 @@
                         li:nth-child(2n) .quan {
                             background-color: #0EAE30;
                         }
+
+                        li:last-child .newsContent p{
+                            display: none;
+                        }
                     }
                 }
 
@@ -1021,6 +1032,7 @@
                         a {
                             display: inline-block;
                             margin-right: 44px;
+                            color: #212121;
                         }
 
                         a:nth-child(1),a:nth-child(2){
@@ -1036,15 +1048,15 @@
                     right: 0;
                     .linkTitle {
                         color: #212121;
-                        font-size: 16px;
+                        font-size: 19px;
                         margin-bottom: 12px;
                     }
                     .linkTxt {
-                        font-size: 14px;
-                        color: #666666;
-                        line-height: 24px;
+                        font-size: 17px;
+                        line-height: 27px;
                         a {
                             margin-right: 9px;
+                            color: #666666;
                         }
                     }
                 }
@@ -1281,5 +1293,386 @@
             }
         }
 
+        //分页
+        .activitygoodsPage {
+            margin-top: 26px;
+            // background-color: red;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            .ivu-page {
+                //上一页 , 下一页
+                .ivu-page-prev,.ivu-page-next {
+                    width: 96px;
+                    height: 40px;
+                    border-radius: 5px;
+                    border: 1px solid #DEDEDE;
+                    line-height: 40px;
+                }
+                //中间页
+                .ivu-page-item {
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: 0;
+                    a {
+                        color:#333333;
+                    }
+
+                }
+                .ivu-page-item-active {
+                    background-color: #DB2D2E;
+                    a {
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
     }
+}
+
+//活动内容主体部分
+.activityInfo {
+    width: 1200px;
+    margin-top: 53px;
+    
+    //活动头部
+    .activityInfoHeader {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 14px;
+        //活动地址
+        .address {
+            color: #333333;
+            font-size: 16px;
+        }
+        //活动时间
+        .time {
+            color: #333333;
+            font-size: 16px;
+        }
+
+        //主办方
+        .sponsor {
+            color: #333333;
+            font-size: 16px;
+        }
+    }
+
+    //查看官网
+    .activityInfoWeb {
+        height: 48px;
+        width: 100%;
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        margin-bottom: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a{
+            color: #333333;
+            font-size: 16px;
+            font-weight: bold;
+            i {
+                display: inline-block;
+                width: 8px;
+                height: 13px;   
+                background: url('../images/jiantou.png');
+                background-size: cover;
+                margin-left: 16px;
+            }
+        }
+
+        .collect {
+            height: 48px;
+            display: flex;
+            justify-content: space-between;
+            .eye {
+                height: 100%;
+                font-size: 14px;
+                color: #999999;
+                display: flex;
+                align-items: center;
+                margin-right: 24px;
+                i {
+                    width: 24px;
+                    height: 16px;
+                    display: inline-block;
+                    background: url('../images/eye.png');
+                    background-size: cover;
+                    margin-right: 8px;
+                    margin-bottom: 3px;
+
+                }
+            }
+            .add {
+                border-left: 1px solid #E5E5E5;
+                padding: 0 24px;
+                a {
+                    color: #333333;
+                    font-size: 14px;
+                    line-height: 48px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    //活动介绍内容
+    .activityInfoContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        //大图
+        .bigPic {
+            width: 892px;
+            height: 382px;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 34px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        //状态
+        .state {
+            font-size: 28px;
+            color: #999999;
+            margin-bottom: 34px;
+
+            .free {
+                color: #0EAE30;
+            }
+            .charge {
+                color: #DB2D2E;
+            }
+        }
+
+        //标题
+        .title {
+            height: 82px;
+            width: 100%;
+            background-color: #F8F8F8;
+            border-radius: 5px;
+            font-size: 30px;
+            color: #333333;
+            font-weight: bold;
+            line-height: 82px;
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        // 活动介绍
+        .introduce {
+            width: 100%;
+            margin-bottom: 55px;
+            .introduceTitle {
+                color: #333333;
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 39px;
+            }
+            p {
+                color: #333333;
+                font-size: 20px;
+                line-height: 34px;
+                margin-bottom: 35px;
+                a {
+                    color: #DB2D2E;
+                }
+            }
+            .bold {
+                font-weight: bold;
+            }
+            .center {
+                text-align: center;
+                margin-bottom: 5px;
+            }
+
+            .img {
+                margin-top: 35px;
+                margin-bottom: 70px;
+                display: flex;
+                justify-content: center;
+                .smallPic {
+                    width: 200px;
+                    height: 200px;
+                }
+
+                .bigPic {
+                    width: 380px;
+                    height: 153px;
+                }
+            }
+
+            .linkman {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p {
+                    margin-bottom: 5px;
+                }
+            }
+            
+        }
+    }
+
+    //用户评论
+    .activityInfoComment {
+        width: 100%;
+        border-top: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        padding-top: 32px;
+        margin-bottom: 46px;
+
+        .personComment {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            input {
+                height: 50px;
+                flex: 1;
+                border-radius: 5px;
+                outline: 0 none;
+                border: 1px solid #DEDEDE;
+                font-size: 16px;
+                padding-left: 26px;
+                
+            }
+
+            button {
+                width: 184px;
+                height: 50px;
+                background-color: #DB2D2E;
+                border-radius: 5px;
+                border: 0;
+                color: #FFFFFF;
+                font-size: 16px;
+                margin-left: 15px;
+                outline: 0 none;
+            }
+        }
+
+    }
+
+    //所有评论
+    .allComment {
+        p {
+            font-size: 20px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        .viewComment {
+            .allviewComments {
+                li {
+                    border-top: 1px solid #E5E5E5;
+                    box-sizing: border-box;
+                    padding-top: 25px;
+                    padding-bottom: 60px;
+
+                    .personInfo {
+                        height: 60px;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .left {
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            img {
+                                width: 60px;
+                                height: 60px;
+                                border-radius: 50%;
+                                margin-right: 21px;  
+                            }
+                            p {
+                                margin-bottom: 0;
+                                color: #DB2D2E;
+                                font-size: 14px;
+                                margin-right: 14px;
+                            }
+                             i{
+                                color: #999999;
+                             }
+                        }
+
+                        .right {
+                            button {
+                                width: 90px;
+                                height: 36px;
+                                border: 1px solid #DEDEDE;
+                                border-radius: 18px;
+                                background-color: rgba(0,0,0,.0);
+                                color: #999999;
+                                font-size: 14px;
+                            } 
+                            .reply {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+
+                    .commentInfo {
+                        height: 40px;
+                        margin-left: 80px;
+                        p {
+                            color: #333333;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+                        //分页
+            .allCommentPage {
+                border-top: 1px solid #E5E5E5;
+                width: 100%;
+                height: 144px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .ivu-page {
+                    //上一页 , 下一页
+                    .ivu-page-prev,.ivu-page-next {
+                        width: 96px;
+                        height: 40px;
+                        border-radius: 5px;
+                        border: 1px solid #DEDEDE;
+                        line-height: 40px;
+                    }
+                    //中间页
+                    .ivu-page-item {
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        border: 0;
+                        a {
+                            color:#333333;
+                        }
+
+                    }
+                    .ivu-page-item-active {
+                        background-color: #DB2D2E;
+                        a {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
