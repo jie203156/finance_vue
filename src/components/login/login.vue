@@ -31,7 +31,7 @@
                 <!-- 去注册 忘记密码 -->
                 <div class="register">
                     <i>没有链氪帐号？<router-link to="/phoneRegister">去注册>></router-link></i>
-                    <a href="#" class="forget">忘记密码？</a>
+                    <router-link to="/forgetPassword" class="forget">忘记密码？</router-link>
                 </div>
             </div>
         </div>

@@ -16,6 +16,10 @@ import login from '../components/login/login.vue'
 import phoneRegister from '../components/register/phoneRegister.vue'
 //邮箱注册界面
 import emailRegister from '../components/register/emailRegister.vue'
+//忘记密码界面
+import forgetPassword from '../components/forgetpassword/forgetPassword.vue'
+//作家主页界面
+import writerIndex from '../components/writer/writerIndex.vue'
 
 const router = new VueRouter({
     routes:[
@@ -26,6 +30,8 @@ const router = new VueRouter({
         {path:'/login',component:login},
         {path:'/phoneRegister',component:phoneRegister},
         {path:'/emailRegister',component:emailRegister},
+        {path:'/forgetPassword',component:forgetPassword},
+        {path:'/writerIndex',component:writerIndex},
     ]
 })
 

@@ -678,7 +678,7 @@
                 <div class="hotWriter">
                     <div class="hotWriterTitle">
                         <p>热门作家</p>
-                        <a href="#"></a>
+                        <router-link to="/writerIndex"></router-link>
                     </div>
                     <!-- 轮播图 -->
                     <div class="hotWriterswiper">

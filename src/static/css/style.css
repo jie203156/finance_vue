@@ -1924,4 +1924,505 @@ i {
   background-position: center;
 }
 
+.forgetPassword {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 112px;
+  background: url("../images/loginbg.png");
+  background-size: cover;
+}
+.forgetPassword .forgetInfo {
+  width: 700px;
+  background-color: #ffffff;
+  margin-bottom: 36px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px -50px #333333;
+  box-sizing: border-box;
+  padding-top: 75px;
+  padding-left: 115px;
+}
+.forgetPassword .forgetInfo .forgetTitle {
+  color: #2A2D2E;
+  font-size: 30px;
+  margin-bottom: 60px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.forgetPassword .forgetInfo .forgetTitle .forgetTitleBtn {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 114px;
+}
+.forgetPassword .forgetInfo .forgetTitle .forgetTitleBtn button {
+  font-size: 14px;
+  color: #333333;
+  width: 80px;
+  height: 44px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #F0F0F0;
+  background-color: #ffffff;
+  outline: none;
+}
+.forgetPassword .forgetInfo .forgetTitle .forgetTitleBtn .emailRegister {
+  margin-right: 6px;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox, .forgetPassword .forgetInfo .forget_box .password_bigBox, .forgetPassword .forgetInfo .forget_box .picCode_bigBox, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox {
+  width: 470px;
+  margin-bottom: 42px;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box {
+  position: relative;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .username_box, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  padding-right: 13px;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .username, .forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .password, .forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .picCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .phoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .personname, .forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .username, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .password, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .picCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .phoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .personname, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .username, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .password, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .picCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .personname, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .username, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .password, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .picCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .personname, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .username, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .password, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .picCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .phoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .personname, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .username,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .password,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .picCode,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .personname,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .username, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .password, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .picCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .phoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .personname, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .username, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .password, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .picCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .phoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .personname, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .username, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .password, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .picCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .personname, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .username, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .password, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .picCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .personname, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .username, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .password, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .picCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .phoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .personname, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .username,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .password,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .picCode,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .personname,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .username, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .password, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .picCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .phoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .personname, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .username, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .password, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .picCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .phoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .personname, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .username, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .password, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .picCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .personname, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .username, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .password, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .picCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .personname, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .username, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .password, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .picCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .phoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .personname, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .username,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .password,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .picCode,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .personname,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .username, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .password, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .picCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .phoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .personname, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .username, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .password, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .picCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .phoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .personname, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .username, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .password, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .picCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .personname, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .username, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .password, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .picCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .personname, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .username, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .password, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .picCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .phoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .personname, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .username,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .password,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .picCode,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .personname,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .username,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .password,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .picCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .personname,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .username,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .password,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .picCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .personname,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .username,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .password,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .picCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .personname,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .username,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .password,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .picCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .personname,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .username,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .password,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .picCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .personname,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .username,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .password,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .picCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .personname,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .username, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .password, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .picCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .phoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .personname, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .username, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .password, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .picCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .phoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .personname, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .username, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .password, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .picCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .personname, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .username, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .password, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .picCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .phoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .personname, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .passwordAgain, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .username, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .password, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .picCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .phoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .personname, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .passwordAgain,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .username,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .password,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .picCode,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .phoneCode,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .personname,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .passwordAgain {
+  color: #999999;
+  font-size: 14px;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .picCodeNum, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .picCodeNum,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .picCodeNum {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 40px;
+  background-color: #ededed;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .usernameIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .usernameIcon,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .usernameIcon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/username.png");
+  background-size: cover;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .getPhoneCode, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .getPhoneCode,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .getPhoneCode {
+  color: #DB2D2E;
+  font-size: 14px;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .username_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .username_bigBox .password_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .username_bigBox .picCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .username_bigBox .phoneCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .username_bigBox .personname_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .username_bigBox .ppasswordAgain_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .username_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .password_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .phoneCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .password_bigBox .personname_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .password_bigBox .ppasswordAgain_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .username_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .password_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .phoneCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .personname_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .picCode_bigBox .ppasswordAgain_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .username_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .password_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .phoneCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .personname_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .ppasswordAgain_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .username_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .password_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCode_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .phoneCode_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .personname_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .ppasswordAgain_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .username_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .password_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .phoneCode_box .passwordIcon, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .personname_box .passwordIcon,
+.forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .ppasswordAgain_box .passwordIcon {
+  width: 13px;
+  height: 16px;
+  display: inline-block;
+  background: url("../images/password.png");
+  background-size: cover;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .line, .forgetPassword .forgetInfo .forget_box .password_bigBox .line, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .line, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .line,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .line, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .line {
+  width: 100%;
+  height: 1px;
+  background-color: #999;
+  display: block;
+}
+.forgetPassword .forgetInfo .forget_box .username_bigBox .picCodeLine, .forgetPassword .forgetInfo .forget_box .password_bigBox .picCodeLine, .forgetPassword .forgetInfo .forget_box .picCode_bigBox .picCodeLine, .forgetPassword .forgetInfo .forget_box .phoneCode_bigBox .picCodeLine,
+.forgetPassword .forgetInfo .forget_box .personname_bigBox .picCodeLine, .forgetPassword .forgetInfo .forget_box .passwordAgain_bigBox .picCodeLine {
+  width: 345px;
+}
+.forgetPassword .forgetInfo .forget_box .password_bigBox {
+  margin-bottom: 34px;
+}
+.forgetPassword .forgetInfo .forget_box .findBtn {
+  width: 470px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #DB2D2E;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 56px;
+}
+.forgetPassword .ThirdTxt {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+.forgetPassword .ThirdIcon {
+  width: 130px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+}
+.forgetPassword .ThirdIcon .weixin, .forgetPassword .ThirdIcon .qq, .forgetPassword .ThirdIcon .xinlang {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.forgetPassword .ThirdIcon .weixin {
+  background: url("../images/loginweixin.png") no-repeat;
+  background-color: #32BA4F;
+  background-size: 65%;
+  background-position-x: 6px;
+  background-position-y: 5px;
+}
+.forgetPassword .ThirdIcon .qq {
+  background: url("../images/loginqq.png") no-repeat;
+  background-color: #4D8ADD;
+  background-size: 65%;
+  background-position-x: 5px;
+  background-position-y: 4px;
+}
+.forgetPassword .ThirdIcon .xinlang {
+  background: url("../images/loginxinlang.png") no-repeat;
+  background-color: #DB2D2E;
+  background-size: 65%;
+  background-position: center;
+}
+
+.writerIndex .writerIndexBanner {
+  height: 780px;
+  width: 100%;
+  background: url("../images/writerbanner.png");
+  background-size: cover;
+}
+.writerIndex .writerIndexBanner .nowWriter {
+  height: 404px;
+  width: 1200px;
+  position: relative;
+}
+.writerIndex .writerIndexBanner .nowWriter .liveWriter {
+  width: 275px;
+  height: 109px;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, RGBA(1, 170, 209, 1), RGBA(1, 166, 133, 1));
+  position: absolute;
+  left: 50%;
+  top: 140px;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFFFFF;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+.writerIndex .writerIndexBanner .nowWriter .liveWriter .liveWriterBtn {
+  width: 120px;
+  height: 32px;
+  border-radius: 16px;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+}
+.writerIndex .writerIndexBanner .nowWriter .masterIcon01 {
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  position: absolute;
+  top: 51px;
+  left: 514px;
+}
+.writerIndex .writerIndexBanner .nowWriter .masterIcon03 {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  position: absolute;
+  top: 109px;
+  left: 658px;
+}
+.writerIndex .writerIndexBanner .nowWriter .masterIcon02 {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  position: absolute;
+  top: 162px;
+  left: 429px;
+  z-index: 3;
+  border: 2px solid #000000;
+}
+.writerIndex .writerIndexBanner .nowWriter .masterIcon04 {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: absolute;
+  top: 212px;
+  left: 583px;
+}
+.writerIndex .writerIndexBanner .nowWriter .masterIcon05 {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  position: absolute;
+  top: 257px;
+  left: 369px;
+}
+.writerIndex .writerIndexBanner .nowWriter .masterIcon06 {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  position: absolute;
+  top: 95px;
+  left: 324px;
+}
+.writerIndex .writerIndexBanner .nowWriter .masterIcon07 {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 780px;
+}
+.writerIndex .writerIndexBanner .nowWriter .master {
+  position: absolute;
+  left: 50%;
+  bottom: 37px;
+  transform: translateX(-50%);
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.writerIndex .writerIndexBanner .writerIndexSipter {
+  height: 376px;
+  width: 1200px;
+  background-color: red;
+}
+.writerIndex .popularWriter {
+  height: 520px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 43px;
+}
+.writerIndex .popularWriter .popularWriterTitle {
+  color: #333333;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+.writerIndex .popularWriter .popularWriterList {
+  width: 100%;
+}
+.writerIndex .popularWriter .popularWriterList ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.writerIndex .popularWriter .popularWriterList ul li {
+  width: 390px;
+  height: 170px;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListTop {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListTop .leftIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListTop .leftIcon img {
+  width: 100%;
+  height: 100%;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListTop .rightInfo {
+  width: 255px;
+  height: 80px;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListTop .rightInfo .rightInfoTop {
+  height: 33px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListTop .rightInfo .rightInfoTop .rightInfoTopTitle {
+  font-size: 18px;
+  color: #333333;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListTop .rightInfo .rightInfoTop .attention {
+  width: 70px;
+  height: 33px;
+  background-color: #DB2D2E;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListTop .rightInfo .rightInfoBot {
+  color: #333333;
+  height: 44px;
+  font-size: 14px;
+  margin-top: 9px;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListBot {
+  height: 50px;
+  background-color: #F8F8F8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListBot div {
+  color: #999999;
+  font-size: 14px;
+}
+.writerIndex .popularWriter .popularWriterList ul li .popularWriterListBot div i {
+  color: #DB2D2E;
+}
+.writerIndex .newWriter {
+  width: 100%;
+  height: 270px;
+  background: url("../images/writerbanner02.png");
+}
+
 /*# sourceMappingURL=style.css.map */
