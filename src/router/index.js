@@ -20,6 +20,12 @@ import emailRegister from '../components/register/emailRegister.vue'
 import forgetPassword from '../components/forgetpassword/forgetPassword.vue'
 //作家主页界面
 import writerIndex from '../components/writer/writerIndex.vue'
+//作家文章界面
+import writerArticle from '../components/writer/writerArticle.vue'
+//更多作家界面
+import moreWriters from '../components/writer/moreWriters.vue'
+//作家文章内容界面
+import wirterArticleContent from '../components/writer/wirterArticleContent.vue'
 
 const router = new VueRouter({
     routes:[
@@ -32,6 +38,9 @@ const router = new VueRouter({
         {path:'/emailRegister',component:emailRegister},
         {path:'/forgetPassword',component:forgetPassword},
         {path:'/writerIndex',component:writerIndex},
+        {path:'/writerArticle',component:writerArticle},
+        {path:'/moreWriters',component:moreWriters},
+        {path:'/wirterArticleContent',component:wirterArticleContent},
     ]
 })
 

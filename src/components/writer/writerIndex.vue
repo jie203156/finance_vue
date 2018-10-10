@@ -6,7 +6,7 @@
             <div class="nowWriter w">
                 <div class="liveWriter">
                     <p>当前入住链氪作家</p>
-                    <button class="liveWriterBtn" @click="goodss">共201位>></button>
+                    <button class="liveWriterBtn">共201位>></button>
                 </div>
 
                 <img src="../../static/images/master01.png" class="masterIcon01" alt="">
@@ -162,6 +162,145 @@
         <!-- 新晋作家 -->
         <div class="newWriter">
             <div class="newWriterTitle">新晋作家</div>
+            <div class="newWriterSwipter"></div>
+        </div>
+
+        <!-- 今日主题和热门文章 -->
+        <div class="writerIndexContent w">
+
+            <!-- 今日主题 -->
+            <div class="writerIndexTheme">
+                <div class="writerIndexThemeTitle">
+                    今日精选主题<i>——区块链</i>
+                </div>
+
+                <!-- 今日主题列表 -->
+                <div class="writerIndexThemeInfo">
+                    <ul>
+                        <li>
+                            <router-link to="/writerArticle">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexThemeInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </router-link>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexThemeInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexThemeInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexThemeInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexThemeInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexThemeInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 热门文章 -->
+            <div class="writerIndexHotArticle">
+                <div class="writerIndexHotArticleTitle">
+                    热门文章
+                </div>
+
+                <!-- 热门文章列表 -->
+                <div class="writerIndexHotArticleInfo">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexHotArticleInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexHotArticleInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexHotArticleInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexHotArticleInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexHotArticleInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../images/201809281051.png" alt="">
+                                <div class="writerIndexHotArticleInfoTit">
+                                    <p>斯坦福大学物理教授张首晟：In Math We Trust | 清华x-lab公开课</p>
+                                    <i>08:50 / 你家区块链</i>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -173,15 +312,7 @@
             }
         },
         methods:{
-            goodss(){
-                let obj = {}
-                obj.username = '张三'
-                obj.password = 123
 
-                console.log(obj);
-                
-                localStorage.setItem('abc',JSON.stringify(obj))
-            }
         }
 
     }

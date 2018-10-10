@@ -2423,6 +2423,799 @@ i {
   width: 100%;
   height: 270px;
   background: url("../images/writerbanner02.png");
+  position: relative;
+  margin-bottom: 212px;
+}
+.writerIndex .newWriter .newWriterTitle {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 45px;
+}
+.writerIndex .newWriter .newWriterSwipter {
+  width: 1200px;
+  height: 314px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 111px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 3px 23px -6px #cccccc;
+}
+.writerIndex .writerIndexContent {
+  width: 1200px;
+  display: flex;
+  margin-bottom: 66px;
+}
+.writerIndex .writerIndexContent .writerIndexTheme, .writerIndex .writerIndexContent .writerIndexHotArticle {
+  flex: 1;
+  height: 100%;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeTitle, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleTitle, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeTitle, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleTitle {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-left: 16px;
+  border-left: 4px solid #DB2D2E;
+  height: 27px;
+  line-height: 27px;
+  margin-bottom: 45px;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeTitle i, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleTitle i, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeTitle i, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleTitle i {
+  font-size: 18px;
+  font-weight: normal;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li {
+  width: 100%;
+  height: 130px;
+  border-radius: 5px;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li a, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li a, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li a, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 22px;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li a img, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li a img, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li a img, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li a img {
+  width: 150px;
+  height: 80px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li a .writerIndexThemeInfoTit, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li a .writerIndexHotArticleInfoTit, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li a .writerIndexThemeInfoTit, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li a .writerIndexHotArticleInfoTit, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li a .writerIndexThemeInfoTit, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li a .writerIndexHotArticleInfoTit, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li a .writerIndexThemeInfoTit, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li a .writerIndexHotArticleInfoTit {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li a .writerIndexThemeInfoTit p, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li a .writerIndexHotArticleInfoTit p, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li a .writerIndexThemeInfoTit p, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li a .writerIndexHotArticleInfoTit p, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li a .writerIndexThemeInfoTit p, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li a .writerIndexHotArticleInfoTit p, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li a .writerIndexThemeInfoTit p, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li a .writerIndexHotArticleInfoTit p {
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li a .writerIndexThemeInfoTit i, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li a .writerIndexHotArticleInfoTit i, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li a .writerIndexThemeInfoTit i, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li a .writerIndexHotArticleInfoTit i, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li a .writerIndexThemeInfoTit i, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li a .writerIndexHotArticleInfoTit i, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li a .writerIndexThemeInfoTit i, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li a .writerIndexHotArticleInfoTit i {
+  color: #666666;
+  font-size: 14px;
+}
+.writerIndex .writerIndexContent .writerIndexTheme .writerIndexThemeInfo ul li:hover, .writerIndex .writerIndexContent .writerIndexTheme .writerIndexHotArticleInfo ul li:hover, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexThemeInfo ul li:hover, .writerIndex .writerIndexContent .writerIndexHotArticle .writerIndexHotArticleInfo ul li:hover {
+  box-shadow: 0px 0px 35px -8px #ccc;
+}
+
+.writerArticles .writerArticlesBanner {
+  height: 256px;
+  width: 100%;
+  background: url("../images/writerArticlesBanner.png");
+  background-size: cover;
+  background-position: center;
+}
+.writerArticles .writerArticlesBanner .personInfo {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.writerArticles .writerArticlesBanner .personInfo a {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 4px solid #ffffff;
+  margin-right: 30px;
+}
+.writerArticles .writerArticlesBanner .personInfo a img {
+  width: 100%;
+  height: 100%;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo {
+  height: 160px;
+  width: 747px;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoTitle {
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoTalk {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoSmallIcon {
+  height: 20px;
+  width: 747px;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoSmallIcon ul {
+  display: flex;
+  align-items: center;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoSmallIcon ul li {
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  margin-right: 34px;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoSmallIcon ul li .num {
+  width: 14px;
+  height: 16px;
+  background: url("../images/article.png");
+  background-size: cover;
+  display: inline-block;
+  margin-right: 8px;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoSmallIcon ul li .eye {
+  width: 21px;
+  height: 14px;
+  background: url("../images/eye01.png");
+  background-size: cover;
+  display: inline-block;
+  margin-right: 8px;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoSmallIcon ul li .xin {
+  width: 15px;
+  height: 14px;
+  background: url("../images/attention.png");
+  background-size: cover;
+  display: inline-block;
+  margin-right: 8px;
+}
+.writerArticles .writerArticlesBanner .personInfo .writerPersonInfo .writerPersonInfoSmallIcon ul .line {
+  height: 15px;
+  width: 1px;
+  background-color: #999999;
+}
+.writerArticles .writerArticlesBanner .personInfo .attentionBtn {
+  width: 100px;
+  height: 36px;
+  box-sizing: border-box;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  position: absolute;
+  top: 56px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  color: #999999;
+  outline: none;
+}
+.writerArticles .moreArticlesTitle {
+  background-color: #F8F8F8;
+  width: 100%;
+}
+.writerArticles .moreArticlesTitle .moreArticles_box {
+  width: 1200px;
+  height: 60px;
+  position: relative;
+}
+.writerArticles .moreArticlesTitle .moreArticles_box p {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #333333;
+  font-size: 16px;
+  top: 20px;
+}
+.writerArticles .moreArticlesTitle .moreArticles_box .moreArticlesTitleTxt {
+  cursor: pointer;
+}
+.writerArticles .moreArticlesTitle .moreArticles_box a {
+  font-size: 14px;
+  color: #DB2D2E;
+  position: absolute;
+  right: 0;
+  top: 21px;
+}
+.writerArticles .moreArticlesList_box {
+  width: 1200px;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li {
+  height: 217px;
+  width: 100%;
+  border-top: 2px solid #F0F0F0;
+  display: flex;
+  align-items: center;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .listPic {
+  width: 290px;
+  height: 150px;
+  background-color: red;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 32px;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .listPic a img {
+  width: 100%;
+  height: 100%;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo {
+  flex: 1;
+  height: 150px;
+  width: 678px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo .title a {
+  color: #333333;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo .introduce {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .smallLogo a .iconPic {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .smallLogo a .iconPic img {
+  width: 100%;
+  height: 100%;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .smallLogo a i {
+  font-size: 14px;
+  color: #333333;
+  line-height: 30px;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .times {
+  margin-right: 25px;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .times p {
+  width: 18px;
+  height: 18px;
+  background: url("../images/time.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .times i {
+  font-size: 14px;
+  color: #999999;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .eye {
+  margin-right: 25px;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .eye p {
+  width: 24px;
+  height: 16px;
+  background: url("../images/eye.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .eye i {
+  font-size: 14px;
+  color: #999999;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .infoborder p {
+  width: 18px;
+  height: 18px;
+  background: url("../images/smile.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .infoborder i {
+  font-size: 14px;
+  color: #999999;
+}
+.writerArticles .moreArticlesList_box .infoContent ul li:first-child {
+  border-top: 0;
+}
+.writerArticles .moreArticlesList_box .moveBtn {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #DEDEDE;
+  border-radius: 5px;
+  margin-bottom: 87px;
+}
+.writerArticles .moreArticlesList_box .moveBtn a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #333333;
+}
+.writerArticles .writerArticleContent {
+  background-color: #fff;
+  margin-top: 57px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox {
+  width: 817px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .title {
+  color: #333333;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .contentIcon {
+  width: 570px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .contentIcon div {
+  font-size: 14px;
+  color: #999999;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .contentIcon div .time {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("../images/time.png");
+  background-size: contain;
+  margin-right: 6px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .contentIcon div .eye {
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+  background: url("../images/eye.png");
+  background-size: contain;
+  margin-right: 6px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .contentIcon div .smile {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("../images/smile.png");
+  background-size: contain;
+  margin-right: 6px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share {
+  color: #999999;
+  font-size: 14px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share i {
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  background: url("../images/share.png");
+  background-size: contain;
+  margin-right: 6px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .main {
+  border-top: 1px dashed #E5E5E5;
+  box-sizing: border-box;
+  padding-top: 23px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .main p {
+  width: 100%;
+  font-size: 14px;
+  color: #333333;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .main .bold {
+  font-size: 16px;
+  font-weight: bold;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .likability {
+  margin-top: 17px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .likability .pic {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: url("../images/smile01.png") no-repeat;
+  background-size: 50%;
+  background-position: center;
+  background-color: #DB2D2E;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .likability p {
+  margin-top: 14px;
+  margin-bottom: 45px;
+  color: #999999;
+  font-size: 14px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .likability p i {
+  color: #DB2D2E;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .reminder {
+  height: 50px;
+  width: 100%;
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  color: #666666;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .reminder i, .writerArticles .writerArticleContent .writerArticleContent_Lbox .reminder a {
+  color: #DB2D2E;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .Parts {
+  margin-bottom: 50px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .Parts a {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleComment {
+  width: 100%;
+  border-top: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  padding-top: 32px;
+  margin-bottom: 46px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleComment .personComment {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleComment .personComment input {
+  height: 50px;
+  flex: 1;
+  border-radius: 5px;
+  outline: 0 none;
+  border: 1px solid #DEDEDE;
+  font-size: 16px;
+  padding-left: 26px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleComment .personComment button {
+  width: 184px;
+  height: 50px;
+  background-color: #DB2D2E;
+  border-radius: 5px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-left: 15px;
+  outline: 0 none;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment p {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li {
+  border-top: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .personInfo {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .personInfo .left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .personInfo .left img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 21px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .personInfo .left p {
+  margin-bottom: 0;
+  color: #DB2D2E;
+  font-size: 14px;
+  margin-right: 14px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .personInfo .left i {
+  color: #999999;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .personInfo .right button {
+  width: 90px;
+  height: 36px;
+  border: 1px solid #DEDEDE;
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #999999;
+  font-size: 14px;
+  outline: none;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .personInfo .right .reply {
+  margin-right: 10px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .commentInfo {
+  height: 40px;
+  margin-left: 80px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allviewComments li .commentInfo p {
+  color: #333333;
+  font-size: 16px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allCommentPage {
+  border-top: 1px solid #E5E5E5;
+  width: 100%;
+  height: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allCommentPage .ivu-page .ivu-page-prev, .writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allCommentPage .ivu-page .ivu-page-next {
+  width: 96px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  line-height: 40px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allCommentPage .ivu-page .ivu-page-item {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 0;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allCommentPage .ivu-page .ivu-page-item a {
+  color: #333333;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allCommentPage .ivu-page .ivu-page-item-active {
+  background-color: #DB2D2E;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .writerArticleAllComment .viewComment .allCommentPage .ivu-page .ivu-page-item-active a {
+  color: #ffffff;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox {
+  width: 360px;
+  height: 800px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle {
+  width: 100%;
+  height: 850px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+
+.moreWriters {
+  padding-top: 37px;
+}
+.moreWriters .moreWritersTitle {
+  height: 60px;
+  width: 1200px;
+  box-sizing: border-box;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  position: relative;
+  margin-bottom: 24px;
+}
+.moreWriters .moreWritersTitle .moreWritersTitleTxt {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 16px;
+  color: #333333;
+  top: 50%;
+}
+.moreWriters .moreWritersTitle .search {
+  height: 19px;
+  width: 261px;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+.moreWriters .moreWritersTitle .search input {
+  font-size: 14px;
+  border-left: 1px solid #999999;
+  box-sizing: border-box;
+  padding-left: 17px;
+}
+.moreWriters .moreWritersTitle .search input::placeholder {
+  color: #999999;
+}
+.moreWriters .moreWritersTitle .search .bigGlass {
+  height: 19px;
+  width: 19px;
+}
+.moreWriters .moreWritersTitle .search .bigGlass a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background: url("../images/fangdajing.png");
+  background-size: cover;
+}
+.moreWriters .moreWritersList {
+  width: 1200px;
+}
+.moreWriters .moreWritersList .moreWritersList_box {
+  margin-bottom: 40px;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li {
+  width: 290px;
+  height: 280px;
+  box-sizing: border-box;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 17px;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li:hover {
+  box-shadow: 0 0 25px -5px #ccc;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .moreWritersListInfo {
+  height: 204px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 22px 0;
+  position: relative;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .moreWritersListInfo .moreWritersListInfoIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .moreWritersListInfo .moreWritersListInfoIcon img {
+  width: 100%;
+  height: 100%;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .moreWritersListInfo .moreWritersListInfoName {
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .moreWritersListInfo p {
+  height: 38px;
+  width: 210px;
+  color: #333333;
+  font-size: 14px;
+  text-align: center;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .moreWritersListInfo .attention {
+  width: 60px;
+  height: 33px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #DB2D2E;
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #DB2D2E;
+  font-size: 14px;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .parameter {
+  height: 76px;
+  width: 100%;
+  background-color: #F8F8F8;
+  color: #999999;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .parameter i {
+  color: #DB2D2E;
+  font-size: 16px;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .parameter .line {
+  height: 20px;
+  width: 1px;
+  background-color: #E5E5E5;
+}
+.moreWriters .moreWritersList .moreWritersList_box ul li .parameter div {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.moreWriters .moreWritersList .moveBtn {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #DEDEDE;
+  border-radius: 5px;
+  margin-bottom: 67px;
+}
+.moreWriters .moreWritersList .moveBtn a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #333333;
 }
 
 /*# sourceMappingURL=style.css.map */
