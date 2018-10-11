@@ -2795,6 +2795,7 @@ i {
   display: flex;
   justify-content: space-between;
   margin-bottom: 22px;
+  position: relative;
 }
 .writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .contentIcon {
   width: 570px;
@@ -2844,6 +2845,91 @@ i {
   background: url("../images/share.png");
   background-size: contain;
   margin-right: 6px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box {
+  width: 144px;
+  height: 318px;
+  background-color: #101010;
+  border-radius: 5px;
+  overflow: hidden;
+  position: absolute;
+  right: -50px;
+  top: 32px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box .weixin {
+  width: 100%;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 14px 0;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box .weixin .icon {
+  font-size: 14px;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box .weixin .icon i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/loginweixin.png") no-repeat;
+  background-size: 60%;
+  background-position: center;
+  background-color: #32BA4F;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box .weixin .code {
+  width: 117px;
+  height: 117px;
+  background: url("../images/weixincode.png");
+  background-size: cover;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box .common {
+  font-size: 14px;
+  color: #ffffff;
+  width: 100%;
+  height: 48px;
+  background-color: #3D3D3D;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 22px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box .common .qq {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/loginqq.png") no-repeat;
+  background-size: 60%;
+  background-position: center;
+  background-color: #4D8ADD;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box .common .Twitter {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/twitter.png") no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Lbox .contentIcons .share_box .common .Facebook {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/facebook.png") no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 9px;
 }
 .writerArticles .writerArticleContent .writerArticleContent_Lbox .main {
   border-top: 1px dashed #E5E5E5;
@@ -3041,6 +3127,204 @@ i {
   box-sizing: border-box;
   border: 1px solid #DEDEDE;
   border-radius: 5px;
+  padding: 0 25px;
+  margin-bottom: 20px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleTitle {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleTitle i {
+  color: #3D3D3D;
+  font-size: 20px;
+  font-weight: bold;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleTitle .bangBtn {
+  width: 120px;
+  height: 34px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  display: flex;
+  overflow: hidden;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleTitle .bangBtn a {
+  display: block;
+  width: 60px;
+  height: 100%;
+  font-size: 14px;
+  color: #666666;
+  line-height: 34px;
+  text-align: center;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleTitle .bangBtn .active {
+  background-color: #3D3D3D;
+  color: #FFFFFF;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper {
+  height: 220px;
+  margin-bottom: 18px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper .content {
+  height: 140px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper .content .el-carousel .el-carousel__container {
+  height: 140px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper .content .el-carousel .el-carousel__container button.el-carousel__arrow--left {
+  left: 0;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper .content .el-carousel .el-carousel__container button.el-carousel__arrow--right {
+  right: 0;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper .content .el-carousel .el-carousel__container .el-carousel__arrow {
+  width: 20px;
+  height: 30px;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper .content .el-carousel .el-carousel__indicators .el-carousel__indicator .el-carousel__button {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper .hotArticleSwiperTxt {
+  margin-bottom: 20px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleSwiper .hotArticleSwiperTxt a {
+  display: block;
+  height: 50px;
+  font-size: 16px;
+  color: #000000;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleList ul li {
+  height: 76px;
+  border-top: 1px dashed #E5E5E5;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleList ul li .smallNum {
+  width: 34px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #3D3D3D;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 8px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .hotArticle .hotArticleList ul li a {
+  flex: 1;
+  display: block;
+  color: #000000;
+  font-size: 14px;
+  height: 40px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle {
+  height: 500px;
+  width: 100%;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 30px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .seemArticleTitle {
+  color: #3D3D3D;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 27px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo {
+  width: 100%;
+  height: 565px;
+  overflow: hidden;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo ul {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px 0 0;
+  margin-left: 10px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo ul li {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 0 0 25px;
+  height: 65px;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo ul li .quan {
+  width: 10px;
+  height: 10px;
+  background-color: #DB2D2E;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  z-index: 2;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo ul li .line {
+  width: 1px;
+  height: 65px;
+  background-color: #DEDEDE;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo ul li .newsContent a {
+  font-size: 14px;
+  color: #000000;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  height: 50px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo ul li:last-child .line {
+  display: none;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo ul li:nth-child(2n) .quan {
+  background-color: #0EAE30;
+}
+.writerArticles .writerArticleContent .writerArticleContent_Rbox .seemArticle .newsInfo ul li:last-child .newsContent p {
+  display: none;
 }
 
 .moreWriters {
@@ -3216,6 +3500,475 @@ i {
   line-height: 50px;
   text-align: center;
   color: #333333;
+}
+
+.assemblyIndex {
+  height: 2860px;
+  width: 100%;
+  background-color: #101010;
+  position: relative;
+}
+.assemblyIndex .bg01 {
+  width: 787px;
+  height: 206px;
+  background: url("../images/assemblyIndexbg01.png");
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 93px;
+  transform: translateX(-50%);
+}
+.assemblyIndex .bg02 {
+  width: 100%;
+  height: 458px;
+  background: url("../images/assemblyIndexbg02.png");
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: .3;
+}
+.assemblyIndex .bg04 {
+  width: 100%;
+  height: 458px;
+  background: url("../images/assemblyIndexbg02.png");
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  top: 965px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: .3;
+}
+.assemblyIndex .bg03 {
+  width: 100%;
+  height: 668px;
+  background: url("../images/assemblyIndexbg03.png");
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  top: 290px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: .1;
+}
+.assemblyIndex .assemblyIndexTitle {
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  top: 214px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(to bottom, #FFFFFF, #D5AE77);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-box-reflect: below -35px linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, RGBA(213, 174, 119, 0.5) 100%);
+}
+.assemblyIndex .live {
+  width: 160px;
+  height: 40px;
+  background-color: #DB2D2E;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #FBF9F8;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 330px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0 0 25px 0px #DB2D2E;
+}
+.assemblyIndex .applyLive_Bigbox {
+  width: 740px;
+  height: 480px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 184px;
+  z-index: 5;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLiveTitle {
+  width: 100%;
+  height: 45px;
+  background-color: #101010;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 45px;
+  text-align: center;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box {
+  width: 100%;
+  height: 435px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 43px 40px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft {
+  width: 380px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LivePosition p {
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LivePosition .LivePositionInput {
+  width: 100%;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LivePosition .LivePositionInput .el-select {
+  width: 100%;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveNickname p, .assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveName p, .assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveIdcard p {
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveNickname input, .assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveName input, .assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveIdcard input {
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  padding-left: 14px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveNickname input::placeholder, .assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveName input::placeholder, .assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveLeft .LiveIdcard input::placeholder {
+  color: #c2c4cc;
+  font-size: 14px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight {
+  width: 246px;
+  height: 100%;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .applyLiveRightTitle {
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .iconPic {
+  width: 100%;
+  height: 160px;
+  border-radius: 3px;
+  border: 1px solid #DEDEDE;
+  background: url("../images/assemblyIndexiconpic.png") no-repeat;
+  background-color: #F8F8F8;
+  background-size: 25%;
+  background-position: center;
+  margin-bottom: 5px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .inputfile {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .inputfile input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .inputfile .btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  border: 1px solid #DEDEDE;
+  color: #333333;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .accept {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #DB2D2E;
+  margin-bottom: 20px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .accept .radio {
+  font-size: 14px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .accept .ivu-radio-inner {
+  border-radius: 3px;
+  border-color: #DB2D2E;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .accept .ivu-radio-checked .ivu-radio-inner {
+  border-color: #DB2D2E;
+  border-radius: 3px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .accept .ivu-radio-focus {
+  box-shadow: 0 0 0 2px rgba(219, 45, 46, 0.2);
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .accept .ivu-radio-inner:after {
+  background-color: #DB2D2E;
+  border-radius: 3px;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .submit {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .submit .submitBtn {
+  width: 120px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #DB2D2E;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-right: 5px;
+  outline: none;
+}
+.assemblyIndex .applyLive_Bigbox .applyLive .applyLive_box .applyLiveRight .submit .submitCancel {
+  width: 120px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #FDEFEF;
+  border: 1px solid #DB2D2E;
+  color: #DB2D2E;
+  font-size: 14px;
+  outline: none;
+}
+.assemblyIndex .applyLive_Bigbox .applyLiveCancel {
+  width: 220px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #DB2D2E;
+  border: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  position: absolute;
+  bottom: 87px;
+  right: -270px;
+  z-index: 3;
+  outline: none;
+}
+.assemblyIndex .liveContent {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 485px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.assemblyIndex .liveContent .info {
+  margin-bottom: 128px;
+  width: 1190px;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.assemblyIndex .liveContent .info p {
+  color: #C6AF88;
+  font-size: 14px;
+}
+.assemblyIndex .liveContent .bigLivetxt {
+  color: RGBA(198, 175, 136, 0.2);
+  font-size: 50px;
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 8px;
+  margin-bottom: 60px;
+}
+.assemblyIndex .liveContent .bigLivetxt .smalltxt {
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  font-size: 30px;
+  color: #C6AF88;
+  text-align: center;
+}
+.assemblyIndex .liveContent .liveExplain {
+  color: #C6AF88;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.assemblyIndex .liveContent .liveList {
+  width: 100%;
+  margin-bottom: 148px;
+}
+.assemblyIndex .liveContent .liveList ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.assemblyIndex .liveContent .liveList ul li {
+  width: 280px;
+  height: 320px;
+  box-sizing: border-box;
+  padding: 45px 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.assemblyIndex .liveContent .liveList ul li .quan01 {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  border: 1px solid #C6AF88;
+  background: url("../images/assemblyIndexicon01.png") no-repeat;
+  background-size: 50%;
+  background-position: center;
+  margin-bottom: 28px;
+}
+.assemblyIndex .liveContent .liveList ul li .quan02 {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  border: 1px solid #C6AF88;
+  background: url("../images/assemblyIndexicon02.png") no-repeat;
+  background-size: 50%;
+  background-position: center;
+  margin-bottom: 28px;
+}
+.assemblyIndex .liveContent .liveList ul li .quan03 {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  border: 1px solid #C6AF88;
+  background: url("../images/assemblyIndexicon03.png") no-repeat;
+  background-size: 40%;
+  background-position: center;
+  margin-bottom: 28px;
+}
+.assemblyIndex .liveContent .liveList ul li .quan04 {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  border: 1px solid #C6AF88;
+  background: url("../images/assemblyIndexicon04.png") no-repeat;
+  background-size: 50%;
+  background-position: center;
+  margin-bottom: 28px;
+}
+.assemblyIndex .liveContent .liveList ul li .title {
+  font-size: 18px;
+  color: #C6AF88;
+  font-weight: bold;
+}
+.assemblyIndex .liveContent .liveList ul li .txt {
+  font-size: 16px;
+  color: #C6AF88;
+  line-height: 28px;
+}
+.assemblyIndex .liveContent .advantageList {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.assemblyIndex .liveContent .advantageList ul {
+  width: 100%;
+}
+.assemblyIndex .liveContent .advantageList ul li {
+  height: 268px;
+  border-bottom: 1px solid #323232;
+  display: flex;
+  align-items: center;
+}
+.assemblyIndex .liveContent .advantageList ul li:last-child {
+  border: none;
+}
+.assemblyIndex .liveContent .advantageList ul li:last-child .txt_box {
+  width: 560px;
+}
+.assemblyIndex .liveContent .advantageList ul li .icon {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #C6AF88;
+  background: url("../images/assemblyIndexicon05.png") no-repeat;
+  background-size: 45%;
+  background-position: center;
+  margin-right: 36px;
+}
+.assemblyIndex .liveContent .advantageList ul li .icon01 {
+  background: url("../images/assemblyIndexicon06.png") no-repeat;
+  background-size: 45%;
+  background-position: center;
+}
+.assemblyIndex .liveContent .advantageList ul li .icon02 {
+  background: url("../images/assemblyIndexicon07.png") no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+.assemblyIndex .liveContent .advantageList ul li .icon03 {
+  background: url("../images/assemblyIndexicon08.png") no-repeat;
+  background-size: 40%;
+  background-position: center;
+}
+.assemblyIndex .liveContent .advantageList ul li .txt_box {
+  width: 630px;
+}
+.assemblyIndex .liveContent .advantageList ul li .txt_box p {
+  color: #C6AF88;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.assemblyIndex .liveContent .advantageList ul li .txt_box i {
+  font-size: 14px;
+  color: #C6AF88;
+  line-height: 28px;
+  letter-spacing: 3px;
+}
+.assemblyIndex .liveContent .advantageList ul .right {
+  justify-content: flex-end;
+}
+.assemblyIndex .liveContent .advantageList ul .right .icon {
+  margin-right: 0;
+  margin-left: 36px;
+}
+.assemblyIndex .shade {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 4;
+}
+
+.projectLibrary .banner {
+  height: 450px;
+  width: 100%;
+  background: url("../images/projectLibrarybanner.png");
+  background-size: 1920px 100%;
+  background-position: center;
+}
+.projectLibrary .banner .optimizing {
+  height: 100%;
+  width: 1200px;
+}
+.projectLibrary .banner .optimizing .title {
+  height: 113px;
+  color: #999999;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  line-height: 113px;
+}
+.projectLibrary .banner .optimizing .swiper_box {
+  width: 100%;
+  height: 337px;
 }
 
 /*# sourceMappingURL=style.css.map */

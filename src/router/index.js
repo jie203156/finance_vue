@@ -26,6 +26,10 @@ import writerArticle from '../components/writer/writerArticle.vue'
 import moreWriters from '../components/writer/moreWriters.vue'
 //作家文章内容界面
 import wirterArticleContent from '../components/writer/wirterArticleContent.vue'
+//集结号主页
+import assembly from '../components/assembly/assemblyIndex.vue'
+//项目库界面
+import projectLibrary from '../components/projectLibrary/projectLibrary.vue'
 
 const router = new VueRouter({
     routes:[
@@ -41,6 +45,8 @@ const router = new VueRouter({
         {path:'/writerArticle',component:writerArticle},
         {path:'/moreWriters',component:moreWriters},
         {path:'/wirterArticleContent',component:wirterArticleContent},
+        {path:'/assembly',component:assembly},
+        {path:'/projectLibrary',component:projectLibrary},
     ]
 })
 

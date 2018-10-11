@@ -29,13 +29,13 @@
                         <ul>
                             <li><router-link to="/indexList">首页</router-link></li>
                             <li><a href="">快讯</a></li>
-                            <li><a href="">项目库</a></li>
+                            <li><router-link to="/projectLibrary">项目库</router-link></li>
                             <li><a href="">行情</a></li>
                             <li><a href="">动态</a></li>
                             <li><a href="">圈子</a></li>
                             <li><a href="">问答</a></li>
                             <li><a href="">找伙伴</a></li>
-                            <li><a href="">链氪集结号</a></li>
+                            <li><router-link to="/assembly">链氪集结号</router-link></li>
                         </ul>
                     </div>
                     <div class="writeArticle"><a href="#">写文章</a></div>
@@ -127,7 +127,7 @@
                             <li>|</li>
                             <li><a href="#">快讯</a></li>
                             <li>|</li>
-                            <li><a href="#">项目库</a></li>
+                            <li><router-link to="/projectLibrary">项目库</router-link></li>
                             <li>|</li>
                             <li><a href="#">动态</a></li>
                             <li>|</li>
@@ -135,7 +135,7 @@
                             <li>|</li>
                             <li><a href="#">找伙伴</a></li>
                             <li>|</li>
-                            <li><a href="#">链氪集结号</a></li>
+                            <li><router-link to="/assembly">链氪集结号</router-link></li>
                         </ul>
                     </div>
                 </div>

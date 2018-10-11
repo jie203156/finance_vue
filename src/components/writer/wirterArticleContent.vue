@@ -60,7 +60,30 @@
                         </div>
 
                     </div>
-                    <a href="#" class="share"><i></i>分享</a>
+                    <a class="share" @click="shareIsshow = !shareIsshow"><i></i>分享</a>
+                    <div class="share_box" v-show="shareIsshow">
+                        <div class="weixin">
+                            <div class="icon">
+                                <i></i>微信扫一扫
+                            </div>
+                            <div class="code"></div>
+                        </div>
+                        <a href="#">
+                            <div class="common">
+                                <i class="qq"></i>腾讯QQ 
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="common">
+                                <i class="Twitter"></i>Twitter 
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="common">
+                                <i class="Facebook"></i>Facebook 
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
                 <!-- 文章主体内容 -->
@@ -155,7 +178,120 @@
             <!-- 作家文章内容右侧边栏 -->
             <div class="writerArticleContent_Rbox">
 
-                <div class="hotArticle"></div>
+                <!-- 热门文章 -->
+                <div class="hotArticle">
+                    <div class="hotArticleTitle">
+                        <i>热门文章</i>
+                        <div class="bangBtn">
+                            <a :class="{active:bangBtnIshow}" @click="bangBtnIshow = true">周榜</a>
+                            <a :class="{active:!bangBtnIshow}" @click="bangBtnIshow = false">月榜</a>
+                        </div>
+                    </div>
+
+                    <div class="hotArticleSwiper">
+                        <div class="content">
+                            <el-carousel :interval="5000" arrow="always" style="height:100%;">
+                                <el-carousel-item v-for="item in 3" :key="item" style="height:140px;">
+                                <a href="#"><img :src="item" alt=""></a>
+                                </el-carousel-item>
+                            </el-carousel>
+                        </div>
+
+                        <div class="hotArticleSwiperTxt">
+                            <a href="#">诺奖得主Scholes：区块链技术能极大减少交易结算成本</a>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="hotArticleList">
+                        <ul>
+                            <li>
+                                <div class="smallNum">4</div>
+                                <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                            </li>
+                            <li>
+                                <div class="smallNum">5</div>
+                                <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                            </li>
+                            <li>
+                                <div class="smallNum">6</div>
+                                <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                            </li>
+                            <li>
+                                <div class="smallNum">7</div>
+                                <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                            </li>
+                            <li>
+                                <div class="smallNum">8</div>
+                                <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                            </li>
+                            <li>
+                                <div class="smallNum">9</div>
+                                <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                            </li>
+                            <li>
+                                <div class="smallNum">10</div>
+                                <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 看过的文章 -->
+                <div class="seemArticle">
+                    <p class="seemArticleTitle">你家区块链看过的文章</p>
+
+
+                    <!-- 右侧边栏看过的文章信息 -->
+                    <div class="newsInfo">
+                        <ul>
+                            <li>
+                                <i class="quan"></i>
+                                <i class="line"></i>
+                                <div class="newsContent">
+                                    <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="quan"></i>
+                                <i class="line"></i>
+                                <div class="newsContent">
+                                    <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="quan"></i>
+                                <i class="line"></i>
+                                <div class="newsContent">
+                                    <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="quan"></i>
+                                <i class="line"></i>
+                                <div class="newsContent">
+                                    <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="quan"></i>
+                                <i class="line"></i>
+                                <div class="newsContent">
+                                    <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="quan"></i>
+                                <i class="line"></i>
+                                <div class="newsContent">
+                                    <a href="#">吓破胆的韭菜无力反抗，币圈何时才能安享太平！</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -166,7 +302,9 @@
         components:{Page},
         data(){
             return{
-
+                shareIsshow:false,
+                bangBtnIshow:true,
+                
             }
         },
         methods:{
@@ -176,3 +314,18 @@
         }
     }
 </script>
+<style scoped>
+    
+    .el-carousel__item img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .el-carousel__item:nth-child(2n) {
+        background-color: #99a9bf;
+    }
+    
+    .el-carousel__item:nth-child(2n+1) {
+        background-color: #d3dce6;
+    }
+</style>
