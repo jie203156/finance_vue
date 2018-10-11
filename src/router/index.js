@@ -30,6 +30,10 @@ import wirterArticleContent from '../components/writer/wirterArticleContent.vue'
 import assembly from '../components/assembly/assemblyIndex.vue'
 //项目库界面
 import projectLibrary from '../components/projectLibrary/projectLibrary.vue'
+//项目主页界面
+import projectIndex from '../components/projectLibrary/projectIndex.vue'
+//项目概况界面
+import projectOverview from '../components/projectLibrary/projectOverview.vue'
 
 const router = new VueRouter({
     routes:[
@@ -47,6 +51,8 @@ const router = new VueRouter({
         {path:'/wirterArticleContent',component:wirterArticleContent},
         {path:'/assembly',component:assembly},
         {path:'/projectLibrary',component:projectLibrary},
+        {path:'/projectIndex',component:projectIndex},
+        {path:'/projectIndex/projectOverview',component:projectOverview},
     ]
 })
 

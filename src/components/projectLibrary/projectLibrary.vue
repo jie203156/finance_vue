@@ -66,7 +66,7 @@
                         <div class="sanjiao green"></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
                         </div>
 
                         <!-- 内容的右边 -->
@@ -94,7 +94,7 @@
                                 
                                 <div class="btns">
                                     <button >白皮书</button>
-                                    <button >查看</button>
+                                    <button @click="projectIndexBtn">查看</button>
                                 </div>
                             </div>
                         </div>
@@ -463,6 +463,11 @@
                 marketShow : true,
                 num : 3.9,
             
+            }
+        },
+        methods:{
+            projectOverviewBtn(){
+                this.$router.push({path:'/projectIndex'})
             }
         }
     }
