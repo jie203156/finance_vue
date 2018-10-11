@@ -1171,6 +1171,7 @@ i {
 }
 .activityList .activitygoods .activitygoodsPage {
   margin-top: 26px;
+  margin-bottom: 70px;
   width: 100%;
   height: 40px;
   display: flex;
@@ -3969,6 +3970,288 @@ i {
 .projectLibrary .banner .optimizing .swiper_box {
   width: 100%;
   height: 337px;
+  background-color: red;
+}
+.projectLibrary .projectList_box {
+  width: 1200px;
+}
+.projectLibrary .projectList_box .projectListTitle {
+  width: 100%;
+  height: 66px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  margin-bottom: 25px;
+}
+.projectLibrary .projectList_box .projectListTitle .screen_box {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.projectLibrary .projectList_box .projectListTitle .screen_box .txt {
+  color: #333333;
+  font-size: 14px;
+  margin-right: 16px;
+}
+.projectLibrary .projectList_box .projectListTitle .screen_box button {
+  width: 80px;
+  height: 38px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  color: #333333;
+  border: none;
+  outline: none;
+}
+.projectLibrary .projectList_box .projectListTitle .screen_box .active {
+  border: 1px solid #DEDEDE;
+}
+.projectLibrary .projectList_box .projectListTitle .sort_box {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectLibrary .projectList_box .projectListTitle .sort_box .sorts {
+  height: 15px;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  cursor: default;
+}
+.projectLibrary .projectList_box .projectListTitle .sort_box .sorts i {
+  color: #333333;
+  font-size: 14px;
+  margin-right: 3px;
+}
+.projectLibrary .projectList_box .projectListTitle .sort_box .sorts .icons {
+  width: 7px;
+  height: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectLibrary .projectList_box .projectListTitle .sort_box .sorts .icons .top {
+  width: 7px;
+  height: 5px;
+  background: url("../images/topred.png");
+  background-size: cover;
+}
+.projectLibrary .projectList_box .projectListTitle .sort_box .sorts .icons .bottom {
+  width: 7px;
+  height: 5px;
+  background: url("../images/bottomred.png");
+  background-size: cover;
+}
+.projectLibrary .projectList_box .projectListTitle .sort_box .sorts .icons .topgary {
+  background: url("../images/topgray.png");
+  background-size: cover;
+}
+.projectLibrary .projectList_box .projectListTitle .sort_box .sorts .icons .bottomgary {
+  background: url("../images/bottomgray.png");
+  background-size: cover;
+}
+.projectLibrary .projectList_box .projectListTitle .search_box {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.projectLibrary .projectList_box .projectListTitle .search_box .search {
+  height: 19px;
+  width: 261px;
+  display: flex;
+  justify-content: space-between;
+}
+.projectLibrary .projectList_box .projectListTitle .search_box .search input {
+  font-size: 14px;
+  border-left: 1px solid #999999;
+  box-sizing: border-box;
+  padding-left: 17px;
+}
+.projectLibrary .projectList_box .projectListTitle .search_box .search input::placeholder {
+  color: #999999;
+}
+.projectLibrary .projectList_box .projectListTitle .search_box .search .bigGlass {
+  height: 19px;
+  width: 19px;
+}
+.projectLibrary .projectList_box .projectListTitle .search_box .search .bigGlass a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background: url("../images/fangdajing.png");
+  background-size: cover;
+}
+.projectLibrary .projectList_box .projectList_Content {
+  width: 100%;
+  margin-bottom: 14px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li {
+  width: 588px;
+  height: 225px;
+  border-radius: 5px;
+  border: 1px solid #E5E5E5;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  margin-bottom: 24px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .sanjiao {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .green {
+  background: url("../images/greenxuan.png");
+  background-size: cover;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .red {
+  background: url("../images/redhot.png");
+  background-size: cover;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentL {
+  width: 220px;
+  height: 225px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentL a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentL a img {
+  width: 100%;
+  height: 100%;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR {
+  flex: 1;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 25px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .contentTitle {
+  color: #333333;
+  font-size: 18px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 5px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .star {
+  margin-bottom: 10px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .star li {
+  float: left;
+  border: 0;
+  width: 14px;
+  height: 14px;
+  background: url("../images/starG.png");
+  background-size: cover;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .star .starY {
+  background: url("../images/starY.png");
+  background-size: cover;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .Num {
+  color: #FC8F0E;
+  font-size: 16px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .Num:first-letter {
+  font-size: 30px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .txt {
+  color: #666666;
+  font-size: 14px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+  margin-bottom: 10px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .time {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .twoBtn {
+  height: 38px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .twoBtn p {
+  color: #999999;
+  font-size: 14px;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .twoBtn p i {
+  color: #333333;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .twoBtn .btns {
+  height: 38px;
+  width: 166px;
+  display: flex;
+  justify-content: space-between;
+}
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .twoBtn .btns button {
+  width: 80px;
+  height: 38px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  outline: none;
+}
+.projectLibrary .projectList_box .projectListPage {
+  margin-bottom: 53px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.projectLibrary .projectList_box .projectListPage .ivu-page .ivu-page-prev, .projectLibrary .projectList_box .projectListPage .ivu-page .ivu-page-next {
+  width: 96px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  line-height: 40px;
+}
+.projectLibrary .projectList_box .projectListPage .ivu-page .ivu-page-item {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 0;
+}
+.projectLibrary .projectList_box .projectListPage .ivu-page .ivu-page-item a {
+  color: #333333;
+}
+.projectLibrary .projectList_box .projectListPage .ivu-page .ivu-page-item-active {
+  background-color: #DB2D2E;
+}
+.projectLibrary .projectList_box .projectListPage .ivu-page .ivu-page-item-active a {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

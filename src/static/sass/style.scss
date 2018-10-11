@@ -1307,6 +1307,7 @@
         //分页
         .activitygoodsPage {
             margin-top: 26px;
+            margin-bottom: 70px;
             // background-color: red;
             width: 100%;
             height: 40px;
@@ -4217,6 +4218,8 @@
 
 //项目库界面
 .projectLibrary {
+
+    // 优选项目 
     .banner {
         height: 450px;
         width: 100%;
@@ -4224,7 +4227,7 @@
         background-size: 1920px 100%;
         background-position: center;
         
-        // 优选项目 
+
         .optimizing {
             height: 100%;
             width: 1200px;
@@ -4242,6 +4245,336 @@
             .swiper_box {
                 width: 100%;
                 height: 337px;
+                background-color: red;
+            }
+        }
+    }
+
+    // 项目列表
+    .projectList_box {
+        width: 1200px;
+
+        //列表头
+        .projectListTitle {
+            width: 100%;
+            height: 66px;
+            box-sizing: border-box;
+            border-bottom: 1px solid #E5E5E5;
+            display: flex;
+            margin-bottom: 25px;
+
+            //筛选
+            .screen_box {
+                height: 100%;
+                flex: 1;
+                display: flex;
+                align-items: center;
+                .txt {
+                    color: #333333;
+                    font-size: 14px;
+                    margin-right: 16px;
+                }
+                
+                button {
+                    width: 80px;
+                    height: 38px;
+                    background-color: #FFFFFF;
+                    border-radius: 5px;
+                    color: #333333;
+                    border: none;
+                    outline: none;
+                }
+                .active {
+                    border: 1px solid #DEDEDE;
+                }
+            }
+
+            //排序
+            .sort_box {
+                height: 100%;
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .sorts {
+                    height: 15px;
+                    display: flex;
+                    align-items: center;
+                    margin-right: 25px;
+                    cursor: default;
+
+                    i {
+                        color: #333333;
+                        font-size: 14px;
+                        margin-right: 3px;
+                    }
+                    .icons {
+                        width: 7px;
+                        height: 12px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .top {
+                            width: 7px;
+                            height: 5px;
+                            background: url('../images/topred.png');
+                            background-size: cover;
+                        }
+                        .bottom {
+                            width: 7px;
+                            height: 5px;
+                            background: url('../images/bottomred.png');
+                            background-size: cover;
+                        }
+                        .topgary {
+                            background: url('../images/topgray.png');
+                            background-size: cover;
+                        }
+                        .bottomgary {
+                            background: url('../images/bottomgray.png');
+                            background-size: cover;
+                        }
+                    }
+                }
+
+            }
+
+            //搜索
+            .search_box {
+                height: 100%;
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                // 搜索部分
+                .search {
+                    height: 19px;
+                    width: 261px;
+                    display: flex;
+                    justify-content: space-between;
+                    input {
+                        font-size: 14px;
+                        border-left: 1px solid #999999;
+                        box-sizing: border-box;
+                        padding-left: 17px;
+
+                        &::placeholder {
+                            color: #999999;
+                        }
+                        
+
+                    }
+                    .bigGlass {
+                        height: 19px;
+                        width: 19px;
+                        a{
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                            background: url('../images/fangdajing.png');
+                            background-size: cover;
+                            
+                        }
+                    }
+                }
+
+            }
+        }
+
+        //列表内容
+        .projectList_Content {
+            width: 100%;
+            margin-bottom: 14px;
+            .projectLists {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                li {
+                    width: 588px;
+                    height: 225px;
+                    border-radius: 5px;
+                    border: 1px solid #E5E5E5;
+                    overflow: hidden;
+                    display: flex;
+                    position: relative;
+                    margin-bottom: 24px;
+
+                    .sanjiao {
+                        width: 44px;
+                        height: 44px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    .green {
+                        background: url('../images/greenxuan.png');
+                        background-size: cover;
+                    }
+
+                    .red {
+                        background: url('../images/redhot.png');
+                        background-size: cover;
+
+                    }
+
+                    //内容的左边
+                    .contentL {
+                        width: 220px;
+                        height: 225px;
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            img {
+                                width: 100%;
+                                height: 100%;
+
+                            }
+                        }
+                    }
+
+                    //内容的右边
+                    .contentR {
+                        flex: 1;
+                        height: 100%;
+                        box-sizing: border-box;
+                        padding: 20px 25px;
+
+                        .contentTitle {
+                            color: #333333;
+                            font-size: 18px;
+                        }
+
+                        // 评分
+                        .star_box {
+                            width: 100%;
+                            height: 35px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-end;
+                            margin-bottom: 5px;
+                            .star {
+                                margin-bottom: 10px;
+                                li {
+                                    float: left;
+                                    border: 0;
+                                    width: 14px;
+                                    height: 14px;
+                                    background: url('../images/starG.png');
+                                    background-size: cover;
+                                    margin-right: 5px;
+                                    margin-bottom: 0;
+                                }
+
+                                .starY {
+                                    background: url('../images/starY.png');
+                                    background-size: cover;
+
+                                }
+                            }
+
+                            .Num {
+                                color: #FC8F0E;
+                                font-size: 16px;
+                                &:first-letter {
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+
+                        .txt {
+                            color: #666666;
+                            font-size: 14px;
+                            word-break: break-all;
+                            text-overflow: ellipsis;
+                            display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+                            -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/   
+                            -webkit-line-clamp: 2; /** 显示的行数 **/
+                            overflow: hidden;  /** 隐藏超出的内容 **/
+                            margin-bottom: 10px;
+                        }
+
+                        .time {
+                            color: #999999;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
+
+                        .twoBtn {
+                            height: 38px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            p {
+                                color: #999999;
+                                font-size: 14px;
+                                i {
+                                    color: #333333;
+                                }
+                            }
+
+                            .btns {
+                                height: 38px;
+                                width: 166px;
+                                display: flex;
+                                justify-content: space-between;
+                                button {
+                                    width: 80px;
+                                    height: 38px;
+                                    box-sizing: border-box;
+                                    background-color: rgba(0, 0, 0, 0);
+                                    border: 1px solid #DEDEDE;
+                                    border-radius: 5px;
+                                    outline: none;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        //分页
+        .projectListPage {
+            margin-bottom: 53px;
+            // background-color: red;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            .ivu-page {
+                //上一页 , 下一页
+                .ivu-page-prev,.ivu-page-next {
+                    width: 96px;
+                    height: 40px;
+                    border-radius: 5px;
+                    border: 1px solid #DEDEDE;
+                    line-height: 40px;
+                }
+                //中间页
+                .ivu-page-item {
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: 0;
+                    a {
+                        color:#333333;
+                    }
+
+                }
+                .ivu-page-item-active {
+                    background-color: #DB2D2E;
+                    a {
+                        color: #ffffff;
+                    }
+                }
             }
         }
     }
