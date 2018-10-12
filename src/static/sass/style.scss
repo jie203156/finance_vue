@@ -4457,24 +4457,9 @@
                             justify-content: space-between;
                             align-items: flex-end;
                             margin-bottom: 5px;
-                            .star {
-                                margin-bottom: 10px;
-                                li {
-                                    float: left;
-                                    border: 0;
-                                    width: 14px;
-                                    height: 14px;
-                                    background: url('../images/starG.png');
-                                    background-size: cover;
-                                    margin-right: 5px;
-                                    margin-bottom: 0;
-                                }
 
-                                .starY {
-                                    background: url('../images/starY.png');
-                                    background-size: cover;
-
-                                }
+                            .ivu-rate-star {
+                                margin-right: 3px;
                             }
 
                             .Num {
@@ -4580,7 +4565,7 @@
     }
 }
 
-//项目概况界面
+//项目主页界面
 .projectIndex {
     .banner {
         height: 450px;
@@ -4644,31 +4629,15 @@
                         display: flex;
                         align-items: center;
                         margin-bottom: 20px;
-                        .star {
-                            margin-right: 9px;
-                            margin-bottom: 5px;
-
-                            li {
-                                float: left;
-                                border: 0;
-                                width: 14px;
-                                height: 14px;
-                                background: url('../images/starG.png');
-                                background-size: cover;
-                                margin-right: 5px;
-                                margin-bottom: 0;
-                            }
-
-                            .starY {
-                                background: url('../images/starY.png');
-                                background-size: cover;
-
-                            }
+                        
+                        .ivu-rate-star {
+                            margin-right: 5px;
                         }
 
                         .Num {
                             color: #FC8F0E;
                             font-size: 16px;
+                            margin-left: 3px;
                         }
                     }
 
@@ -4753,6 +4722,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 45px;
 
         .projectIndexTitle {
             height: 100%;
@@ -4797,6 +4767,458 @@
                 }
 
             }
+        }
+    }
+}
+
+// 项目概况界面 
+.projectOverview {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+    // 主体内容左边
+    .contentLeft {
+        width: 824px;
+        margin-bottom: 74px;
+        .common {
+            padding-top: 40px;
+            .title {
+                color: #333333;
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 23px;
+            }
+
+            p {
+                color: #333333;
+                font-size: 14px;
+                line-height: 24px;
+            }
+
+            .txt {
+                color: #333333;
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 40px;
+            }
+            .line {
+                width: 100%;
+                height: 1px;
+                background-color: #E5E5E5;
+                
+            }
+        }
+
+        .project {
+            padding: 0;
+        }
+    }
+
+    // 主体内容右边
+    .contentRight {
+        width: 310px;
+
+        // 用户点评
+        .comments {
+            width: 100%;
+            height: 430px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid #DEDEDE;
+            padding: 25px 22px 0 31px;
+            margin-bottom: 20px;
+
+            .title {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                i {
+                    font-size: 20px;
+                    color: #3D3D3D;
+                    font-weight: bold;
+                }
+
+                a {
+                    color: #3D3D3D;
+                    font-size: 14px;
+                }
+            }
+
+            // 评分
+            .star_box {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 35px;
+
+                .txt {
+                    font-size: 14px;
+                    color: #333333;
+                }
+
+                .ivu-rate-star {
+                    margin-right: 5px;
+                }
+
+                .Num {
+                    color: #FC8F0E;
+                    font-size: 40px;
+                }
+            }
+
+            // 进度条
+            .progressBar_box {
+                width: 100%;
+                .progressBar {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 25px;
+
+                    p {
+                        color: #333;
+                        font-size: 14px;
+                        margin-right: 14px;
+                    }
+                    
+
+                    .ivu-progress {
+                        flex: 1;
+                        margin-right: 10px;
+                    }
+
+                    i {
+                        color: #DB2D2E;
+                        font-size: 14px;
+                    }
+                }
+
+                .business .ivu-progress .ivu-progress-bg {
+                    background-color: #FF5C5C;
+                }
+                .team .ivu-progress .ivu-progress-bg {
+                    background-color: #1ACD9A;
+                }
+                .counselor .ivu-progress .ivu-progress-bg {
+                    background-color: #2F94F7;
+                }
+                .product .ivu-progress .ivu-progress-bg {
+                    background-color: #FF7B36;
+                }
+                .message .ivu-progress .ivu-progress-bg {
+                    background-color: #F8BA17;
+                }
+            }
+
+        }
+        // 项目尽调
+        .Project_box {
+            width: 100%;
+            height: 430px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid #DEDEDE;
+            padding: 25px 0 0 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            .title {
+                width: 250px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                i {
+                    font-size: 20px;
+                    color: #3D3D3D;
+                    font-weight: bold;
+                }
+
+                a {
+                    color: #3D3D3D;
+                    font-size: 14px;
+                }
+            }
+
+            // 评分
+            .grade {
+                width: 250px;
+                height: 65px;
+                margin-bottom: 20px;
+                display: flex;
+                .left {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    .num {
+                        font-size: 30px;
+                        color: #FC8F0E;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #333333;
+                    }
+                }
+
+                .line {
+                    width: 1px;
+                    height: 100%;
+                    background-color: #E5E5E5;
+                }
+
+                .right {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 5px;
+                    box-sizing: border-box;
+                    .num {
+                        font-size: 25px;
+                        color: #FC8F0E;
+
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #333333;
+                    }
+                }
+            }
+
+            // 图表
+            .chart_box {
+                width: 310px;
+                height: 270px;
+                display: flex;
+                justify-content: center;
+                // background-color: red;
+
+            }
+
+            //暂无尽调信息
+            .noINfo {
+                width: 100%;
+                height: 400px;
+                background: url("../images/noinfo.png") no-repeat;
+                background-size: 60%;
+                background-position: center;
+            }
+
+        }
+    }
+}
+
+// 项目尽调界面 
+.productDiligence {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+    // 主体内容左边
+    .contentLeft {
+        width: 860px;
+        height: 430px;
+        margin-bottom: 74px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #DEDEDE;
+        padding-top:30px; 
+
+        .title_box {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            padding: 0 30px;
+            margin-bottom: 65px;
+            .title {
+                color: #3D3D3D;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .time {
+                font-size: 14px;
+                color: #3D3D3D;
+            }
+        }
+        
+        .contentInfo_box {
+            height: 300px;
+            width: 100%;
+            display: flex;
+
+            // 图表
+            .chart_box {
+                width: 310px;
+                height: 270px;
+                display: flex;
+                justify-content: center;
+                // background-color: red;
+
+            }
+
+            .contentInfo {
+                height: 100%;
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+                .left,.right {                   
+                    .num {
+                        margin-bottom: 30px;
+                        font-size: 40px;
+                        color: #FC8F0E;
+                        i {
+                            color: #333333;
+                            font-size: 14px;
+                        }
+                    }
+
+                    ul {
+                        li {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 16px;
+                            font-size: 14px;
+                            i {
+                                display: inline-block;
+                                width: 15px;
+                                height: 15px;
+                                border-radius: 50%;
+                                background-color: #0EAE30;
+                                margin-right: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    // 没有信息
+    .noinfo {
+        width: 860px;
+        height: 430px;
+        margin-bottom: 74px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background: url('../images/noinfo.png') no-repeat;
+        background-position: center;
+        background-size: 20%;
+    }
+
+
+
+    // 主体内容右边
+    .contentRight {
+        width: 310px;
+
+        // 用户点评
+        .comments {
+            width: 100%;
+            height: 430px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid #DEDEDE;
+            padding: 25px 22px 0 31px;
+            margin-bottom: 20px;
+
+            .title {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                i {
+                    font-size: 20px;
+                    color: #3D3D3D;
+                    font-weight: bold;
+                }
+
+                a {
+                    color: #3D3D3D;
+                    font-size: 14px;
+                }
+            }
+
+            // 评分
+            .star_box {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 35px;
+
+                .txt {
+                    font-size: 14px;
+                    color: #333333;
+                }
+
+                .ivu-rate-star {
+                    margin-right: 5px;
+                }
+
+                .Num {
+                    color: #FC8F0E;
+                    font-size: 40px;
+                }
+            }
+
+            // 进度条
+            .progressBar_box {
+                width: 100%;
+                .progressBar {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 25px;
+
+                    p {
+                        color: #333;
+                        font-size: 14px;
+                        margin-right: 14px;
+                    }
+                    
+
+                    .ivu-progress {
+                        flex: 1;
+                        margin-right: 10px;
+                    }
+
+                    i {
+                        color: #DB2D2E;
+                        font-size: 14px;
+                    }
+                }
+
+                .business .ivu-progress .ivu-progress-bg {
+                    background-color: #FF5C5C;
+                }
+                .team .ivu-progress .ivu-progress-bg {
+                    background-color: #1ACD9A;
+                }
+                .counselor .ivu-progress .ivu-progress-bg {
+                    background-color: #2F94F7;
+                }
+                .product .ivu-progress .ivu-progress-bg {
+                    background-color: #FF7B36;
+                }
+                .message .ivu-progress .ivu-progress-bg {
+                    background-color: #F8BA17;
+                }
+            }
+
         }
     }
 }

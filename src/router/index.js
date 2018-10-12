@@ -34,6 +34,8 @@ import projectLibrary from '../components/projectLibrary/projectLibrary.vue'
 import projectIndex from '../components/projectLibrary/projectIndex.vue'
 //项目概况界面
 import projectOverview from '../components/projectLibrary/projectOverview.vue'
+//项目尽调界面
+import productDiligence from '../components/projectLibrary/productDiligence.vue'
 
 const router = new VueRouter({
     routes:[
@@ -51,8 +53,17 @@ const router = new VueRouter({
         {path:'/wirterArticleContent',component:wirterArticleContent},
         {path:'/assembly',component:assembly},
         {path:'/projectLibrary',component:projectLibrary},
-        {path:'/projectIndex',component:projectIndex},
-        {path:'/projectIndex/projectOverview',component:projectOverview},
+
+        //项目主页界面
+        {
+            path:'/projectIndex',component:projectIndex,
+            children:[
+                // 项目概况界面
+                {path:'/',redirect:'/projectIndex/projectOverview'},
+                {path:'projectOverview',component:projectOverview},
+                {path:'productDiligence',component:productDiligence},
+            ]
+        },
     ]
 })
 

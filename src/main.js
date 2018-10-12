@@ -9,6 +9,13 @@ Vue.use(ElementUI);
 
 import 'iview/dist/styles/iview.css'
 
+// 引入echarts
+import echarts from 'echarts'
+
+Vue.prototype.$echarts = echarts 
+
+
+
 Vue.config.productionTip = false
 
 

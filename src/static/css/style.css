@@ -4151,22 +4151,8 @@ i {
   align-items: flex-end;
   margin-bottom: 5px;
 }
-.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .star {
-  margin-bottom: 10px;
-}
-.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .star li {
-  float: left;
-  border: 0;
-  width: 14px;
-  height: 14px;
-  background: url("../images/starG.png");
-  background-size: cover;
-  margin-right: 5px;
-  margin-bottom: 0;
-}
-.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .star .starY {
-  background: url("../images/starY.png");
-  background-size: cover;
+.projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .ivu-rate-star {
+  margin-right: 3px;
 }
 .projectLibrary .projectList_box .projectList_Content .projectLists li .contentR .star_box .Num {
   color: #FC8F0E;
@@ -4310,27 +4296,13 @@ i {
   align-items: center;
   margin-bottom: 20px;
 }
-.projectIndex .banner .bannerInfo .left .titleRight .star_box .star {
-  margin-right: 9px;
-  margin-bottom: 5px;
-}
-.projectIndex .banner .bannerInfo .left .titleRight .star_box .star li {
-  float: left;
-  border: 0;
-  width: 14px;
-  height: 14px;
-  background: url("../images/starG.png");
-  background-size: cover;
+.projectIndex .banner .bannerInfo .left .titleRight .star_box .ivu-rate-star {
   margin-right: 5px;
-  margin-bottom: 0;
-}
-.projectIndex .banner .bannerInfo .left .titleRight .star_box .star .starY {
-  background: url("../images/starY.png");
-  background-size: cover;
 }
 .projectIndex .banner .bannerInfo .left .titleRight .star_box .Num {
   color: #FC8F0E;
   font-size: 16px;
+  margin-left: 3px;
 }
 .projectIndex .banner .bannerInfo .left .titleRight .txt {
   font-size: 14px;
@@ -4400,6 +4372,7 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 45px;
 }
 .projectIndex .projectIndexTitle_box .projectIndexTitle {
   height: 100%;
@@ -4436,6 +4409,374 @@ i {
   background: url("../images/share.png");
   background-size: cover;
   margin-right: 5px;
+}
+
+.projectOverview {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.projectOverview .contentLeft {
+  width: 824px;
+  margin-bottom: 74px;
+}
+.projectOverview .contentLeft .common {
+  padding-top: 40px;
+}
+.projectOverview .contentLeft .common .title {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+.projectOverview .contentLeft .common p {
+  color: #333333;
+  font-size: 14px;
+  line-height: 24px;
+}
+.projectOverview .contentLeft .common .txt {
+  color: #333333;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.projectOverview .contentLeft .common .line {
+  width: 100%;
+  height: 1px;
+  background-color: #E5E5E5;
+}
+.projectOverview .contentLeft .project {
+  padding: 0;
+}
+.projectOverview .contentRight {
+  width: 310px;
+}
+.projectOverview .contentRight .comments {
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 22px 0 31px;
+  margin-bottom: 20px;
+}
+.projectOverview .contentRight .comments .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectOverview .contentRight .comments .title i {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.projectOverview .contentRight .comments .title a {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+.projectOverview .contentRight .comments .star_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.projectOverview .contentRight .comments .star_box .txt {
+  font-size: 14px;
+  color: #333333;
+}
+.projectOverview .contentRight .comments .star_box .ivu-rate-star {
+  margin-right: 5px;
+}
+.projectOverview .contentRight .comments .star_box .Num {
+  color: #FC8F0E;
+  font-size: 40px;
+}
+.projectOverview .contentRight .comments .progressBar_box {
+  width: 100%;
+}
+.projectOverview .contentRight .comments .progressBar_box .progressBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.projectOverview .contentRight .comments .progressBar_box .progressBar p {
+  color: #333;
+  font-size: 14px;
+  margin-right: 14px;
+}
+.projectOverview .contentRight .comments .progressBar_box .progressBar .ivu-progress {
+  flex: 1;
+  margin-right: 10px;
+}
+.projectOverview .contentRight .comments .progressBar_box .progressBar i {
+  color: #DB2D2E;
+  font-size: 14px;
+}
+.projectOverview .contentRight .comments .progressBar_box .business .ivu-progress .ivu-progress-bg {
+  background-color: #FF5C5C;
+}
+.projectOverview .contentRight .comments .progressBar_box .team .ivu-progress .ivu-progress-bg {
+  background-color: #1ACD9A;
+}
+.projectOverview .contentRight .comments .progressBar_box .counselor .ivu-progress .ivu-progress-bg {
+  background-color: #2F94F7;
+}
+.projectOverview .contentRight .comments .progressBar_box .product .ivu-progress .ivu-progress-bg {
+  background-color: #FF7B36;
+}
+.projectOverview .contentRight .comments .progressBar_box .message .ivu-progress .ivu-progress-bg {
+  background-color: #F8BA17;
+}
+.projectOverview .contentRight .Project_box {
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projectOverview .contentRight .Project_box .title {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.projectOverview .contentRight .Project_box .title i {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.projectOverview .contentRight .Project_box .title a {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+.projectOverview .contentRight .Project_box .grade {
+  width: 250px;
+  height: 65px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.projectOverview .contentRight .Project_box .grade .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectOverview .contentRight .Project_box .grade .left .num {
+  font-size: 30px;
+  color: #FC8F0E;
+}
+.projectOverview .contentRight .Project_box .grade .left p {
+  font-size: 14px;
+  color: #333333;
+}
+.projectOverview .contentRight .Project_box .grade .line {
+  width: 1px;
+  height: 100%;
+  background-color: #E5E5E5;
+}
+.projectOverview .contentRight .Project_box .grade .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.projectOverview .contentRight .Project_box .grade .right .num {
+  font-size: 25px;
+  color: #FC8F0E;
+}
+.projectOverview .contentRight .Project_box .grade .right p {
+  font-size: 14px;
+  color: #333333;
+}
+.projectOverview .contentRight .Project_box .chart_box {
+  width: 310px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+}
+.projectOverview .contentRight .Project_box .noINfo {
+  width: 100%;
+  height: 400px;
+  background: url("../images/noinfo.png") no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+
+.productDiligence {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.productDiligence .contentLeft {
+  width: 860px;
+  height: 430px;
+  margin-bottom: 74px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding-top: 30px;
+}
+.productDiligence .contentLeft .title_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin-bottom: 65px;
+}
+.productDiligence .contentLeft .title_box .title {
+  color: #3D3D3D;
+  font-size: 20px;
+  font-weight: bold;
+}
+.productDiligence .contentLeft .title_box .time {
+  font-size: 14px;
+  color: #3D3D3D;
+}
+.productDiligence .contentLeft .contentInfo_box {
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+.productDiligence .contentLeft .contentInfo_box .chart_box {
+  width: 310px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+}
+.productDiligence .contentLeft .contentInfo_box .contentInfo {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.productDiligence .contentLeft .contentInfo_box .contentInfo .left .num, .productDiligence .contentLeft .contentInfo_box .contentInfo .right .num {
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #FC8F0E;
+}
+.productDiligence .contentLeft .contentInfo_box .contentInfo .left .num i, .productDiligence .contentLeft .contentInfo_box .contentInfo .right .num i {
+  color: #333333;
+  font-size: 14px;
+}
+.productDiligence .contentLeft .contentInfo_box .contentInfo .left ul li, .productDiligence .contentLeft .contentInfo_box .contentInfo .right ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.productDiligence .contentLeft .contentInfo_box .contentInfo .left ul li i, .productDiligence .contentLeft .contentInfo_box .contentInfo .right ul li i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0EAE30;
+  margin-right: 16px;
+}
+.productDiligence .noinfo {
+  width: 860px;
+  height: 430px;
+  margin-bottom: 74px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: url("../images/noinfo.png") no-repeat;
+  background-position: center;
+  background-size: 20%;
+}
+.productDiligence .contentRight {
+  width: 310px;
+}
+.productDiligence .contentRight .comments {
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 22px 0 31px;
+  margin-bottom: 20px;
+}
+.productDiligence .contentRight .comments .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productDiligence .contentRight .comments .title i {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.productDiligence .contentRight .comments .title a {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+.productDiligence .contentRight .comments .star_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.productDiligence .contentRight .comments .star_box .txt {
+  font-size: 14px;
+  color: #333333;
+}
+.productDiligence .contentRight .comments .star_box .ivu-rate-star {
+  margin-right: 5px;
+}
+.productDiligence .contentRight .comments .star_box .Num {
+  color: #FC8F0E;
+  font-size: 40px;
+}
+.productDiligence .contentRight .comments .progressBar_box {
+  width: 100%;
+}
+.productDiligence .contentRight .comments .progressBar_box .progressBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.productDiligence .contentRight .comments .progressBar_box .progressBar p {
+  color: #333;
+  font-size: 14px;
+  margin-right: 14px;
+}
+.productDiligence .contentRight .comments .progressBar_box .progressBar .ivu-progress {
+  flex: 1;
+  margin-right: 10px;
+}
+.productDiligence .contentRight .comments .progressBar_box .progressBar i {
+  color: #DB2D2E;
+  font-size: 14px;
+}
+.productDiligence .contentRight .comments .progressBar_box .business .ivu-progress .ivu-progress-bg {
+  background-color: #FF5C5C;
+}
+.productDiligence .contentRight .comments .progressBar_box .team .ivu-progress .ivu-progress-bg {
+  background-color: #1ACD9A;
+}
+.productDiligence .contentRight .comments .progressBar_box .counselor .ivu-progress .ivu-progress-bg {
+  background-color: #2F94F7;
+}
+.productDiligence .contentRight .comments .progressBar_box .product .ivu-progress .ivu-progress-bg {
+  background-color: #FF7B36;
+}
+.productDiligence .contentRight .comments .progressBar_box .message .ivu-progress .ivu-progress-bg {
+  background-color: #F8BA17;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -11,15 +11,10 @@
 
                         <!-- 评分 -->
                         <div class="star_box">
-                            <ul class="star ">
-                                <li class="starY"></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                            
+                            <Rate disabled v-model="valueDisabled" />
 
-                            <div class="Num">{{num}}</div>
+                            <div class="Num">{{valueDisabled}}</div>
                         </div>
 
                         <!-- 简介说明 -->
@@ -51,8 +46,8 @@
         <div class="projectIndexTitle_box w">
             <div class="projectIndexTitle">
                 <ul>
-                    <li><router-link to="/projectIndex/projectOverview" class="active">项目概况</router-link></li>
-                    <li><a href="#">项目尽调</a></li>
+                    <li><a @click="projectOverview" :class="activeShow == 1?'active':''">项目概况</a></li>
+                    <li><a @click="productDiligence" :class="activeShow == 2?'active':''">项目尽调</a></li>
                     <li><a href="#">点评 (<i>10</i>)</a></li>
                     <li><a href="#">文章 (<i>102</i>)</a></li>
                     <li><a href="#">收藏者 (<i>8920</i>)</a></li>
@@ -69,10 +64,23 @@
     </div>
 </template>
 <script>
+    import {Rate} from 'iview'
     export default {
+        components:{Rate},
         data(){
             return {
-                num:3.9,
+                valueDisabled: 3.9,
+                activeShow:1,
+            }
+        },
+        methods:{
+            projectOverview(){
+                this.activeShow = 1
+                this.$router.push({path:'/projectIndex/projectOverview'})
+            },
+            productDiligence(){
+                this.activeShow = 2
+                this.$router.push({path:'/projectIndex/productDiligence'})
             }
         }
     }

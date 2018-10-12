@@ -63,6 +63,38 @@
                 <ul class="projectLists">
                     <li>
 
+                        <div class="sanjiao red"></div>
+                        <!-- 内容的左边 -->
+                        <div class="contentL">
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
+                        </div>
+
+                        <!-- 内容的右边 -->
+                        <div class="contentR">
+                            
+                            <div class="contentTitle">星云链nebulas</div>
+
+                            <!-- 评分 -->
+                            <div class="star_box">
+                                <Rate disabled v-model="valueDisabled" />
+
+                                <div class="Num">{{valueDisabled}}</div>
+                            </div>
+
+                            <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
+                            <p class="time">2014年07月24日上线 / 香港</p>
+                            <div class="twoBtn">
+                                <p>浏览量：<i>2,250</i></p>
+                                
+                                <div class="btns">
+                                    <button >白皮书</button>
+                                    <button @click="projectIndexBtn">查看</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+
                         <div class="sanjiao green"></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
@@ -76,15 +108,41 @@
 
                             <!-- 评分 -->
                             <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <Rate disabled v-model="valueDisabled" />
 
-                                <div class="Num">{{num}}</div>
+                                <div class="Num">{{valueDisabled}}</div>
+                            </div>
+
+                            <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
+                            <p class="time">2014年07月24日上线 / 香港</p>
+                            <div class="twoBtn">
+                                <p>浏览量：<i>2,250</i></p>
+                                
+                                <div class="btns">
+                                    <button >白皮书</button>
+                                    <button @click="projectIndexBtn">查看</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="sanjiao green"></div>
+                        <!-- 内容的左边 -->
+                        <div class="contentL">
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
+                        </div>
+
+                        <!-- 内容的右边 -->
+                        <div class="contentR">
+                            
+                            <div class="contentTitle">星云链nebulas</div>
+
+                            <!-- 评分 -->
+                            <div class="star_box">
+                                <Rate disabled v-model="valueDisabled" />
+
+                                <div class="Num">{{valueDisabled}}</div>
                             </div>
 
                             <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
@@ -104,7 +162,7 @@
                         <div class="sanjiao red"></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
                         </div>
 
                         <!-- 内容的右边 -->
@@ -114,15 +172,9 @@
 
                             <!-- 评分 -->
                             <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <Rate disabled v-model="valueDisabled" />
 
-                                <div class="Num">{{num}}</div>
+                                <div class="Num">{{valueDisabled}}</div>
                             </div>
 
                             <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
@@ -132,17 +184,17 @@
                                 
                                 <div class="btns">
                                     <button >白皮书</button>
-                                    <button >查看</button>
+                                    <button @click="projectIndexBtn">查看</button>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
 
-                        <div class="sanjiao green"></div>
+                        <div class="sanjiao "></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
                         </div>
 
                         <!-- 内容的右边 -->
@@ -152,15 +204,9 @@
 
                             <!-- 评分 -->
                             <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <Rate disabled v-model="valueDisabled" />
 
-                                <div class="Num">{{num}}</div>
+                                <div class="Num">{{valueDisabled}}</div>
                             </div>
 
                             <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
@@ -170,7 +216,7 @@
                                 
                                 <div class="btns">
                                     <button >白皮书</button>
-                                    <button >查看</button>
+                                    <button @click="projectIndexBtn">查看</button>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +226,7 @@
                         <div class="sanjiao red"></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
                         </div>
 
                         <!-- 内容的右边 -->
@@ -190,15 +236,9 @@
 
                             <!-- 评分 -->
                             <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <Rate disabled v-model="valueDisabled" />
 
-                                <div class="Num">{{num}}</div>
+                                <div class="Num">{{valueDisabled}}</div>
                             </div>
 
                             <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
@@ -208,7 +248,7 @@
                                 
                                 <div class="btns">
                                     <button >白皮书</button>
-                                    <button >查看</button>
+                                    <button @click="projectIndexBtn">查看</button>
                                 </div>
                             </div>
                         </div>
@@ -218,7 +258,7 @@
                         <div class="sanjiao green"></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
                         </div>
 
                         <!-- 内容的右边 -->
@@ -228,15 +268,9 @@
 
                             <!-- 评分 -->
                             <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <Rate disabled v-model="valueDisabled" />
 
-                                <div class="Num">{{num}}</div>
+                                <div class="Num">{{valueDisabled}}</div>
                             </div>
 
                             <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
@@ -246,45 +280,7 @@
                                 
                                 <div class="btns">
                                     <button >白皮书</button>
-                                    <button >查看</button>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-
-                        <div class="sanjiao"></div>
-                        <!-- 内容的左边 -->
-                        <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
-                        </div>
-
-                        <!-- 内容的右边 -->
-                        <div class="contentR">
-                            
-                            <div class="contentTitle">星云链nebulas</div>
-
-                            <!-- 评分 -->
-                            <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-
-                                <div class="Num">{{num}}</div>
-                            </div>
-
-                            <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
-                            <p class="time">2014年07月24日上线 / 香港</p>
-                            <div class="twoBtn">
-                                <p>浏览量：<i>2,250</i></p>
-                                
-                                <div class="btns">
-                                    <button >白皮书</button>
-                                    <button >查看</button>
+                                    <button @click="projectIndexBtn">查看</button>
                                 </div>
                             </div>
                         </div>
@@ -294,7 +290,7 @@
                         <div class="sanjiao green"></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
                         </div>
 
                         <!-- 内容的右边 -->
@@ -304,15 +300,9 @@
 
                             <!-- 评分 -->
                             <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <Rate disabled v-model="valueDisabled" />
 
-                                <div class="Num">{{num}}</div>
+                                <div class="Num">{{valueDisabled}}</div>
                             </div>
 
                             <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
@@ -322,55 +312,17 @@
                                 
                                 <div class="btns">
                                     <button >白皮书</button>
-                                    <button >查看</button>
-                                </div>
-                            </div>
-                        </div>
-                    </li >
-                    <li>
-
-                        <div class="sanjiao"></div>
-                        <!-- 内容的左边 -->
-                        <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
-                        </div>
-
-                        <!-- 内容的右边 -->
-                        <div class="contentR">
-                            
-                            <div class="contentTitle">星云链nebulas</div>
-
-                            <!-- 评分 -->
-                            <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-
-                                <div class="Num">{{num}}</div>
-                            </div>
-
-                            <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
-                            <p class="time">2014年07月24日上线 / 香港</p>
-                            <div class="twoBtn">
-                                <p>浏览量：<i>2,250</i></p>
-                                
-                                <div class="btns">
-                                    <button >白皮书</button>
-                                    <button >查看</button>
+                                    <button @click="projectIndexBtn">查看</button>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
 
-                        <div class="sanjiao red"></div>
+                        <div class="sanjiao green"></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
                         </div>
 
                         <!-- 内容的右边 -->
@@ -380,15 +332,9 @@
 
                             <!-- 评分 -->
                             <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <Rate disabled v-model="valueDisabled" />
 
-                                <div class="Num">{{num}}</div>
+                                <div class="Num">{{valueDisabled}}</div>
                             </div>
 
                             <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
@@ -398,17 +344,17 @@
                                 
                                 <div class="btns">
                                     <button >白皮书</button>
-                                    <button >查看</button>
+                                    <button @click="projectIndexBtn">查看</button>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
 
-                        <div class="sanjiao red"></div>
+                        <div class="sanjiao green"></div>
                         <!-- 内容的左边 -->
                         <div class="contentL">
-                            <a href="#"><img src="../../images/projectList_Contenticon.png" alt=""></a>
+                            <router-link to="/projectIndex"><img src="../../images/projectList_Contenticon.png" alt=""></router-link>
                         </div>
 
                         <!-- 内容的右边 -->
@@ -418,15 +364,9 @@
 
                             <!-- 评分 -->
                             <div class="star_box">
-                                <ul class="star ">
-                                    <li class="starY"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
+                                <Rate disabled v-model="valueDisabled" />
 
-                                <div class="Num">{{num}}</div>
+                                <div class="Num">{{valueDisabled}}</div>
                             </div>
 
                             <p class="txt">Hi,欢迎来到彼得的思想空间，在这里彼得将和你共同探索区块链的本质和规律...</p>
@@ -436,7 +376,7 @@
                                 
                                 <div class="btns">
                                     <button >白皮书</button>
-                                    <button >查看</button>
+                                    <button @click="projectIndexBtn">查看</button>
                                 </div>
                             </div>
                         </div>
@@ -452,16 +392,16 @@
     </div>
 </template>
 <script>
-    import {Page} from 'iview'
+    import {Page,Rate} from 'iview'
     export default {
-        components:{Page},
+        components:{Page,Rate},
         data (){
             return{
                 screenIsshow:1,
                 sortsShow : true,
                 timeShow : true,
                 marketShow : true,
-                num : 3.9,
+                valueDisabled: 3.9,
             
             }
         },
