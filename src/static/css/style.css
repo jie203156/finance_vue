@@ -4779,4 +4779,1250 @@ i {
   background-color: #F8BA17;
 }
 
+.projectArticles {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.projectArticles .moreArticlesList_box {
+  width: 854px;
+  margin-top: -35px;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li {
+  height: 217px;
+  width: 100%;
+  border-top: 2px solid #F0F0F0;
+  display: flex;
+  align-items: center;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .listPic {
+  width: 290px;
+  height: 150px;
+  background-color: red;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 32px;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .listPic a img {
+  width: 100%;
+  height: 100%;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo {
+  flex: 1;
+  height: 150px;
+  width: 678px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo .title a {
+  color: #333333;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo .introduce {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .smallLogo a .iconPic {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .smallLogo a .iconPic img {
+  width: 100%;
+  height: 100%;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .smallLogo a i {
+  font-size: 14px;
+  color: #333333;
+  line-height: 30px;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .times {
+  margin-right: 25px;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .times p {
+  width: 18px;
+  height: 18px;
+  background: url("../images/time.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .times i {
+  font-size: 14px;
+  color: #999999;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .eye {
+  margin-right: 25px;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .eye p {
+  width: 24px;
+  height: 16px;
+  background: url("../images/eye.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .eye i {
+  font-size: 14px;
+  color: #999999;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .infoborder p {
+  width: 18px;
+  height: 17px;
+  background: url("../images/infoborder.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li .rightInfo div .icons .infoborder i {
+  font-size: 14px;
+  color: #999999;
+}
+.projectArticles .moreArticlesList_box .infoContent ul li:first-child {
+  border-top: 0;
+}
+.projectArticles .moreArticlesList_box .moveBtn {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #DEDEDE;
+  border-radius: 5px;
+  margin-bottom: 87px;
+}
+.projectArticles .moreArticlesList_box .moveBtn a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #333333;
+}
+.projectArticles .contentRight {
+  width: 310px;
+}
+.projectArticles .contentRight .comments {
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 22px 0 31px;
+  margin-bottom: 20px;
+}
+.projectArticles .contentRight .comments .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectArticles .contentRight .comments .title i {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.projectArticles .contentRight .comments .title a {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+.projectArticles .contentRight .comments .star_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.projectArticles .contentRight .comments .star_box .txt {
+  font-size: 14px;
+  color: #333333;
+}
+.projectArticles .contentRight .comments .star_box .ivu-rate-star {
+  margin-right: 5px;
+}
+.projectArticles .contentRight .comments .star_box .Num {
+  color: #FC8F0E;
+  font-size: 40px;
+}
+.projectArticles .contentRight .comments .progressBar_box {
+  width: 100%;
+}
+.projectArticles .contentRight .comments .progressBar_box .progressBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.projectArticles .contentRight .comments .progressBar_box .progressBar p {
+  color: #333;
+  font-size: 14px;
+  margin-right: 14px;
+}
+.projectArticles .contentRight .comments .progressBar_box .progressBar .ivu-progress {
+  flex: 1;
+  margin-right: 10px;
+}
+.projectArticles .contentRight .comments .progressBar_box .progressBar i {
+  color: #DB2D2E;
+  font-size: 14px;
+}
+.projectArticles .contentRight .comments .progressBar_box .business .ivu-progress .ivu-progress-bg {
+  background-color: #FF5C5C;
+}
+.projectArticles .contentRight .comments .progressBar_box .team .ivu-progress .ivu-progress-bg {
+  background-color: #1ACD9A;
+}
+.projectArticles .contentRight .comments .progressBar_box .counselor .ivu-progress .ivu-progress-bg {
+  background-color: #2F94F7;
+}
+.projectArticles .contentRight .comments .progressBar_box .product .ivu-progress .ivu-progress-bg {
+  background-color: #FF7B36;
+}
+.projectArticles .contentRight .comments .progressBar_box .message .ivu-progress .ivu-progress-bg {
+  background-color: #F8BA17;
+}
+.projectArticles .contentRight .Project_box {
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projectArticles .contentRight .Project_box .title {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.projectArticles .contentRight .Project_box .title i {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.projectArticles .contentRight .Project_box .title a {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+.projectArticles .contentRight .Project_box .grade {
+  width: 250px;
+  height: 65px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.projectArticles .contentRight .Project_box .grade .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectArticles .contentRight .Project_box .grade .left .num {
+  font-size: 30px;
+  color: #FC8F0E;
+}
+.projectArticles .contentRight .Project_box .grade .left p {
+  font-size: 14px;
+  color: #333333;
+}
+.projectArticles .contentRight .Project_box .grade .line {
+  width: 1px;
+  height: 100%;
+  background-color: #E5E5E5;
+}
+.projectArticles .contentRight .Project_box .grade .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.projectArticles .contentRight .Project_box .grade .right .num {
+  font-size: 25px;
+  color: #FC8F0E;
+}
+.projectArticles .contentRight .Project_box .grade .right p {
+  font-size: 14px;
+  color: #333333;
+}
+.projectArticles .contentRight .Project_box .chart_box {
+  width: 310px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+}
+.projectArticles .contentRight .Project_box .noINfo {
+  width: 100%;
+  height: 400px;
+  background: url("../images/noinfo.png") no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+
+.collector {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.collector .moreArticlesList_box {
+  width: 850px;
+}
+.collector .moreArticlesList_box .collectorS_box ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.collector .moreArticlesList_box .collectorS_box ul li {
+  width: 200px;
+  height: 180px;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.collector .moreArticlesList_box .collectorS_box ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.collector .moreArticlesList_box .collectorS_box ul li a .icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+.collector .moreArticlesList_box .collectorS_box ul li a .icon img {
+  width: 100%;
+  height: 100%;
+}
+.collector .moreArticlesList_box .collectorS_box ul li a .txt {
+  font-size: 18px;
+  color: #333333;
+}
+.collector .moreArticlesList_box .moveBtn {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #DEDEDE;
+  border-radius: 5px;
+  margin-bottom: 87px;
+}
+.collector .moreArticlesList_box .moveBtn a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #333333;
+}
+.collector .contentRight {
+  width: 310px;
+}
+.collector .contentRight .comments {
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 22px 0 31px;
+  margin-bottom: 20px;
+}
+.collector .contentRight .comments .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.collector .contentRight .comments .title i {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.collector .contentRight .comments .title a {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+.collector .contentRight .comments .star_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.collector .contentRight .comments .star_box .txt {
+  font-size: 14px;
+  color: #333333;
+}
+.collector .contentRight .comments .star_box .ivu-rate-star {
+  margin-right: 5px;
+}
+.collector .contentRight .comments .star_box .Num {
+  color: #FC8F0E;
+  font-size: 40px;
+}
+.collector .contentRight .comments .progressBar_box {
+  width: 100%;
+}
+.collector .contentRight .comments .progressBar_box .progressBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.collector .contentRight .comments .progressBar_box .progressBar p {
+  color: #333;
+  font-size: 14px;
+  margin-right: 14px;
+}
+.collector .contentRight .comments .progressBar_box .progressBar .ivu-progress {
+  flex: 1;
+  margin-right: 10px;
+}
+.collector .contentRight .comments .progressBar_box .progressBar i {
+  color: #DB2D2E;
+  font-size: 14px;
+}
+.collector .contentRight .comments .progressBar_box .business .ivu-progress .ivu-progress-bg {
+  background-color: #FF5C5C;
+}
+.collector .contentRight .comments .progressBar_box .team .ivu-progress .ivu-progress-bg {
+  background-color: #1ACD9A;
+}
+.collector .contentRight .comments .progressBar_box .counselor .ivu-progress .ivu-progress-bg {
+  background-color: #2F94F7;
+}
+.collector .contentRight .comments .progressBar_box .product .ivu-progress .ivu-progress-bg {
+  background-color: #FF7B36;
+}
+.collector .contentRight .comments .progressBar_box .message .ivu-progress .ivu-progress-bg {
+  background-color: #F8BA17;
+}
+.collector .contentRight .Project_box {
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collector .contentRight .Project_box .title {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.collector .contentRight .Project_box .title i {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.collector .contentRight .Project_box .title a {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+.collector .contentRight .Project_box .grade {
+  width: 250px;
+  height: 65px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.collector .contentRight .Project_box .grade .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.collector .contentRight .Project_box .grade .left .num {
+  font-size: 30px;
+  color: #FC8F0E;
+}
+.collector .contentRight .Project_box .grade .left p {
+  font-size: 14px;
+  color: #333333;
+}
+.collector .contentRight .Project_box .grade .line {
+  width: 1px;
+  height: 100%;
+  background-color: #E5E5E5;
+}
+.collector .contentRight .Project_box .grade .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.collector .contentRight .Project_box .grade .right .num {
+  font-size: 25px;
+  color: #FC8F0E;
+}
+.collector .contentRight .Project_box .grade .right p {
+  font-size: 14px;
+  color: #333333;
+}
+.collector .contentRight .Project_box .chart_box {
+  width: 310px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+}
+.collector .contentRight .Project_box .noINfo {
+  width: 100%;
+  height: 400px;
+  background: url("../images/noinfo.png") no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+
+.remark {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.remark .productRemark_box {
+  width: 860px;
+  height: 430px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  padding: 20px 25px 0;
+}
+.remark .productRemark_box .title_box {
+  margin-bottom: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.remark .productRemark_box .title_box .title {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.remark .productRemark_box .title_box .forRemarkBtn {
+  width: 120px;
+  height: 36px;
+  color: #FFFFFF;
+  font-size: 14px;
+  background-color: #DB2D2E;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.remark .productRemark_box .content_box {
+  display: flex;
+}
+.remark .productRemark_box .content_box .left_box {
+  flex: 1;
+}
+.remark .productRemark_box .content_box .left_box .synthesize {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.remark .productRemark_box .content_box .left_box .synthesize .txt {
+  font-size: 14px;
+  color: #333333;
+  margin-right: 30px;
+}
+.remark .productRemark_box .content_box .left_box .synthesize .num {
+  font-size: 50px;
+  color: #FC8F0E;
+  margin-right: 13px;
+}
+.remark .productRemark_box .content_box .left_box .synthesize .num i {
+  font-size: 18px;
+}
+.remark .productRemark_box .content_box .left_box .synthesize .ivu-rate-star {
+  margin-right: 0;
+  margin-top: 22px;
+}
+.remark .productRemark_box .content_box .left_box .impression .txt {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 22px;
+}
+.remark .productRemark_box .content_box .left_box .impression .impression_box {
+  width: 100%;
+}
+.remark .productRemark_box .content_box .left_box .impression .impression_box ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 80px;
+  box-sizing: border-box;
+}
+.remark .productRemark_box .content_box .left_box .impression .impression_box ul li {
+  width: 100px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #F8F8F8;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 34px;
+  text-align: center;
+}
+.remark .productRemark_box .content_box .right_box {
+  flex: 1;
+}
+.remark .productRemark_box .content_box .right_box .title {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 24px;
+  margin-bottom: 25px;
+  padding-right: 7px;
+}
+.remark .productRemark_box .content_box .right_box .title p {
+  color: #333333;
+  font-size: 14px;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box {
+  width: 100%;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .progressBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .progressBar p {
+  color: #333;
+  font-size: 14px;
+  margin-right: 14px;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .progressBar .ivu-progress {
+  flex: 1;
+  margin-right: 10px;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .progressBar i {
+  color: #DB2D2E;
+  font-size: 14px;
+  margin-right: 40px;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .progressBar .iconG {
+  width: 10px;
+  height: 15px;
+  background: url("../images/jiantouG.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .progressBar .iconR {
+  width: 10px;
+  height: 15px;
+  background: url("../images/jiantouR.png");
+  background-size: cover;
+  margin-right: 6px;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .progressBar em {
+  font-size: 14px;
+  color: #0EAE30;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .progressBar .red {
+  color: #DB2D2E;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .business .ivu-progress .ivu-progress-bg {
+  background-color: #FF5C5C;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .team .ivu-progress .ivu-progress-bg {
+  background-color: #1ACD9A;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .counselor .ivu-progress .ivu-progress-bg {
+  background-color: #2F94F7;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .product .ivu-progress .ivu-progress-bg {
+  background-color: #FF7B36;
+}
+.remark .productRemark_box .content_box .right_box .content_box .progressBar_box .message .ivu-progress .ivu-progress-bg {
+  background-color: #F8BA17;
+}
+.remark .contentRight {
+  width: 310px;
+  margin-left: 25px;
+}
+.remark .contentRight .Project_box {
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.remark .contentRight .Project_box .title {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.remark .contentRight .Project_box .title i {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.remark .contentRight .Project_box .title a {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+.remark .contentRight .Project_box .grade {
+  width: 250px;
+  height: 65px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.remark .contentRight .Project_box .grade .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.remark .contentRight .Project_box .grade .left .num {
+  font-size: 30px;
+  color: #FC8F0E;
+}
+.remark .contentRight .Project_box .grade .left p {
+  font-size: 14px;
+  color: #333333;
+}
+.remark .contentRight .Project_box .grade .line {
+  width: 1px;
+  height: 100%;
+  background-color: #E5E5E5;
+}
+.remark .contentRight .Project_box .grade .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.remark .contentRight .Project_box .grade .right .num {
+  font-size: 25px;
+  color: #FC8F0E;
+}
+.remark .contentRight .Project_box .grade .right p {
+  font-size: 14px;
+  color: #333333;
+}
+.remark .contentRight .Project_box .chart_box {
+  width: 310px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+}
+.remark .contentRight .Project_box .noINfo {
+  width: 100%;
+  height: 400px;
+  background: url("../images/noinfo.png") no-repeat;
+  background-size: 60%;
+  background-position: center;
+}
+.remark .comment {
+  width: 100%;
+  margin-top: 20px;
+}
+.remark .comment .select_box .select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remark .comment .select_box .select ul li {
+  width: 120px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-right: 6px;
+  float: left;
+  font-size: 16px;
+  color: #333333;
+  line-height: 50px;
+  text-align: center;
+  cursor: default;
+}
+.remark .comment .select_box .select ul .active {
+  background-color: #DB2D2E;
+  border: none;
+  color: #FFFFFF;
+}
+.remark .comment .select_box .select p {
+  font-size: 14px;
+  color: #333333;
+}
+.remark .comment .select_box .select p i {
+  color: #DB2D2E;
+}
+.remark .comment .commentInfo_box {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  margin-top: -1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0 44px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li {
+  border-bottom: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li:last-child {
+  border-bottom: 0;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title {
+  display: flex;
+  align-items: center;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title .icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title .icon img {
+  width: 100%;
+  height: 100%;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title .user {
+  font-size: 14px;
+  color: #DB2D2E;
+  margin-right: 14px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title .time {
+  color: #999999;
+  font-size: 14px;
+  margin-right: 22px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title i {
+  font-size: 14px;
+  color: #0EAE30;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title .blue {
+  color: #2F94F7;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title .yellow {
+  color: #FF7B36;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .title .red {
+  color: #DB2D2E;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .content_box {
+  box-sizing: border-box;
+  padding-left: 85px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .content_box .contentInfo {
+  font-size: 14px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .content_box .contentInfo .grade .gradeL, .remark .comment .commentInfo_box .commentInfo ul li .content_box .contentInfo .grade .gradeG {
+  width: 110px;
+  height: 34px;
+  border-radius: 16px;
+  border: 1px solid #DEDEDE;
+  line-height: 34px;
+  text-align: center;
+  float: left;
+  padding: 0;
+  margin-left: 12px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .content_box .contentInfo .grade .gradeL i, .remark .comment .commentInfo_box .commentInfo ul li .content_box .contentInfo .grade .gradeG i {
+  color: #DB2D2E;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .content_box .contentInfo .grade .gradeG {
+  background-color: #F8F8F8;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .content_box .reply {
+  margin-top: 26px;
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .content_box .icon_box {
+  font-size: 14px;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.remark .comment .commentInfo_box .commentInfo ul li .content_box .icon_box .iconB {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: url("../images/smile.png");
+  background-size: cover;
+  margin-right: 5px;
+}
+.remark .comment .moveBtn {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  margin-bottom: 87px;
+  margin-top: 20px;
+}
+.remark .comment .moveBtn a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #333333;
+}
+
+.myRemark {
+  width: 1200px;
+  height: 1160px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  overflow: hidden;
+}
+.myRemark .title_box {
+  height: 70px;
+  background-color: #F8F8F8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin-bottom: 50px;
+}
+.myRemark .title_box .title {
+  font-size: 20px;
+  color: #3D3D3D;
+  font-weight: bold;
+}
+.myRemark .title_box .back {
+  width: 110px;
+  height: 34px;
+  border-radius: 16px;
+  border: 1px solid #DEDEDE;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  font-size: 14px;
+  color: #333333;
+}
+.myRemark .content_box {
+  box-sizing: border-box;
+  padding-left: 55px;
+}
+.myRemark .content_box .evaluate {
+  font-size: 16px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.myRemark .content_box .evaluate .yuan {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #db2d2e;
+  display: inline-block;
+  margin-right: 12px;
+}
+.myRemark .content_box .evaluate p {
+  margin-right: 33px;
+}
+.myRemark .content_box .evaluate button {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  background-color: rgba(0, 0, 0, 0);
+  margin-right: 11px;
+  outline: none;
+}
+.myRemark .content_box .evaluate .btnG {
+  background-color: #EFFDF1;
+  border: 1px solid #0EAE30;
+  color: #0EAE30;
+}
+.myRemark .content_box .evaluate .btnB {
+  background-color: #EFF1FD;
+  border: 1px solid #2F94F7;
+  color: #2F94F7;
+}
+.myRemark .content_box .evaluate .btnY {
+  background-color: #FDF4EF;
+  border: 1px solid #FF7B36;
+  color: #FF7B36;
+}
+.myRemark .content_box .evaluate .btnR {
+  background-color: #FDEFEF;
+  border: 1px solid #DB2D2E;
+  color: #DB2D2E;
+}
+.myRemark .content_box .business, .myRemark .content_box .team, .myRemark .content_box .counselor, .myRemark .content_box .product, .myRemark .content_box .message {
+  font-size: 16px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.myRemark .content_box .business .yuan, .myRemark .content_box .team .yuan, .myRemark .content_box .counselor .yuan, .myRemark .content_box .product .yuan, .myRemark .content_box .message .yuan {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #db2d2e;
+  display: inline-block;
+  margin-right: 12px;
+}
+.myRemark .content_box .business p, .myRemark .content_box .team p, .myRemark .content_box .counselor p, .myRemark .content_box .product p, .myRemark .content_box .message p {
+  margin-right: 33px;
+}
+.myRemark .content_box .business .line, .myRemark .content_box .team .line, .myRemark .content_box .counselor .line, .myRemark .content_box .product .line, .myRemark .content_box .message .line {
+  width: 63px;
+  height: 1px;
+  background-color: #DBE2E8;
+}
+.myRemark .content_box .business button, .myRemark .content_box .team button, .myRemark .content_box .counselor button, .myRemark .content_box .product button, .myRemark .content_box .message button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #DBE2E8;
+  outline: none;
+}
+.myRemark .content_box .business .btnR, .myRemark .content_box .team .btnR, .myRemark .content_box .counselor .btnR, .myRemark .content_box .product .btnR, .myRemark .content_box .message .btnR {
+  border: none;
+  background-color: #DB2D2E;
+  color: #fff;
+  outline: none;
+}
+.myRemark .content_box .impression {
+  font-size: 16px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  margin-top: 60px;
+}
+.myRemark .content_box .impression .yuan {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #db2d2e;
+  display: inline-block;
+  margin-right: 12px;
+}
+.myRemark .content_box .impression p {
+  margin-right: 33px;
+}
+.myRemark .content_box .impression .label li {
+  width: 110px;
+  height: 34px;
+  border-radius: 16px;
+  background-color: #FDEFEF;
+  border: 1px solid #DB2D2E;
+  color: #DB2D2E;
+  font-size: 14px;
+  margin-right: 10px;
+  line-height: 34px;
+  text-align: center;
+}
+.myRemark .content_box .impression .addLabel {
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  width: 300px;
+  height: 48px;
+  display: flex;
+}
+.myRemark .content_box .impression .addLabel input {
+  height: 100%;
+  width: 200px;
+  padding-left: 19px;
+}
+.myRemark .content_box .impression .addLabel input::placeholder {
+  font-size: 12px;
+}
+.myRemark .content_box .impression .addLabel button {
+  width: 100px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-left: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #333333;
+  outline: none;
+}
+.myRemark .content_box .hotLabel {
+  font-size: 16px;
+  color: #333333;
+  display: flex;
+  margin-bottom: 35px;
+}
+.myRemark .content_box .hotLabel .yuan {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #db2d2e;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+.myRemark .content_box .hotLabel p {
+  margin-right: 33px;
+}
+.myRemark .content_box .hotLabel .label {
+  flex: 1;
+  display: flex;
+  box-sizing: border-box;
+  padding-right: 60px;
+  flex-wrap: wrap;
+}
+.myRemark .content_box .hotLabel .label li {
+  width: 110px;
+  height: 34px;
+  border-radius: 16px;
+  background-color: #F8F8F8;
+  border: 1px solid #DEDEDE;
+  color: #333333;
+  font-size: 14px;
+  margin-right: 10px;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 15px;
+  cursor: default;
+}
+.myRemark .content_box .hotLabel .label .active {
+  background-color: #FDEFEF;
+  border: 1px solid #DB2D2E;
+  color: #DB2D2E;
+}
+.myRemark .content_box .remarkContent {
+  font-size: 16px;
+  color: #333333;
+  display: flex;
+  margin-bottom: 35px;
+}
+.myRemark .content_box .remarkContent .yuan {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #db2d2e;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+.myRemark .content_box .remarkContent p {
+  margin-right: 33px;
+}
+.myRemark .content_box .remarkContent .content {
+  width: 668px;
+}
+.myRemark .content_box .remarkContent .content textarea {
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  outline: none;
+  padding-top: 20px;
+  padding-left: 28px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.myRemark .content_box .remarkContent .content textarea::placeholder {
+  color: #666666;
+  font-size: 14px;
+}
+.myRemark .content_box .remarkContent .content .btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+.myRemark .content_box .remarkContent .content .btns .submit {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #DB2D2E;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-right: 34px;
+}
+.myRemark .content_box .remarkContent .content .btns a {
+  color: #DB2D2E;
+}
+.myRemark .content_box .remarkContent .txt {
+  width: 310px;
+  height: 200px;
+  background-color: #FDEFEF;
+  border-radius: 5px;
+  margin-left: 12px;
+  color: #333;
+  font-size: 14px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.myRemark .content_box .remarkContent .txt p {
+  margin: 0;
+  line-height: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

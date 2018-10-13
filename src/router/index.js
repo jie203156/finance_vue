@@ -36,6 +36,14 @@ import projectIndex from '../components/projectLibrary/projectIndex.vue'
 import projectOverview from '../components/projectLibrary/projectOverview.vue'
 //项目尽调界面
 import productDiligence from '../components/projectLibrary/productDiligence.vue'
+//项目点评界面
+import remark from '../components/projectLibrary/remark.vue'
+//项目文章界面
+import projectArticles from '../components/projectLibrary/projectArticles.vue'
+//收藏者界面
+import collector from '../components/projectLibrary/collector.vue'
+//我要点评界面
+import myRemark from '../components/projectLibrary/myRemark.vue'
 
 const router = new VueRouter({
     routes:[
@@ -62,6 +70,10 @@ const router = new VueRouter({
                 {path:'/',redirect:'/projectIndex/projectOverview'},
                 {path:'projectOverview',component:projectOverview},
                 {path:'productDiligence',component:productDiligence},
+                {path:'projectArticles',component:projectArticles},
+                {path:'collector',component:collector},
+                {path:'remark',component:remark},
+                {path:'myRemark',component:myRemark},
             ]
         },
     ]

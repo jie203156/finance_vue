@@ -48,9 +48,9 @@
                 <ul>
                     <li><a @click="projectOverview" :class="activeShow == 1?'active':''">项目概况</a></li>
                     <li><a @click="productDiligence" :class="activeShow == 2?'active':''">项目尽调</a></li>
-                    <li><a href="#">点评 (<i>10</i>)</a></li>
-                    <li><a href="#">文章 (<i>102</i>)</a></li>
-                    <li><a href="#">收藏者 (<i>8920</i>)</a></li>
+                    <li><a @click="remark" :class="activeShow == 3?'active':''">点评 (<i>10</i>)</a></li>
+                    <li><a @click="projectArticles" :class="activeShow == 4?'active':''">文章 (<i>102</i>)</a></li>
+                    <li><a @click="collector" :class="activeShow == 5?'active':''">收藏者 (<i>8920</i>)</a></li>
                 </ul>
             </div>
 
@@ -81,7 +81,24 @@
             productDiligence(){
                 this.activeShow = 2
                 this.$router.push({path:'/projectIndex/productDiligence'})
-            }
+            },
+
+            projectArticles(){
+                this.activeShow = 4
+                this.$router.push({path:'/projectIndex/projectArticles'})
+            },
+
+            collector(){
+                this.activeShow = 5
+                this.$router.push({path:'/projectIndex/collector'})
+            },
+
+            remark(){
+                this.activeShow = 3
+                this.$router.push({path:'/projectIndex/remark'})
+            },
+
+
         }
     }
 </script>
