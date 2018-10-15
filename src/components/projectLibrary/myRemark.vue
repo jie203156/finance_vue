@@ -95,12 +95,12 @@
                 <i class="yuan"></i>
                 <p>项目印象</p>
                 <ul class="label">
-                    <li>贼6的</li>
+                    <li v-for="item in addLabel" :key="item.id">{{item}}</li>
                 </ul>
 
                 <div class="addLabel">
-                    <input type="text" placeholder="添加标签">
-                    <button >自定添加</button>
+                    <input type="text" placeholder="添加标签" v-model="addLabelTxt">
+                    <button @click="addLabelBtn">自定添加</button>
                 </div>
             </div>
 
@@ -146,6 +146,9 @@
                 counselorShow:-1,
                 productShow:-1,
                 messageShow:-1,
+                // 自定义添加
+                addLabel:[],
+                addLabelTxt:'',
                 // 热门评语数据
                 hotlabel:[
                     {id:1,content:'团队优秀',isSelected:false},
@@ -179,6 +182,20 @@
             submitBtn(){
                 console.log(this.remarkContent);
                 
+            },
+
+            // 自定义添加按钮事件
+            addLabelBtn(){
+
+                // 判断有没有内容, 有内容就添加, 没有内容就不添加
+                if(this.addLabelTxt.trim().length == 0){
+                    this.addLabelTxt = ''
+                    return
+                }else {
+                    this.addLabel.push(this.addLabelTxt)
+                    this.addLabelTxt = ''
+                }
+
             },
 
             // 重置内容点击事件

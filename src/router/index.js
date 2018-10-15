@@ -44,6 +44,15 @@ import projectArticles from '../components/projectLibrary/projectArticles.vue'
 import collector from '../components/projectLibrary/collector.vue'
 //我要点评界面
 import myRemark from '../components/projectLibrary/myRemark.vue'
+//个人中心主页界面
+import personal_centerIndex from '../components/personal_center/personal_centerIndex.vue'
+//个人中心(收藏夹/文章)界面
+import favorite_article from '../components/personal_center/favorite/favorite_article.vue'
+//个人中心(收藏夹/活动)界面
+import favorite_activity from '../components/personal_center/favorite/favorite_activity.vue'
+//个人中心(收藏夹/项目)界面
+import favorite_product from '../components/personal_center/favorite/favorite_product.vue'
+
 
 const router = new VueRouter({
     routes:[
@@ -62,7 +71,7 @@ const router = new VueRouter({
         {path:'/assembly',component:assembly},
         {path:'/projectLibrary',component:projectLibrary},
 
-        //项目主页界面
+        //项目主页界面主页及子分页
         {
             path:'/projectIndex',component:projectIndex,
             children:[
@@ -74,6 +83,19 @@ const router = new VueRouter({
                 {path:'collector',component:collector},
                 {path:'remark',component:remark},
                 {path:'myRemark',component:myRemark},
+            ]
+        },
+
+        // 个人中心界面主页及子分页
+        {
+            path:'/personal_centerIndex',component:personal_centerIndex,
+            children:[
+                // 收藏夹文章界面
+                {path:'/',redirect:'/personal_centerIndex/favorite_article'},
+                {path:'favorite_article',component:favorite_article},
+                {path:'favorite_activity',component:favorite_activity},
+                {path:'favorite_product',component:favorite_product},
+
             ]
         },
     ]

@@ -15,11 +15,17 @@
                     <!-- logo部分 -->
                     <h1 class="logo"><img src="../public/logo.png" alt=""></h1>
                     <!-- 登录和注册 -->
-                    <div class="login">
+                    <div class="login" style="display:none">
                         <router-link to="/login">登录</router-link>
                         <i>&nbsp;&nbsp;/&nbsp;&nbsp; </i>
                         <router-link to="/phoneRegister">注册</router-link>
                     </div>
+
+                    <!-- 个人中心 -->
+                    <div class="personal_center ">
+                        <router-link to="/personal_centerIndex"><img src="" alt=""></router-link>
+                    </div>
+
                 </div>
             </div>
             <!-- 底部 -->
