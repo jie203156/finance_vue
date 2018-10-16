@@ -145,7 +145,7 @@
                         <p class="txt">您确定要删除文章?</p>
                         <p class="txt">删除后将不可恢复!</p>
                         <div class="btn">
-                            <button class="delBtn">删除</button>
+                            <button class="delBtn">撤销</button>
                             <button class="keepBtn" @click="delShow = 0">我要保留</button>
                         </div>
                     </div>
