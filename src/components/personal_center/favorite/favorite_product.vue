@@ -362,7 +362,7 @@
         components:{Page},
         data(){
             return{
-                title
+           
             }
         },
         methods:{

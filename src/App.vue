@@ -77,10 +77,10 @@
                         </div>
     
                         <div class="contactinfo">
-                            <a href="#">关于我们</a>
-                            <a href="#">投稿须知</a>
-                            <a href="#">服务条款</a>
-                            <a href="#">意见反馈</a>
+                            <router-link to="/about_Us">关于我们</router-link>
+                            <router-link to="/notice_Us">投稿须知</router-link>
+                            <router-link to="/terms_Us">服务条款</router-link>
+                            <router-link to="/about_Us">意见反馈</router-link>
                         </div>               
                     </div>
     

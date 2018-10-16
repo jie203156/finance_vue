@@ -52,7 +52,24 @@ import favorite_article from '../components/personal_center/favorite/favorite_ar
 import favorite_activity from '../components/personal_center/favorite/favorite_activity.vue'
 //个人中心(收藏夹/项目)界面
 import favorite_product from '../components/personal_center/favorite/favorite_product.vue'
-
+//我的圈子(圈子)界面
+import circle_index from '../components/personal_center/circle_index.vue'
+//我的圈子(帖子)界面
+import circle_post from '../components/personal_center/circle_post.vue'
+//我的关注界面
+import concern from '../components/personal_center/concern.vue'
+//我的粉丝界面
+import my_fans from '../components/personal_center/my_fans.vue'
+//我的文章界面
+import my_article from '../components/personal_center/my_article.vue'
+//关于我们
+import about_Us from '../components/about_Us/about_Us.vue'
+//投稿须知
+import notice_Us from '../components/about_Us/notice_Us.vue'
+//使用条款
+import terms_Us from '../components/about_Us/terms_Us.vue'
+//版权声明
+import copyright_Us from '../components/about_Us/copyright_Us.vue'
 
 const router = new VueRouter({
     routes:[
@@ -70,6 +87,10 @@ const router = new VueRouter({
         {path:'/wirterArticleContent',component:wirterArticleContent},
         {path:'/assembly',component:assembly},
         {path:'/projectLibrary',component:projectLibrary},
+        {path:'/about_Us',component:about_Us},
+        {path:'/notice_Us',component:notice_Us},
+        {path:'/terms_Us',component:terms_Us},
+        {path:'/copyright_Us',component:copyright_Us},
 
         //项目主页界面主页及子分页
         {
@@ -95,6 +116,11 @@ const router = new VueRouter({
                 {path:'favorite_article',component:favorite_article},
                 {path:'favorite_activity',component:favorite_activity},
                 {path:'favorite_product',component:favorite_product},
+                {path:'circle_index',component:circle_index},
+                {path:'circle_post',component:circle_post},
+                {path:'concern',component:concern},
+                {path:'my_fans',component:my_fans},
+                {path:'my_article',component:my_article},
 
             ]
         },

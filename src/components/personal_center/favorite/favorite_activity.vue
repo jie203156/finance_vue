@@ -1,5 +1,5 @@
 <template>
-    <div class="favorite_article">
+    <div class="favorite_activity">
         <div class="topTitle w">
             <div class="btn">
                 <button >动态</button>

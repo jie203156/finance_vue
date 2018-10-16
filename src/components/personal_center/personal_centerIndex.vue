@@ -32,11 +32,11 @@
                 <div class="nav_box w">
                     <ul>
                         <li ><a href="#">我的动态</a></li>
-                        <li><a href="#">我的文章</a></li>
+                        <li :class="nav == 2?'active':''" @click="my_article"><a >我的文章</a></li>
                         <li :class="nav == 3?'active':''" @click="circle"><a>我的圈子</a></li>
                         <li><a href="#">我的问答</a></li>
-                        <li><a href="#">我的粉丝</a></li>
-                        <li><a href="#">我的关注</a></li>
+                        <li :class="nav == 5?'active':''" @click="my_fans"><a>我的粉丝</a></li>
+                        <li :class="nav == 6?'active':''" @click="concern"><a>我的关注</a></li>
                         <li :class="nav == 7?'active':''" @click="favorite"><a>收藏夹</a></li>
                     </ul>
                 </div>
@@ -63,6 +63,24 @@
             circle(){
                 this.nav = 3
                 this.$router.push({path:'/personal_centerIndex/circle_index'})
+            },
+
+            // 我的关注
+            concern (){
+                this.nav = 6
+                this.$router.push({path:'/personal_centerIndex/concern'})
+            },
+
+            // 我的粉丝
+            my_fans(){
+                this.nav = 5
+                this.$router.push({path:'/personal_centerIndex/my_fans'})
+            },
+
+            //我的文章
+            my_article(){
+                this.nav = 2
+                this.$router.push({path:'/personal_centerIndex/my_article'})
             }
         }
     }
