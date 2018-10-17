@@ -182,6 +182,98 @@ i {
   height: 442px;
   background-color: #101010;
 }
+.index .header .bigPic .charts_box {
+  height: 100%;
+  position: relative;
+}
+.index .header .bigPic .charts_box .charts_left {
+  width: 1176px;
+  height: 100%;
+  position: relative;
+}
+.index .header .bigPic .charts_box .charts_left .btns {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 34px;
+  margin-bottom: 23px;
+}
+.index .header .bigPic .charts_box .charts_left .btns .BTC {
+  width: 210px;
+  height: 50px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 1px solid #383838;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 18px;
+  color: #A8A8A8;
+  outline: none;
+  margin-right: 24px;
+}
+.index .header .bigPic .charts_box .charts_left .btns .num {
+  font-size: 30px;
+  color: #FF4445;
+  display: flex;
+  align-items: center;
+  margin-right: 17px;
+}
+.index .header .bigPic .charts_box .charts_left .btns .num .jiantou {
+  width: 10px;
+  height: 15px;
+  display: block;
+  background: url("../images/jiantouR.png");
+  background-size: cover;
+  margin-top: 10px;
+}
+.index .header .bigPic .charts_box .charts_left .btns .ratio {
+  font-size: 14px;
+  color: #2CD76C;
+  margin-right: 95px;
+}
+.index .header .bigPic .charts_box .charts_left .btns .source {
+  color: #A8A8A8;
+  font-size: 14px;
+  margin-right: 39px;
+}
+.index .header .bigPic .charts_box .charts_left .btns .source i {
+  color: #FFFFFF;
+}
+.index .header .bigPic .charts_box .charts_left .btns .btn_list .timeBtn {
+  width: 70px;
+  height: 32px;
+  background-color: #1c1c1c;
+  color: #A8A8A8;
+  font-size: 14px;
+  border: none;
+  border-radius: 16px;
+  margin-right: 18px;
+}
+.index .header .bigPic .charts_box .charts_left .btns .btn_list .timeBtn:last-child {
+  margin-right: 0;
+}
+.index .header .bigPic .charts_box .charts_left .btns .btn_list .active {
+  border: 1px solid #fff;
+}
+.index .header .bigPic .charts_box .charts_left .chartsPic {
+  height: 400px;
+  width: 1410px;
+  position: absolute;
+  top: 42px;
+  left: -97px;
+  box-sizing: border-box;
+}
+.index .header .bigPic .charts_box .charts_right {
+  width: 180px;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .index .header .smallPics {
   height: 163px;
 }

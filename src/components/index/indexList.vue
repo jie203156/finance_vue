@@ -4,7 +4,32 @@
         <div class="header">
             <!-- 大图制作 -->
             <div class="bigPic">
-    
+                <!-- <div id="myChart" :style="{width: '100%', height: '100%'}"></div> -->
+                <div class="charts_box w">
+                    <div class="charts_left">
+                        <div class="btns">
+                            <button class="BTC">BTC / 比特现金</button>
+                            <div class="num">49655.01<i class="jiantou"></i></div>
+                            <div class="ratio">+2.43%</div>
+                            <div class="source">数据来源：<i>币报</i></div>
+                            <div class="btn_list">
+                                <button class="timeBtn">1小时</button>
+                                <button class="timeBtn active">12小时</button>
+                                <button class="timeBtn">一天</button>
+                                <button class="timeBtn">一周</button>
+                                <button class="timeBtn">一个月</button>
+                                <button class="timeBtn">一年</button>
+                            </div>
+                        </div>
+
+                        <div class="chartsPic">
+                            <div id="myChart" style="width: 100%; height: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="charts_right">
+                        
+                    </div>
+                </div>
             </div>
             <!--小图制作 -->
             <div class="smallPics w">
@@ -783,7 +808,89 @@
             }
         },
         mounted(){
+            this.drawLine();
+        },
+        methods:{
+            drawLine(){
+                // 基于准备好的dom，初始化echarts实例
+                var myChart = this.$echarts.init(document.getElementById('myChart'));
+                var option = {
+                    //背景颜色
+                    backgroundColor: '#101010',
+                    //文字颜色
+                    textStyle: {
+                        color: 'rgba(255, 255, 255, 0.3)'
+                    },
+                    xAxis: {
+                        type: 'category',
+                        //图标左边是否留白
+                        boundaryGap: true,
+                        data: ['2016.01', '2016.02', '2016.03', '2016.04', '2016.05', '2016.06', '2016.07','2016.08','2016.09'],
+                    },
+                    yAxis: {
+                        type: 'value',
+                        min:1100,
+                        max:5600,
+                        axisLabel:{
+                                formatter: function (value) {
+                                    console.log(value)
+                                var texts = [];
+                                if (value == 1100) {
+                                    texts.push('￥1100');
+                                }
+                                else if (value <= 2200) {
+                                    texts.push('￥2200');
+                                }
+                                else if (value <= 3300) {
+                                    texts.push('￥3300');
+                                }
+                                else if (value <= 4400) {
+                                    texts.push('￥4400');
+                                }
+                                else if (value <= 5000) {
+                                    texts.push('￥4500');
+                                }
+                                else {
+                                    texts.push('￥5600');
+                                }
+                                return texts;
 
+                            }
+                        }, 
+                        splitLine: {
+                            //设置网格颜色
+                            lineStyle:{
+                                color: ['rgba(124,124,124,.3)'],     
+                            }
+                        }
+                    },
+                    series: [{
+                        data: [1200, 3400, 3200, 4460, 2300, 4400, 5300,3300,1200],
+                        type: 'line',
+                        //变为平滑
+                        smooth: .5,
+                        symbol:'none',  //这句就是去掉点的
+                        areaStyle: {
+                            //填充部分颜色
+                            color: {
+                                type: 'linear',
+                                x: 0,
+                                y: 0,
+                                x2: 0,
+                                y2: 1,
+                                colorStops: [{
+                                    offset: 0, color: '#dd404b' // 0% 处的颜色
+                                }, {
+                                    offset: 1, color: '#101010' // 100% 处的颜色
+                                }],
+                                globalCoord: true // 缺省为 false
+                            }
+                        }
+                    }]
+                }
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option)
+            }
         }
 
 
