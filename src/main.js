@@ -8,6 +8,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI);
 
 import 'iview/dist/styles/iview.css'
+import 'swiper/dist/css/swiper.css';
 
 // 引入echarts
 import echarts from 'echarts'

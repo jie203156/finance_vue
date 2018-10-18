@@ -27,7 +27,111 @@
                         </div>
                     </div>
                     <div class="charts_right">
-                        
+                        <!-- 轮播图 -->
+                          <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- 轮播列表 (循环) -->
+                            <div class="swiper-slide charts_right_swiper">
+                                <a href="#">
+                                    <p><img src="../../images/BTC.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconR"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                               <a href="#">
+                                    <p><img src="../../images/BTC02.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconG"></i></div>
+                                    </div>
+                               </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                                <a href="#">
+                                    <p><img src="../../images/BTC03.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconR"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                                <a href="#">
+                                    <p><img src="../../images/BTC04.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconG"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                                <a href="#">
+                                    <p><img src="../../images/BTC.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconG"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                                <a href="#">
+                                    <p><img src="../../images/BTC.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconR"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                               <a href="#">
+                                    <p><img src="../../images/BTC02.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconG"></i></div>
+                                    </div>
+                               </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                                <a href="#">
+                                    <p><img src="../../images/BTC03.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconR"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                                <a href="#">
+                                    <p><img src="../../images/BTC04.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconG"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide charts_right_swiper">
+                                <a href="#">
+                                    <p><img src="../../images/BTC.png" alt=""></p>
+                                    <div>
+                                        <div class="title_name">BTC/比特币</div>
+                                        <div class="num_b">3915.46<i class="iconG"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- 轮播列表 (循环) -->
+
+                            </div>
+                            <!-- Add Pagination 小点点-->
+                            <!-- <div class="swiper-pagination"></div> -->
+                        </div>
+                        <!-- 更多按钮 -->
+                        <button class="more">更多</button>
+                        <!-- 阴影 -->
+                        <div class="shadow"></div>
                     </div>
                 </div>
             </div>
@@ -785,6 +889,37 @@
     </div>
 </template>
 <style scoped>
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .charts_right_swiper {
+        border: 1px solid #383838;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+
     
     .el-carousel__item img {
         width: 100%;
@@ -801,6 +936,7 @@
 </style>
 
 <script>
+    import Swiper from 'swiper';
     export default {
         data(){
             return{
@@ -809,6 +945,16 @@
         },
         mounted(){
             this.drawLine();
+            // swiper 轮播图
+            new Swiper ('.swiper-container', {
+                direction: 'vertical',
+                slidesPerView: 5, //当前页面展示的个数
+                spaceBetween: 10,   
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            })  
         },
         methods:{
             drawLine(){

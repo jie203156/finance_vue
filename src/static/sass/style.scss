@@ -257,10 +257,85 @@
                 .charts_right {
                     width: 180px;
                     height: 100%;
-                    background-color: red;
                     position: absolute;
                     top: 0;
                     right: 0;
+                    box-sizing: border-box;
+                    padding:20px 0;
+
+                    .charts_right_swiper {
+                        a {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            p {
+                                width: 25px;
+                                height: 25px;
+                                margin-right: 20px;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+    
+                            div {
+                                .title_name {
+                                    color: #fff;
+                                    font-size: 14px;
+                                }
+                                .num_b {
+                                    color: #FF4446;
+                                    font-size: 20px;
+    
+                                    .iconR {
+                                        width: 10px;
+                                        height: 15px;
+                                        background: url('../images/jiantouR.png');
+                                        background-size: cover;
+                                        display: inline-block;
+                                    }
+                                    .iconG {
+                                        width: 10px;
+                                        height: 15px;
+                                        background: url('../images/jiantouG.png');
+                                        background-size: cover;
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .more {
+                        width: 180px;
+                        height: 38px;
+                        box-sizing: border-box;
+                        border: 1px solid #383838;
+                        position: absolute;
+                        bottom: 20px;
+                        left: 0;
+                        z-index: 5;
+                        color: #999999;
+                        font-size: 14px;
+                        border-radius: 5px;
+                        background: #000000;
+                        box-shadow: 0px -9px 52px 18px #000000;
+                        outline: none;
+
+                    }
+
+                    .shadow {
+                        width: 180px;
+                        height: 38px;
+                        position: absolute;
+                        top: 20px;
+                        left: 0;
+                        z-index: 5;
+                        background: #000000;
+                        box-shadow: 0px 9px 57px 12px #000000;
+                    }
                 }
             }
         }
