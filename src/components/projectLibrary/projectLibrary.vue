@@ -7,7 +7,137 @@
                 <p class="title">优选项目</p>
                 <!-- 轮播图 -->
                 <div class="swiper_box">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
 
+                            <!-- 轮播图遍历 -->
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="../../images/11.png" alt="">
+                                    <div class="title_box">
+                                        <div class="title_name">星云链nebulas</div>
+                                        <div class="title_num">
+                                            <Rate disabled v-model="project_all.projectLists[0].score" />
+                                            <p class="num">{{project_all.projectLists[0].score}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,7 +236,56 @@
         </div>
     </div>
 </template>
+<style scoped>
+    .swiper_box {
+        position: relative;
+    }
+    .swiper-container {
+        width: 90%;
+        box-sizing: border-box;
+        padding: 0 1px;
+        position: static;
+    }
+    .swiper-wrapper {
+        height: 280px;
+    }
+    .swiper-button-prev,.swiper-button-next {
+        width: 14px;
+        height: 24px;
+    }
+    .swiper-button-prev {
+        background-image:url('../../static/images/jiantouleft.png');
+        background-size: 100%;
+    }
+    .swiper-button-next {
+        background-image:url('../../static/images/jiantou.png');
+        background-size: 100%;
+    }
+    .swiper-slide {
+        width: 200px;
+        height: 280px;
+
+        text-align: center;
+        font-size: 18px;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+</style>
+
 <script>
+    import Swiper from 'swiper'
     import {Page,Rate} from 'iview'
     export default {
         components:{Page,Rate},
@@ -145,6 +324,20 @@
             this.all_projectLists = this.project_all.projectLists
 
             this.project_all.projectLists.sort(this.getSortMinFun('desc', 'score'))
+        },
+        mounted(){
+            new Swiper ('.swiper-container', {
+                slidesPerView: 5, //当前页面展示的个数
+                spaceBetween: 25,   
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            })  
         },
         methods:{
             projectIndexBtn(){

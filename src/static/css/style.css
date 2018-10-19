@@ -4181,7 +4181,48 @@ i {
 .projectLibrary .banner .optimizing .swiper_box {
   width: 100%;
   height: 337px;
-  background-color: red;
+}
+.projectLibrary .banner .optimizing .swiper_box .swiper-pagination-bullet-active {
+  background: #fff;
+}
+.projectLibrary .banner .optimizing .swiper_box .swiper-slide a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.projectLibrary .banner .optimizing .swiper_box .swiper-slide a img {
+  width: 196px;
+}
+.projectLibrary .banner .optimizing .swiper_box .swiper-slide a .title_box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 10px 0;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.projectLibrary .banner .optimizing .swiper_box .swiper-slide a .title_box .title_name {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.projectLibrary .banner .optimizing .swiper_box .swiper-slide a .title_box .title_num {
+  display: flex;
+  align-items: flex-end;
+}
+.projectLibrary .banner .optimizing .swiper_box .swiper-slide a .title_box .title_num .ivu-rate-star {
+  margin-right: 0px;
+}
+.projectLibrary .banner .optimizing .swiper_box .swiper-slide a .title_box .title_num .num {
+  margin-left: 30px;
+  font-size: 30px;
+  color: #FC8F0E;
 }
 .projectLibrary .projectList_box {
   width: 1200px;
