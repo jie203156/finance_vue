@@ -811,7 +811,65 @@
                     </div>
                     <!-- 轮播图 -->
                     <div class="hotWriterswiper">
-    
+                        <div class="hotWriterswiper-container" style="box-sizing: border-box; padding: 0 10px;">
+                            <div class="swiper-wrapper" >
+
+                                <!-- 轮播的内容 -->
+                                <div class="swiper-slide hotWriterswiper-slide">
+                                    <a href="#">
+                                        <img src="../../images/master01.png" alt="">
+                                        <p>阿里司...</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide hotWriterswiper-slide">
+                                    <a href="#">
+                                        <img src="../../images/master01.png" alt="">
+                                        <p>阿里司...</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide hotWriterswiper-slide">
+                                    <a href="#">
+                                        <img src="../../images/master01.png" alt="">
+                                        <p>阿里司...</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide hotWriterswiper-slide">
+                                    <a href="#">
+                                        <img src="../../images/master01.png" alt="">
+                                        <p>阿里司...</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide hotWriterswiper-slide">
+                                    <a href="#">
+                                        <img src="../../images/master01.png" alt="">
+                                        <p>阿里司...</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide hotWriterswiper-slide">
+                                    <a href="#">
+                                        <img src="../../images/master01.png" alt="">
+                                        <p>阿里司...</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide hotWriterswiper-slide">
+                                    <a href="#">
+                                        <img src="../../images/master01.png" alt="">
+                                        <p>阿里司...</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide hotWriterswiper-slide">
+                                    <a href="#">
+                                        <img src="../../images/master01.png" alt="">
+                                        <p>阿里司...</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
                     </div>
                     <!-- 公众号信息 -->
                     <div class="official">
@@ -888,12 +946,53 @@
         </div>
     </div>
 </template>
+
 <style scoped>
 
-    .swiper-container {
+    .hotWriterswiper {
+        overflow: hidden;
+    }
+
+    .hotWriterswiper .swiper-button-next {
+        width: 20px;
+        height: 50px;
+        right: 0;
+        background-size: 40%;
+        border: 1px solid #DEDEDE;
+    }
+    .hotWriterswiper .swiper-button-prev {
+        width: 20px;
+        height: 50px;
+        left: 0;
+        background-size: 40%;
+        border: 1px solid #DEDEDE;
+    }
+
+    .swiper-container,.hotWriterswiper-container {
         width: 100%;
         height: 100%;
     }
+
+    .swiper-slide.hotWriterswiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
 
     .charts_right_swiper {
         border: 1px solid #383838;
@@ -918,6 +1017,8 @@
       -webkit-align-items: center;
       align-items: center;
     }
+
+
 
 
     
@@ -955,6 +1056,19 @@
                     clickable: true,
                 },
             })  
+
+
+            new Swiper ('.hotWriterswiper-container', {
+                slidesPerView: 4, //当前页面展示的个数
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            }) 
         },
         methods:{
             drawLine(){
